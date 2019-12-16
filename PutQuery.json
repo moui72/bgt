@@ -1,0 +1,7514 @@
+{
+  "Games": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 155122,
+          "Name": "1066, Tears To Many Mothers",
+          "Year": 2018,
+          "Developers": "Tristan Hall"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 187104,
+          "Name": "4 Gods",
+          "Year": 2016,
+          "Developers": "Christophe Boelinger"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 207830,
+          "Name": "5-Minute Dungeon",
+          "Year": 2017,
+          "Developers": "Connor Reid"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 73369,
+          "Name": "51st State",
+          "Year": 2010,
+          "Developers": "Ignacy Trzewiczek"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 192458,
+          "Name": "51st State: Master Set",
+          "Year": 2016,
+          "Developers": "Ignacy Trzewiczek"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 164369,
+          "Name": "7 Kingdoms",
+          "Year": 2014,
+          "Developers": "Gary Kim"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 154173,
+          "Name": "7 Ronin",
+          "Year": 2013,
+          "Developers": "Marek Mydel,Piotr Stankiewicz"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 68448,
+          "Name": "7 Wonders",
+          "Year": 2010,
+          "Developers": "Antoine Bauza"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 173346,
+          "Name": "7 Wonders Duel",
+          "Year": 2015,
+          "Developers": "Antoine Bauza,Bruno Cathala"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 180263,
+          "Name": "The 7th Continent",
+          "Year": 2017,
+          "Developers": "Ludovic Roudy,Bruno Sautter"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 204516,
+          "Name": "878 Vikings: Invasions of England",
+          "Year": 2017,
+          "Developers": "Beau Beckett,Dave Kimmel,Jeph Stahl"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 217,
+          "Name": "A la carte",
+          "Year": 1989,
+          "Developers": "Karl-Heinz Schmiel"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 172818,
+          "Name": "Above and Below",
+          "Year": 2015,
+          "Developers": "Ryan Laukat"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 155987,
+          "Name": "Abyss",
+          "Year": 2014,
+          "Developers": "Bruno Cathala,Charles Chevallier"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 226170,
+          "Name": "Advanced Guildhall Fantasy: The Gathering",
+          "Year": 2017,
+          "Developers": "Hope S. Hwang"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 191189,
+          "Name": "Aeon's End",
+          "Year": 2016,
+          "Developers": "Kevin Riley"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 241451,
+          "Name": "Aeon's End: Legacy",
+          "Year": 2019,
+          "Developers": "Nick Little (I),Kevin Riley"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 270633,
+          "Name": "Aeon's End: The New Age",
+          "Year": 2019,
+          "Developers": "Kevin Riley"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 218417,
+          "Name": "Aeon's End: War Eternal",
+          "Year": 2017,
+          "Developers": "Kevin Riley"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 155695,
+          "Name": "Age of War",
+          "Year": 2014,
+          "Developers": "Reiner Knizia"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 141932,
+          "Name": "The Agents",
+          "Year": 2013,
+          "Developers": "Saar Shai"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 255262,
+          "Name": "Agricola: All Creatures Big and Small \u2013 The Big Box",
+          "Year": 2018,
+          "Developers": "Uwe Rosenberg"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 154458,
+          "Name": "Akrotiri",
+          "Year": 2014,
+          "Developers": "Jay Cormier,Sen-Foong Lim"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 161970,
+          "Name": "Alchemists",
+          "Year": 2014,
+          "Developers": "Mat\u00fa\u0161 Kotry"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 181293,
+          "Name": "Alien Artifacts",
+          "Year": 2017,
+          "Developers": "Marcin Senior Ropka,Viola Kijowska"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 48726,
+          "Name": "Alien Frontiers",
+          "Year": 2010,
+          "Developers": "Tory Niemann"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 36986,
+          "Name": "All Things Zombie: The Boardgame",
+          "Year": 2009,
+          "Developers": "Ed Teixeira,Mark H. Walker"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 234487,
+          "Name": "Altiplano",
+          "Year": 2017,
+          "Developers": "Reiner Stockhausen"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 228959,
+          "Name": "Alubari: A Nice Cup of Tea",
+          "Year": 2019,
+          "Developers": "Tony Boydell"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 192297,
+          "Name": "America",
+          "Year": 2016,
+          "Developers": "Ted Alspach,Friedemann Friese"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 110277,
+          "Name": "Among the Stars",
+          "Year": 2012,
+          "Developers": "Vangelis Bagiartakis"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 170318,
+          "Name": "Among the Stars: Revival",
+          "Year": 2015,
+          "Developers": "Vangelis Bagiartakis,Panagiotis Zinoviadis"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 185343,
+          "Name": "Anachrony",
+          "Year": 2017,
+          "Developers": "D\u00e1vid Turczi,Richard Amann,Viktor Peter"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 147253,
+          "Name": "The Ancient World",
+          "Year": 2014,
+          "Developers": "Ryan Laukat"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 193557,
+          "Name": "Android: Mainframe",
+          "Year": 2016,
+          "Developers": "Jordi Gen\u00e9,Gregorio Morales"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 124742,
+          "Name": "Android: Netrunner",
+          "Year": 2012,
+          "Developers": "Richard Garfield,Lukas Litzsinger"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 24935,
+          "Name": "Anima: Shadow of Omega",
+          "Year": 2006,
+          "Developers": "Anima Studio"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 191572,
+          "Name": "Animals on Board",
+          "Year": 2016,
+          "Developers": "Wolfgang Sentker,Ralf zur Linde"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 104955,
+          "Name": "Antike Duellum",
+          "Year": 2012,
+          "Developers": "Mac Gerdts"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 178007,
+          "Name": "Apocalypse Chaos",
+          "Year": 2015,
+          "Developers": "Florian Fay"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 34194,
+          "Name": "Aquaretto",
+          "Year": 2008,
+          "Developers": "Michael Schacht"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 140934,
+          "Name": "Arboretum",
+          "Year": 2015,
+          "Developers": "Dan Cassar"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 155068,
+          "Name": "Arcadia Quest",
+          "Year": 2014,
+          "Developers": "Thiago Aranha,Guilherme Goulart,Eric M. Lang,Fred Perret"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 179803,
+          "Name": "Arcadia Quest: Inferno",
+          "Year": 2017,
+          "Developers": "Thiago Aranha,Guilherme Goulart,Eric M. Lang,Fred Perret"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 144734,
+          "Name": "Arcane Academy",
+          "Year": 2016,
+          "Developers": "Eric M. Lang,Kevin Wilson"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 207753,
+          "Name": "Arena: For the Gods!",
+          "Year": 2017,
+          "Developers": "Maxime Rambourg"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 56931,
+          "Name": "Arena: Roma II",
+          "Year": 2009,
+          "Developers": "Stefan Feld"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 144797,
+          "Name": "Argent: The Consortium",
+          "Year": 2015,
+          "Developers": "Trey Chambers"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 257499,
+          "Name": "Arkham Horror (Third Edition)",
+          "Year": 2018,
+          "Developers": "Richard Launius,Nikki Valens,Kevin Wilson"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 205637,
+          "Name": "Arkham Horror: The Card Game",
+          "Year": 2016,
+          "Developers": "Nate French,Matthew Newman"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 204675,
+          "Name": "The Arrival",
+          "Year": 2016,
+          "Developers": "Martin Wallace"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 160432,
+          "Name": "Ars Alchimia",
+          "Year": 2014,
+          "Developers": "Kuro"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 128204,
+          "Name": "Ars Victor",
+          "Year": 2013,
+          "Developers": "Stephen DeBaun"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 168609,
+          "Name": "Artifacts, Inc.",
+          "Year": 2014,
+          "Developers": "Ryan Laukat"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 92643,
+          "Name": "Artus",
+          "Year": 2011,
+          "Developers": "Michael Kiesling,Wolfgang Kramer"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 136056,
+          "Name": "Asante",
+          "Year": 2013,
+          "Developers": "R\u00fcdiger Dorn"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 69789,
+          "Name": "Ascension: Deckbuilding Game",
+          "Year": 2010,
+          "Developers": "John Fiorillo,Justin Gary"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 230273,
+          "Name": "Ascension: Valley of the Ancients",
+          "Year": 2017,
+          "Developers": "Justin Gary,Ben Lundquist"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 131118,
+          "Name": "Asgard",
+          "Year": 2012,
+          "Developers": "Pierluca Zizzi"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 167400,
+          "Name": "Ashes: Rise of the Phoenixborn",
+          "Year": 2015,
+          "Developers": "Isaac Vega"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 156442,
+          "Name": "Asking for Trobils",
+          "Year": 2015,
+          "Developers": "Erin McDonald,Christian Strain"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 39683,
+          "Name": "At the Gates of Loyang",
+          "Year": 2009,
+          "Developers": "Uwe Rosenberg"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 55253,
+          "Name": "Atlantis",
+          "Year": 2009,
+          "Developers": "Leo Colovini"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 230802,
+          "Name": "Azul",
+          "Year": 2017,
+          "Developers": "Michael Kiesling"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 256226,
+          "Name": "Azul: Stained Glass of Sintra",
+          "Year": 2018,
+          "Developers": "Michael Kiesling"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 986,
+          "Name": "Babel",
+          "Year": 2000,
+          "Developers": "Hagen Dorgathen,Uwe Rosenberg"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 266164,
+          "Name": "Babylonia",
+          "Year": 2019,
+          "Developers": "Reiner Knizia"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 143741,
+          "Name": "BANG! The Dice Game",
+          "Year": 2013,
+          "Developers": "Michael Palm,Lukas Zach"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 216640,
+          "Name": "The Banishing",
+          "Year": 2017,
+          "Developers": "Sean Rumble"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 219513,
+          "Name": "B\u00e4renpark",
+          "Year": 2017,
+          "Developers": "Phil Walker-Harding"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 223740,
+          "Name": "Bargain Quest",
+          "Year": 2017,
+          "Developers": "Jonathan Ying"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 167513,
+          "Name": "Barony",
+          "Year": 2015,
+          "Developers": "Marc Andr\u00e9"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 186567,
+          "Name": "Baseball Highlights: 2045 \u2013 Super Deluxe Edition",
+          "Year": 2015,
+          "Developers": "Mike Fitzgerald"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 181236,
+          "Name": "Bastion",
+          "Year": 2015,
+          "Developers": "Evgeny Nikitin,Nikolay Pegasov"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 178944,
+          "Name": "BATTALIA: The Creation",
+          "Year": 2015,
+          "Developers": "Alexandar Guerov,Ledha Guerova"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 234477,
+          "Name": "Battle for Rokugan",
+          "Year": 2017,
+          "Developers": "Molly Glover,Tom Jolly"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 760,
+          "Name": "Battle Line",
+          "Year": 2000,
+          "Developers": "Reiner Knizia"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 135219,
+          "Name": "The Battle of Five Armies",
+          "Year": 2014,
+          "Developers": "Roberto Di Meglio,Marco Maggi,Francesco Nepitello"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 123123,
+          "Name": "BattleCON: Devastation of Indines",
+          "Year": 2013,
+          "Developers": "D. Brad Talton, Jr."
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 162388,
+          "Name": "BattleCON: Fate of Indines",
+          "Year": 2015,
+          "Developers": "D. Brad Talton, Jr."
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 204728,
+          "Name": "BattleCON: Trials of Indines",
+          "Year": 2016,
+          "Developers": "D. Brad Talton, Jr."
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 89409,
+          "Name": "BattleCON: War of Indines",
+          "Year": 2010,
+          "Developers": "D. Brad Talton, Jr."
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 146439,
+          "Name": "BattleLore (Second Edition)",
+          "Year": 2013,
+          "Developers": "Richard Borg,Robert A. Kouba"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 165950,
+          "Name": "Beasty Bar",
+          "Year": 2014,
+          "Developers": "Stefan Klo\u00df"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 34219,
+          "Name": "Biblios",
+          "Year": 2007,
+          "Developers": "Steve Finn"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 171233,
+          "Name": "The Big Book of Madness",
+          "Year": 2015,
+          "Developers": "Maxime Rambourg"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 230244,
+          "Name": "Black Angel",
+          "Year": 2019,
+          "Developers": "S\u00e9bastien Dujardin,Xavier Georges,Alain Orban"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 156858,
+          "Name": "Black Orchestra",
+          "Year": 2016,
+          "Developers": "Philip duBarry"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 262215,
+          "Name": "Blackout: Hong Kong",
+          "Year": 2018,
+          "Developers": "Alexander Pfister"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 206504,
+          "Name": "The Blood of an Englishman",
+          "Year": 2016,
+          "Developers": "Dan Cassar"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 170216,
+          "Name": "Blood Rage",
+          "Year": 2015,
+          "Developers": "Eric M. Lang"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 180593,
+          "Name": "The Bloody Inn",
+          "Year": 2015,
+          "Developers": "Nicolas Robert"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 244331,
+          "Name": "Blue Lagoon",
+          "Year": 2018,
+          "Developers": "Reiner Knizia"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 21882,
+          "Name": "Blue Moon City",
+          "Year": 2006,
+          "Developers": "Reiner Knizia"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 147154,
+          "Name": "Blue Moon Legends",
+          "Year": 2014,
+          "Developers": "Reiner Knizia"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 224517,
+          "Name": "Brass: Birmingham",
+          "Year": 2018,
+          "Developers": "Gavan Brown,Matt Tolman,Martin Wallace"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 28720,
+          "Name": "Brass: Lancashire",
+          "Year": 2007,
+          "Developers": "Martin Wallace"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 112373,
+          "Name": "BraveRats",
+          "Year": 2011,
+          "Developers": "Seiji Kanai"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 172308,
+          "Name": "Broom Service",
+          "Year": 2015,
+          "Developers": "Andreas Pelikan,Alexander Pfister"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 136888,
+          "Name": "Bruges",
+          "Year": 2013,
+          "Developers": "Stefan Feld"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 184921,
+          "Name": "Bunny Kingdom",
+          "Year": 2017,
+          "Developers": "Richard Garfield"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 114438,
+          "Name": "But Wait, There's More!",
+          "Year": 2011,
+          "Developers": "Jay Cormier,Sen-Foong Lim"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 171499,
+          "Name": "Cacao",
+          "Year": 2015,
+          "Developers": "Phil Walker-Harding"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 69120,
+          "Name": "Cadwallon: City of Thieves",
+          "Year": 2010,
+          "Developers": "Pascal Bernard,Laurent Pouchain"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 41,
+          "Name": "Can't Stop",
+          "Year": 1980,
+          "Developers": "Sid Sackson"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 141008,
+          "Name": "Carcassonne Big Box 2",
+          "Year": 2008,
+          "Developers": "Klaus-J\u00fcrgen Wrede"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 4390,
+          "Name": "Carcassonne: Hunters and Gatherers",
+          "Year": 2002,
+          "Developers": "Klaus-J\u00fcrgen Wrede"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 131014,
+          "Name": "Carcassonne: Winter Edition",
+          "Year": 2012,
+          "Developers": "Klaus-J\u00fcrgen Wrede"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 90305,
+          "Name": "Cargo Noir",
+          "Year": 2011,
+          "Developers": "Serge Laget"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 231484,
+          "Name": "Carnival of Monsters",
+          "Year": 2019,
+          "Developers": "Richard Garfield"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 826,
+          "Name": "Cartagena",
+          "Year": 2000,
+          "Developers": "Leo Colovini"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 263918,
+          "Name": "Cartographers: A Roll Player Tale",
+          "Year": 2019,
+          "Developers": "Jordy Adan"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 224153,
+          "Name": "Cartouche Dynasties",
+          "Year": 2017,
+          "Developers": "John Clowdus"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 38386,
+          "Name": "A Castle for All Seasons",
+          "Year": 2008,
+          "Developers": "Inka Brand,Markus Brand"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 84876,
+          "Name": "The Castles of Burgundy",
+          "Year": 2011,
+          "Developers": "Stefan Feld"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 155426,
+          "Name": "Castles of Mad King Ludwig",
+          "Year": 2014,
+          "Developers": "Ted Alspach"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 228504,
+          "Name": "Cat Lady",
+          "Year": 2017,
+          "Developers": "Josh Wood"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 204141,
+          "Name": "Cat Town",
+          "Year": 2016,
+          "Developers": "Jog Kung"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 13,
+          "Name": "Catan",
+          "Year": 1995,
+          "Developers": "Klaus Teuber"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 220520,
+          "Name": "Caverna: Cave vs Cave",
+          "Year": 2017,
+          "Developers": "Uwe Rosenberg"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 102794,
+          "Name": "Caverna: The Cave Farmers",
+          "Year": 2013,
+          "Developers": "Uwe Rosenberg"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 232832,
+          "Name": "Century: Golem Edition",
+          "Year": 2017,
+          "Developers": "Emerson Matsuuchi"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 209685,
+          "Name": "Century: Spice Road",
+          "Year": 2017,
+          "Developers": "Emerson Matsuuchi"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 236781,
+          "Name": "Cerebria: The Inside World \u2013 Origin Box",
+          "Year": 2018,
+          "Developers": "Richard Amann,Viktor Peter"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 172287,
+          "Name": "Champions of Midgard",
+          "Year": 2015,
+          "Developers": "Ole Steiness"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 43111,
+          "Name": "Chaos in the Old World",
+          "Year": 2009,
+          "Developers": "Eric M. Lang"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 197376,
+          "Name": "Charterstone",
+          "Year": 2017,
+          "Developers": "Jamey Stegmaier"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 161943,
+          "Name": "Chos\u014fn",
+          "Year": 2014,
+          "Developers": "Gary Kim"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 54307,
+          "Name": "Chronicle",
+          "Year": 2009,
+          "Developers": "Seiji Kanai"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 264052,
+          "Name": "Circadians: First Light",
+          "Year": 2019,
+          "Developers": "S J Macdonald"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 478,
+          "Name": "Citadels",
+          "Year": 2000,
+          "Developers": "Bruno Faidutti"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 205398,
+          "Name": "Citadels",
+          "Year": 2016,
+          "Developers": "Bruno Faidutti"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 123499,
+          "Name": "City of Iron",
+          "Year": 2013,
+          "Developers": "Ryan Laukat"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 169318,
+          "Name": "City of Spies: Estoril 1942",
+          "Year": 2015,
+          "Developers": "Gil d'Orey,Antonio Sousa Lara"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 266507,
+          "Name": "Clank! Legacy: Acquisitions Incorporated",
+          "Year": 2019,
+          "Developers": "Andy Clautice,Paul Dennen"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 201808,
+          "Name": "Clank!: A Deck-Building Adventure",
+          "Year": 2016,
+          "Developers": "Paul Dennen"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 216132,
+          "Name": "Clans of Caledonia",
+          "Year": 2017,
+          "Developers": "Juma Al-JouJou"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 40765,
+          "Name": "Clash of Cultures",
+          "Year": 2012,
+          "Developers": "Christian Marcussen"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 139952,
+          "Name": "Clockwork Wars",
+          "Year": 2015,
+          "Developers": "Hassan Lopez"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 178900,
+          "Name": "Codenames",
+          "Year": 2015,
+          "Developers": "Vlaada Chv\u00e1til"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 224037,
+          "Name": "Codenames: Duet",
+          "Year": 2017,
+          "Developers": "Vlaada Chv\u00e1til,Scot Eaton"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 198773,
+          "Name": "Codenames: Pictures",
+          "Year": 2016,
+          "Developers": "Vlaada Chv\u00e1til"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 215437,
+          "Name": "Codex: Card-Time Strategy \u2013 Core Set",
+          "Year": 2016,
+          "Developers": "David Sirlin"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 131111,
+          "Name": "Codex: Card-Time Strategy \u2013 Deluxe Set",
+          "Year": 2016,
+          "Developers": "David Sirlin"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 245638,
+          "Name": "Coimbra",
+          "Year": 2018,
+          "Developers": "Flaminia Brasini,Virginio Gigli"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 192934,
+          "Name": "Colony",
+          "Year": 2016,
+          "Developers": "Ted Alspach,Toryo Hojo,N2"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 159355,
+          "Name": "Colors of Kasane",
+          "Year": 2014,
+          "Developers": "\u6298\u53e3 \u65e5\u5411 (Hinata Origuchi)"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 105,
+          "Name": "Colossal Arena",
+          "Year": 1997,
+          "Developers": "Reiner Knizia"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 124361,
+          "Name": "Concordia",
+          "Year": 2013,
+          "Developers": "Mac Gerdts"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 112,
+          "Name": "Condottiere",
+          "Year": 1995,
+          "Developers": "Dominique Ehrhard,Duccio Vitale"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 71882,
+          "Name": "Conquest of Planet Earth: The Space Alien Game",
+          "Year": 2010,
+          "Developers": "Jason C. Hill"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 98351,
+          "Name": "Core Worlds",
+          "Year": 2011,
+          "Developers": "Andrew Parks"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 39463,
+          "Name": "Cosmic Encounter",
+          "Year": 2008,
+          "Developers": "Bill Eberle,Jack Kittredge,Bill Norton,Peter Olotka,Kevin Wilson"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 173101,
+          "Name": "Council of 4",
+          "Year": 2015,
+          "Developers": "Simone Luciani,Daniele Tascini"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 140863,
+          "Name": "Council of Verona",
+          "Year": 2013,
+          "Developers": "Michael Eskue"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 131357,
+          "Name": "Coup",
+          "Year": 2012,
+          "Developers": "Rikki Tahta"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 192457,
+          "Name": "Cry Havoc",
+          "Year": 2016,
+          "Developers": "Grant Rodiek,Micha\u0142 Oracz,Micha\u0142 Walczak"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 223049,
+          "Name": "Custom Heroes",
+          "Year": 2017,
+          "Developers": "John D. Clair"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 54998,
+          "Name": "Cyclades",
+          "Year": 2009,
+          "Developers": "Bruno Cathala,Ludovic Maublanc"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 176165,
+          "Name": "Dale of Merchants",
+          "Year": 2015,
+          "Developers": "Sami Laakso"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 191597,
+          "Name": "Dale of Merchants 2",
+          "Year": 2016,
+          "Developers": "Sami Laakso"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 251551,
+          "Name": "Dale of Merchants Collection",
+          "Year": 2019,
+          "Developers": "Sami Laakso"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 128445,
+          "Name": "Darkest Night",
+          "Year": 2012,
+          "Developers": "Jeremy Lennert"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 44,
+          "Name": "David & Goliath",
+          "Year": 1997,
+          "Developers": "Reinhard Staupe"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 141423,
+          "Name": "Dead Men Tell No Tales",
+          "Year": 2015,
+          "Developers": "Kane Klenko"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 150376,
+          "Name": "Dead of Winter: A Crossroads Game",
+          "Year": 2014,
+          "Developers": "Jonathan Gilmour,Isaac Vega"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 145601,
+          "Name": "Deadline",
+          "Year": 2017,
+          "Developers": "Dan Schnake,Adam West"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 224815,
+          "Name": "Deca Slayer",
+          "Year": 2017,
+          "Developers": "Hisashi Hayashi,Seiji Kanai"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 65532,
+          "Name": "Defenders of the Realm",
+          "Year": 2010,
+          "Developers": "Richard Launius"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 104162,
+          "Name": "Descent: Journeys in the Dark (Second Edition)",
+          "Year": 2012,
+          "Developers": "Daniel Clark (I),Corey Konieczka,Adam Sadler,Kevin Wilson"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 162082,
+          "Name": "Deus",
+          "Year": 2014,
+          "Developers": "S\u00e9bastien Dujardin"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 194594,
+          "Name": "Dice Forge",
+          "Year": 2017,
+          "Developers": "R\u00e9gis Bonness\u00e9e"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 56022,
+          "Name": "Dice of the Living Dead",
+          "Year": 2009,
+          "Developers": "Mads L. Brynnum"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 216734,
+          "Name": "Dice Throne: Season One",
+          "Year": 2018,
+          "Developers": "Nate Chatellier,Manny Trembley"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 244271,
+          "Name": "Dice Throne: Season Two \u2013 Battle Chest",
+          "Year": 2018,
+          "Developers": "Nate Chatellier,Manny Trembley"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 221194,
+          "Name": "Dinosaur Island",
+          "Year": 2017,
+          "Developers": "Jonathan Gilmour,Brian Lewis"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 141653,
+          "Name": "Disc Duelers",
+          "Year": 2013,
+          "Developers": "D. Brad Talton, Jr."
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 171669,
+          "Name": "Discoveries: The Journals of Lewis and Clark",
+          "Year": 2015,
+          "Developers": "C\u00e9drick Chaboussit"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 39856,
+          "Name": "Dixit",
+          "Year": 2008,
+          "Developers": "Jean-Louis Roubira"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 179182,
+          "Name": "Dojo Kun",
+          "Year": 2015,
+          "Developers": "Roberto Pestrin"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 199793,
+          "Name": "Dokmus",
+          "Year": 2016,
+          "Developers": "Mikko Punakallio"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 247643,
+          "Name": "Doodle Islands",
+          "Year": 2018,
+          "Developers": "Eilif Svensson,Kristian Amundsen \u00d8stby"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 188021,
+          "Name": "Doughnut Drive-Thru",
+          "Year": 2015,
+          "Developers": "Ikaga-Ya"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 13004,
+          "Name": "The Downfall of Pompeii",
+          "Year": 2004,
+          "Developers": "Klaus-J\u00fcrgen Wrede"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 142262,
+          "Name": "Draco Magi",
+          "Year": 2014,
+          "Developers": "Robert Burke,Richard Launius"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 230013,
+          "Name": "Dragon Canyon",
+          "Year": 2016,
+          "Developers": "Li Hsiao En"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 232219,
+          "Name": "Dragon Castle",
+          "Year": 2017,
+          "Developers": "Hjalmar Hach,Luca Ricci,Lorenzo Silva"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 172866,
+          "Name": "Dragon Punch",
+          "Year": 2014,
+          "Developers": "Koen Hendrix"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 136594,
+          "Name": "Dragon's Hoard",
+          "Year": 2014,
+          "Developers": "Nathanael Mortensen"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 66171,
+          "Name": "Dragonheart",
+          "Year": 2010,
+          "Developers": "R\u00fcdiger Dorn"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 184704,
+          "Name": "Dragonsgate College",
+          "Year": 2017,
+          "Developers": "Thomas Vande Ginste,Wolf Plancke"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 171630,
+          "Name": "Drakon (fourth edition)",
+          "Year": 2015,
+          "Developers": "Tom Jolly"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 194880,
+          "Name": "Dream Home",
+          "Year": 2016,
+          "Developers": "Klemens Kalicki"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 129459,
+          "Name": "Duel of Ages II",
+          "Year": 2013,
+          "Developers": "Brett G. Murrell"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 247236,
+          "Name": "Duelosaur Island",
+          "Year": 2018,
+          "Developers": "Ian Moss"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 36235,
+          "Name": "The Duke",
+          "Year": 2013,
+          "Developers": "Jeremy Holcomb,Stephen McLaughlin"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 209660,
+          "Name": "Dungeon Alliance",
+          "Year": 2018,
+          "Developers": "Andrew Parks"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 102548,
+          "Name": "Dungeon Fighter",
+          "Year": 2011,
+          "Developers": "Aureliano Buonfino,Lorenzo Silva,Lorenzo Tucci Sorrentino"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 148975,
+          "Name": "Dungeon Guilds",
+          "Year": 2013,
+          "Developers": "Desnet Amane"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 97207,
+          "Name": "Dungeon Petz",
+          "Year": 2011,
+          "Developers": "Vlaada Chv\u00e1til"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 42124,
+          "Name": "Dungeon Twister 2: Prison",
+          "Year": 2009,
+          "Developers": "Christophe Boelinger"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 160902,
+          "Name": "Dungeons & Dragons Dice Masters: Battle for Faer\u00fbn",
+          "Year": 2015,
+          "Developers": "Mike Elliott,Eric M. Lang"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 183572,
+          "Name": "Dungeons & Dragons Dice Masters: Faer\u00fbn Under Siege",
+          "Year": 2016,
+          "Developers": "Mike Elliott,Eric M. Lang"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 59946,
+          "Name": "Dungeons & Dragons: Castle Ravenloft Board Game",
+          "Year": 2010,
+          "Developers": "Rob Heinsoo,Peter Lee,Mike Mearls,Bill Slavicsek"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 92044,
+          "Name": "Dungeons & Dragons: Conquest of Nerath Board Game",
+          "Year": 2011,
+          "Developers": "Richard Baker,Mons Johnson,Peter Lee"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 91872,
+          "Name": "Dungeons & Dragons: The Legend of Drizzt Board Game",
+          "Year": 2011,
+          "Developers": "Peter Lee"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 142326,
+          "Name": "Eight-Minute Empire: Legends",
+          "Year": 2013,
+          "Developers": "Ryan Laukat"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 177197,
+          "Name": "Ek\u00f6",
+          "Year": 2015,
+          "Developers": "Henri Kermarrec"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 100423,
+          "Name": "Elder Sign",
+          "Year": 2011,
+          "Developers": "Richard Launius,Kevin Wilson"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 146021,
+          "Name": "Eldritch Horror",
+          "Year": 2013,
+          "Developers": "Corey Konieczka,Nikki Valens"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 170980,
+          "Name": "Elven Castle",
+          "Year": 2013,
+          "Developers": "Ronald Hofst\u00e4tter,Fred Horn"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 163968,
+          "Name": "Elysium",
+          "Year": 2015,
+          "Developers": "Matthew Dunstan,Brett J. Gilbert"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 68425,
+          "Name": "Eminent Domain",
+          "Year": 2011,
+          "Developers": "Seth Jaffee"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 163640,
+          "Name": "Eminent Domain: Microcosm",
+          "Year": 2014,
+          "Developers": "Seth Jaffee"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 270971,
+          "Name": "Era: Medieval Age",
+          "Year": 2019,
+          "Developers": "Matt Leacock"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 113294,
+          "Name": "Escape: The Curse of the Temple",
+          "Year": 2012,
+          "Developers": "Kristian Amundsen \u00d8stby"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 279419,
+          "Name": "Eternal: Chronicles of the Throne",
+          "Year": 2019,
+          "Developers": "Paul Dennen"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 206718,
+          "Name": "Ethnos",
+          "Year": 2017,
+          "Developers": "Paolo Mori"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 199792,
+          "Name": "Everdell",
+          "Year": 2018,
+          "Developers": "James A. Wilson"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 182134,
+          "Name": "Evolution: Climate",
+          "Year": 2016,
+          "Developers": "Dominic Crapuchettes,Dmitry Knorre,Sergey Machin"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 201825,
+          "Name": "Ex Libris",
+          "Year": 2017,
+          "Developers": "Adam P. McIver"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 256779,
+          "Name": "Exceed: Seventh Cross \u2013 Hunters vs. Demons Box",
+          "Year": 2018,
+          "Developers": "D. Brad Talton, Jr."
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 203417,
+          "Name": "Exit: The Game \u2013 The Secret Lab",
+          "Year": 2016,
+          "Developers": "Inka Brand,Markus Brand"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 226518,
+          "Name": "Exit: The Game \u2013 The Sunken Treasure",
+          "Year": 2017,
+          "Developers": "Inka Brand,Markus Brand"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 122842,
+          "Name": "Exodus: Proxima Centauri",
+          "Year": 2012,
+          "Developers": "Agnieszka Kopera,Andrei Novac"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 220792,
+          "Name": "The Expanse Board Game",
+          "Year": 2017,
+          "Developers": "Geoff Engelstein"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 172225,
+          "Name": "Exploding Kittens",
+          "Year": 2015,
+          "Developers": "Matthew Inman,Elan Lee,Shane Small"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 13823,
+          "Name": "Fairy Tale",
+          "Year": 2004,
+          "Developers": "Satoshi Nakamura"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 220780,
+          "Name": "Fairy Tile",
+          "Year": 2018,
+          "Developers": "Matthew Dunstan,Brett J. Gilbert"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 140125,
+          "Name": "Fallen",
+          "Year": 2014,
+          "Developers": "Tom W. Green, III,Stephen C. Smith"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 232918,
+          "Name": "Fallout",
+          "Year": 2017,
+          "Developers": "Andrew Fischer,Nathan I. Hajek"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 125046,
+          "Name": "Fantastiqa: The Rucksack Edition",
+          "Year": 2012,
+          "Developers": "Alf Seegert"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 223040,
+          "Name": "Fantasy Realms",
+          "Year": 2017,
+          "Developers": "Bruce Glassco"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 171011,
+          "Name": "Favor of the Pharaoh",
+          "Year": 2015,
+          "Developers": "Thomas Lehmann"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 177736,
+          "Name": "A Feast for Odin",
+          "Year": 2016,
+          "Developers": "Uwe Rosenberg"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 159675,
+          "Name": "Fields of Arle",
+          "Year": 2014,
+          "Developers": "Uwe Rosenberg"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 192834,
+          "Name": "Fight for Olympus",
+          "Year": 2016,
+          "Developers": "Matthias Cramer"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 206941,
+          "Name": "First Class: All Aboard the Orient Express!",
+          "Year": 2016,
+          "Developers": "Helmut Ohley"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 157354,
+          "Name": "Five Tribes",
+          "Year": 2014,
+          "Developers": "Bruno Cathala"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 199478,
+          "Name": "Flamme Rouge",
+          "Year": 2016,
+          "Developers": "Asger Harding Granerud"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 107190,
+          "Name": "Flash Duel: Second Edition",
+          "Year": 2011,
+          "Developers": "David Sirlin"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 100901,
+          "Name": "Flash Point: Fire Rescue",
+          "Year": 2011,
+          "Developers": "Kevin Lanzing"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 121297,
+          "Name": "Fleet",
+          "Year": 2012,
+          "Developers": "Ben Pinchback,Matt Riddle"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 169124,
+          "Name": "Flick 'em Up!",
+          "Year": 2015,
+          "Developers": "Ga\u00ebtan Beaujannot,Jean Yves Monpertuis"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 168679,
+          "Name": "Flip City",
+          "Year": 2014,
+          "Developers": "Chih-Fan Chen"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 175324,
+          "Name": "Fog of Love",
+          "Year": 2017,
+          "Developers": "Jacob Jaskov"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 136063,
+          "Name": "Forbidden Desert",
+          "Year": 2013,
+          "Developers": "Matt Leacock"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 146221,
+          "Name": "Forge War",
+          "Year": 2015,
+          "Developers": "Isaac Childres"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 221965,
+          "Name": "The Fox in the Forest",
+          "Year": 2017,
+          "Developers": "Joshua Buergel"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 288169,
+          "Name": "The Fox in the Forest Duet",
+          "Year": 2020,
+          "Developers": "Foxtrot Games"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 140603,
+          "Name": "Francis Drake",
+          "Year": 2013,
+          "Developers": "Peter Hawes"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 66188,
+          "Name": "Fresco",
+          "Year": 2010,
+          "Developers": "Wolfgang Panning,Marco Ruskowski,Marcel S\u00fc\u00dfelbeck"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 139991,
+          "Name": "Fresco: Big Box",
+          "Year": 2014,
+          "Developers": "Wolfgang Panning,Marco Ruskowski,Marcel S\u00fc\u00dfelbeck"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 43570,
+          "Name": "Friday",
+          "Year": 2011,
+          "Developers": "Friedemann Friese"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 171273,
+          "Name": "FUSE",
+          "Year": 2015,
+          "Developers": "Kane Klenko"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 220308,
+          "Name": "Gaia Project",
+          "Year": 2017,
+          "Developers": "Jens Dr\u00f6gem\u00fcller,Helge Ostertag"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 137811,
+          "Name": "Galactic Strike Force",
+          "Year": 2014,
+          "Developers": "Christopher Badell"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 205610,
+          "Name": "A Game of Thrones: Hand of the King",
+          "Year": 2016,
+          "Developers": "Bruno Cathala"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 169255,
+          "Name": "A Game of Thrones: The Card Game (Second Edition)",
+          "Year": 2015,
+          "Developers": "Nate French,Eric M. Lang"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 42776,
+          "Name": "Gears of War: The Board Game",
+          "Year": 2011,
+          "Developers": "Corey Konieczka"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 198855,
+          "Name": "GearSeed",
+          "Year": 2016,
+          "Developers": "John Clowdus"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 249703,
+          "Name": "Gentes: Deluxified Edition",
+          "Year": 2018,
+          "Developers": "Stefan Risthaus"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 37046,
+          "Name": "Ghost Stories",
+          "Year": 2008,
+          "Developers": "Antoine Bauza"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 143693,
+          "Name": "Glass Road",
+          "Year": 2013,
+          "Developers": "Uwe Rosenberg"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 66362,
+          "Name": "Glen More",
+          "Year": 2010,
+          "Developers": "Matthias Cramer"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 265188,
+          "Name": "Glen More II: Chronicles",
+          "Year": 2019,
+          "Developers": "Matthias Cramer"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 12692,
+          "Name": "Gloom",
+          "Year": 2005,
+          "Developers": "Keith Baker"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 174430,
+          "Name": "Gloomhaven",
+          "Year": 2017,
+          "Developers": "Isaac Childres"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 164338,
+          "Name": "The Golden Ages",
+          "Year": 2014,
+          "Developers": "Luigi Ferrini"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 123536,
+          "Name": "GOSU 2: Tactics",
+          "Year": 2012,
+          "Developers": "Kim Sat\u00f4"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 182874,
+          "Name": "Grand Austria Hotel",
+          "Year": 2015,
+          "Developers": "Virginio Gigli,Simone Luciani"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 146886,
+          "Name": "La Granja",
+          "Year": 2014,
+          "Developers": "Michael Keller (II),Andreas \"ode.\" Odendahl"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 193738,
+          "Name": "Great Western Trail",
+          "Year": 2016,
+          "Developers": "Alexander Pfister"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 156501,
+          "Name": "Greenland",
+          "Year": 2014,
+          "Developers": "Phil Eklund,Philipp Klarmann"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 173018,
+          "Name": "Grimslingers",
+          "Year": 2015,
+          "Developers": "Stephen Gibson"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 171668,
+          "Name": "The Grizzled",
+          "Year": 2015,
+          "Developers": "Fabien Riffaud,Juan Rodriguez"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 231327,
+          "Name": "The Grizzled: Armistice Edition",
+          "Year": 2018,
+          "Developers": "Fabien Riffaud,Juan Rodriguez"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 256159,
+          "Name": "Guardians",
+          "Year": 2018,
+          "Developers": "Callin Flores"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 250458,
+          "Name": "G\u00f9g\u014dng",
+          "Year": 2018,
+          "Developers": "Andreas Steding"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 256317,
+          "Name": "Guild Master",
+          "Year": 2019,
+          "Developers": "Chris Antony"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 196305,
+          "Name": "Guildhall Fantasy: Alliance",
+          "Year": 2016,
+          "Developers": "Hope S. Hwang"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 196306,
+          "Name": "Guildhall Fantasy: Coalition",
+          "Year": 2016,
+          "Developers": "Hope S. Hwang"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 202755,
+          "Name": "Guildhall Fantasy: Fellowship",
+          "Year": 2016,
+          "Developers": "Hope S. Hwang"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 134157,
+          "Name": "Guilds of London",
+          "Year": 2016,
+          "Developers": "Tony Boydell"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 116,
+          "Name": "Guillotine",
+          "Year": 1998,
+          "Developers": "Paul Peterson"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 251890,
+          "Name": "Gunkimono",
+          "Year": 2018,
+          "Developers": "Jeffrey D. Allers"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 200853,
+          "Name": "Habitats",
+          "Year": 2016,
+          "Developers": "Corn\u00e9 van Moorsel"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 37628,
+          "Name": "Haggis",
+          "Year": 2010,
+          "Developers": "Sean Ross (I)"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 98778,
+          "Name": "Hanabi",
+          "Year": 2010,
+          "Developers": "Antoine Bauza"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 158600,
+          "Name": "Hanamikoji",
+          "Year": 2013,
+          "Developers": "Kota Nakayama (\u4e2d\u5c71 \u5b8f\u592a)"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 197320,
+          "Name": "A Handful of Stars",
+          "Year": 2017,
+          "Developers": "Martin Wallace"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 194626,
+          "Name": "Happy Salmon",
+          "Year": 2016,
+          "Developers": "Ken Gruhl,Quentin Weir"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 223750,
+          "Name": "Hardback",
+          "Year": 2018,
+          "Developers": "Jeff Beck (II),Tim Fowers"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 199042,
+          "Name": "Harry Potter: Hogwarts Battle",
+          "Year": 2016,
+          "Developers": "Forrest-Pruzan Creative,Kami Mandell,Andrew Wolf"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 200058,
+          "Name": "Harvest",
+          "Year": 2017,
+          "Developers": "Trey Chambers"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 205127,
+          "Name": "Haven",
+          "Year": 2018,
+          "Developers": "Alf Seegert"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 131904,
+          "Name": "Heart of Crown",
+          "Year": 2011,
+          "Developers": "ginkgo"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 156372,
+          "Name": "Heart of Crown: Fairy Garden",
+          "Year": 2013,
+          "Developers": "ginkgo"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 227789,
+          "Name": "Heaven & Ale",
+          "Year": 2017,
+          "Developers": "Michael Kiesling,Andreas Schmidt"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 286247,
+          "Name": "Hedgehog Hop",
+          "Year": 2019,
+          "Developers": "Seppy Yoon"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 192906,
+          "Name": "Heir to the Pharaoh",
+          "Year": 2016,
+          "Developers": "Alf Seegert"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 224152,
+          "Name": "Hemloch: Dark Promenade",
+          "Year": 2017,
+          "Developers": "John Clowdus"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 172563,
+          "Name": "Hemloch: Midnight Edition",
+          "Year": 2015,
+          "Developers": "John Clowdus"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 182875,
+          "Name": "Hengist",
+          "Year": 2015,
+          "Developers": "Uwe Rosenberg"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 182120,
+          "Name": "Histrio",
+          "Year": 2016,
+          "Developers": "Bruno Cathala,Christian Martinez"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 154597,
+          "Name": "Hive Pocket",
+          "Year": 2010,
+          "Developers": "John Yianni"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 171261,
+          "Name": "Hocus",
+          "Year": 2016,
+          "Developers": "Joshua Buergel,Grant Rodiek"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 260332,
+          "Name": "Hokkaido",
+          "Year": 2018,
+          "Developers": "Kalle Malmioja"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 245444,
+          "Name": "Holding On: The Troubled Life of Billy Kerr",
+          "Year": 2018,
+          "Developers": "Michael Fox (II),Rory O'Connor"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 174078,
+          "Name": "Holmes: Sherlock & Mycroft",
+          "Year": 2015,
+          "Developers": "Diego Iba\u00f1ez"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 203664,
+          "Name": "Holy Grail",
+          "Year": 2016,
+          "Developers": "Kuro"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 207336,
+          "Name": "Honsh\u016b",
+          "Year": 2016,
+          "Developers": "Kalle Malmioja"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 182228,
+          "Name": "Hordes of Grimoor",
+          "Year": 2015,
+          "Developers": "John Clowdus"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 237388,
+          "Name": "Horticulture Master",
+          "Year": 2018,
+          "Developers": "Lin Yen-Kuang"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 142988,
+          "Name": "Hunters of Arcfall",
+          "Year": 2014,
+          "Developers": "Tony Go"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 119788,
+          "Name": "Hyperborea",
+          "Year": 2014,
+          "Developers": "Andrea Chiarvesio,Pierluca Zizzi"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 177478,
+          "Name": "IKI",
+          "Year": 2015,
+          "Developers": "Koota Yamada"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 218804,
+          "Name": "Imaginarium",
+          "Year": 2018,
+          "Developers": "Bruno Cathala,Florian Sirieix"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 191862,
+          "Name": "Imhotep",
+          "Year": 2016,
+          "Developers": "Phil Walker-Harding"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 154203,
+          "Name": "Imperial Settlers",
+          "Year": 2014,
+          "Developers": "Maciej Obsza\u0144ski,Ignacy Trzewiczek"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 233015,
+          "Name": "Imperius",
+          "Year": 2018,
+          "Developers": "Grant Rodiek"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 217776,
+          "Name": "Import / Export",
+          "Year": 2017,
+          "Developers": "Jordan Draper"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 144239,
+          "Name": "Impulse",
+          "Year": 2013,
+          "Developers": "Carl Chudyk"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 233678,
+          "Name": "Indian Summer",
+          "Year": 2017,
+          "Developers": "Uwe Rosenberg"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 116954,
+          "Name": "Indigo",
+          "Year": 2012,
+          "Developers": "Reiner Knizia"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 181797,
+          "Name": "Inhabit the Earth",
+          "Year": 2015,
+          "Developers": "Richard Breese"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 155821,
+          "Name": "Inis",
+          "Year": 2016,
+          "Developers": "Christian Martinez"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 63888,
+          "Name": "Innovation",
+          "Year": 2010,
+          "Developers": "Carl Chudyk"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 185257,
+          "Name": "Innovation Deluxe",
+          "Year": 2017,
+          "Developers": "Carl Chudyk"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 235627,
+          "Name": "Iquazu\u0301",
+          "Year": 2017,
+          "Developers": "Michael Feldk\u00f6tter"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 176494,
+          "Name": "Isle of Skye: From Chieftain to King",
+          "Year": 2015,
+          "Developers": "Andreas Pelikan,Alexander Pfister"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 148949,
+          "Name": "Istanbul",
+          "Year": 2014,
+          "Developers": "R\u00fcdiger Dorn"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 54043,
+          "Name": "Jaipur",
+          "Year": 2009,
+          "Developers": "S\u00e9bastien Pauchon"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 12002,
+          "Name": "Jambo",
+          "Year": 2004,
+          "Developers": "R\u00fcdiger Dorn"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 170901,
+          "Name": "Jarl: The Vikings Tile-Laying Game",
+          "Year": 2015,
+          "Developers": "Randall N. Bills,Loren Coleman"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 161965,
+          "Name": "Johari",
+          "Year": 2014,
+          "Developers": "Carlo Lavezzi"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 193739,
+          "Name": "J\u00f3rv\u00edk",
+          "Year": 2016,
+          "Developers": "Stefan Feld"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 145599,
+          "Name": "Journey: Wrath of Demons",
+          "Year": 2015,
+          "Developers": ""
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 129736,
+          "Name": "Kakerlakenpoker Royal",
+          "Year": 2012,
+          "Developers": "Jacques Zeimet"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 200147,
+          "Name": "Kanagawa",
+          "Year": 2016,
+          "Developers": "Bruno Cathala,Charles Chevallier"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 183251,
+          "Name": "Karuba",
+          "Year": 2015,
+          "Developers": "R\u00fcdiger Dorn"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 185276,
+          "Name": "Keep",
+          "Year": 2015,
+          "Developers": "John Clowdus"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 172362,
+          "Name": "Kenjin",
+          "Year": 2015,
+          "Developers": "Nicolas Sato"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 122515,
+          "Name": "Keyflower",
+          "Year": 2012,
+          "Developers": "Sebastian Bleasdale,Richard Breese"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 272453,
+          "Name": "KeyForge: Age of Ascension",
+          "Year": 2019,
+          "Developers": "Richard Garfield"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 72848,
+          "Name": "Kill the Overlord",
+          "Year": 2012,
+          "Developers": "D. Brad Talton, Jr."
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 147930,
+          "Name": "King & Assassins",
+          "Year": 2013,
+          "Developers": "\u0141ukasz Wo\u017aniak"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 173649,
+          "Name": "King Chocolate",
+          "Year": 2015,
+          "Developers": "Stefan Alexander"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 172996,
+          "Name": "The King Is Dead",
+          "Year": 2015,
+          "Developers": "Peer Sylvester"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 159910,
+          "Name": "The King of Frontier",
+          "Year": 2013,
+          "Developers": "Shun Taguchi"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 172159,
+          "Name": "King's Champion",
+          "Year": 2017,
+          "Developers": "Jason Washburn"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 204583,
+          "Name": "Kingdomino",
+          "Year": 2016,
+          "Developers": "Bruno Cathala"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 281960,
+          "Name": "Kingdomino Duel",
+          "Year": 2019,
+          "Developers": "Bruno Cathala,Ludovic Maublanc"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 27162,
+          "Name": "Kingsburg",
+          "Year": 2007,
+          "Developers": "Andrea Chiarvesio,Luca Iennaco"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 180867,
+          "Name": "Kitty Paw",
+          "Year": 2015,
+          "Developers": "Aza Chen"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 227758,
+          "Name": "Kokoro: Avenue of the Kodama",
+          "Year": 2017,
+          "Developers": "Eilif Svensson,Kristian Amundsen \u00d8stby"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 112138,
+          "Name": "Krosmaster: Arena",
+          "Year": 2012,
+          "Developers": "Murat C\u00e9l\u00e9bi,Nicolas Degouy,TOT"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 155495,
+          "Name": "KUNE v LAKIA: A Chronicle Of A Royal Lapine Divorce Foretold",
+          "Year": 2015,
+          "Developers": "Babis Giannios"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 160851,
+          "Name": "Lanterns: The Harvest Festival",
+          "Year": 2015,
+          "Developers": "Christopher Chung"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 97842,
+          "Name": "Last Will",
+          "Year": 2011,
+          "Developers": "Vladim\u00edr Such\u00fd"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 234669,
+          "Name": "Legacy of Dragonholt",
+          "Year": 2017,
+          "Developers": "Nikki Valens,Daniel Clark (I),Tim Flanders,Annie VanderMeer Mitsoda,Greg Spyridis"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 230050,
+          "Name": "The Legend of Korra: Pro-Bending Arena",
+          "Year": 2018,
+          "Developers": "Sen-Foong Lim,Jessey Wright"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 220784,
+          "Name": "The Legend of the Cherry Tree that Blossoms Every Ten Years",
+          "Year": 2018,
+          "Developers": "\u6298\u53e3 \u65e5\u5411 (Hinata Origuchi)"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 214125,
+          "Name": "Legendary Creatures",
+          "Year": 2018,
+          "Developers": "Eduardo Baraf,Christopher Hamm"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 129437,
+          "Name": "Legendary: A Marvel Deck Building Game",
+          "Year": 2012,
+          "Developers": "Devin Low"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 127398,
+          "Name": "Legends of Andor",
+          "Year": 2012,
+          "Developers": "Michael Menzel"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 275467,
+          "Name": "Letter Jam",
+          "Year": 2019,
+          "Developers": "Ondra Skoup\u00fd"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 169147,
+          "Name": "Letter Tycoon",
+          "Year": 2015,
+          "Developers": "Brad Brooks"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 125618,
+          "Name": "Libertalia",
+          "Year": 2012,
+          "Developers": "Paolo Mori"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 4174,
+          "Name": "Lifeboat",
+          "Year": 2002,
+          "Developers": "Jeff Siadek"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 153065,
+          "Name": "Linko!",
+          "Year": 2014,
+          "Developers": "Michael Kiesling,Wolfgang Kramer"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 65781,
+          "Name": "London",
+          "Year": 2010,
+          "Developers": "Martin Wallace"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 236191,
+          "Name": "London (Second Edition)",
+          "Year": 2017,
+          "Developers": "Martin Wallace"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 178134,
+          "Name": "London Dread",
+          "Year": 2016,
+          "Developers": "Asger Johansen"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 160419,
+          "Name": "Long Live the Queen",
+          "Year": 2014,
+          "Developers": ""
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 1536,
+          "Name": "Lord of the Fries",
+          "Year": 1998,
+          "Developers": "James Ernest"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 130912,
+          "Name": "The Lord of the Rings Dice Building Game",
+          "Year": 2013,
+          "Developers": "Mike Elliott,Eric M. Lang,Brett Myers,Jeph Stahl"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 269385,
+          "Name": "The Lord of the Rings: Journeys in Middle-earth",
+          "Year": 2019,
+          "Developers": "Nathan I. Hajek,Grace Holdinghaus"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 77423,
+          "Name": "The Lord of the Rings: The Card Game",
+          "Year": 2011,
+          "Developers": "Nate French"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 67888,
+          "Name": "Lords of Scotland",
+          "Year": 2010,
+          "Developers": "Richard James"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 110327,
+          "Name": "Lords of Waterdeep",
+          "Year": 2012,
+          "Developers": "Peter Lee,Rodney Thompson"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 203993,
+          "Name": "Lorenzo il Magnifico",
+          "Year": 2016,
+          "Developers": "Flaminia Brasini,Virginio Gigli,Simone Luciani"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 50,
+          "Name": "Lost Cities",
+          "Year": 1999,
+          "Developers": "Reiner Knizia"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 216459,
+          "Name": "The Lost Expedition",
+          "Year": 2017,
+          "Developers": "Peer Sylvester"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 131891,
+          "Name": "Lost Legends",
+          "Year": 2013,
+          "Developers": "Mike Elliott"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 129622,
+          "Name": "Love Letter",
+          "Year": 2012,
+          "Developers": "Seiji Kanai"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 70512,
+          "Name": "Luna",
+          "Year": 2010,
+          "Developers": "Stefan Feld"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 143884,
+          "Name": "Machi Koro",
+          "Year": 2012,
+          "Developers": "Masao Suganuma"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 154443,
+          "Name": "Madame Ching",
+          "Year": 2014,
+          "Developers": "Bruno Cathala,Ludovic Maublanc"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 107640,
+          "Name": "MadoMagion",
+          "Year": 2011,
+          "Developers": "Tomoshow"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 96848,
+          "Name": "Mage Knight Board Game",
+          "Year": 2011,
+          "Developers": "Vlaada Chv\u00e1til"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 172503,
+          "Name": "Mage Wars Academy",
+          "Year": 2015,
+          "Developers": "Aaron Brosman,Matthew Burch,Bryan Pope"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 101721,
+          "Name": "Mage Wars Arena",
+          "Year": 2012,
+          "Developers": "Bryan Pope,Benjamin Pope"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 209778,
+          "Name": "Magic Maze",
+          "Year": 2017,
+          "Developers": "Kasper Lapp"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 171431,
+          "Name": "The Maiden in the Forest",
+          "Year": 2015,
+          "Developers": "Todd Sanders"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 240843,
+          "Name": "Maiden's Quest",
+          "Year": 2018,
+          "Developers": "Kenneth C. Shannon, III"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 230080,
+          "Name": "Majesty: For the Realm",
+          "Year": 2017,
+          "Developers": "Marc Andr\u00e9"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 220224,
+          "Name": "Maniacal",
+          "Year": 2019,
+          "Developers": "Hassan Lopez"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 205059,
+          "Name": "Mansions of Madness: Second Edition",
+          "Year": 2016,
+          "Developers": "Nikki Valens"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 40425,
+          "Name": "Maori",
+          "Year": 2009,
+          "Developers": "G\u00fcnter Burkhardt"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 285774,
+          "Name": "Marvel Champions: The Card Game",
+          "Year": 2019,
+          "Developers": "Michael Boggs,Nate French,Caleb Grace"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 148575,
+          "Name": "Marvel Dice Masters: Avengers vs. X-Men",
+          "Year": 2014,
+          "Developers": "Mike Elliott,Eric M. Lang"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 194723,
+          "Name": "Mask of Anubis",
+          "Year": 2016,
+          "Developers": "Takashi Hamada,Kenji Shimojima"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 9108,
+          "Name": "Masquerade",
+          "Year": 2003,
+          "Developers": "Satoshi Nakamura"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 193322,
+          "Name": "Master of Orion: The Board Game",
+          "Year": 2016,
+          "Developers": "Ekaterina Gorn,Igor Sklyuev"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 235839,
+          "Name": "Master of Wills",
+          "Year": 2017,
+          "Developers": "Randy Van Gelder"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 166107,
+          "Name": "Matcha",
+          "Year": 2015,
+          "Developers": "David Harding (II)"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 209010,
+          "Name": "Mechs vs. Minions",
+          "Year": 2016,
+          "Developers": "Chris Cantrell,Rick Ernst,Stone Librande,Prashant Saraswat,Nathan Tiras"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 202288,
+          "Name": "Medici: The Card Game",
+          "Year": 2016,
+          "Developers": "Reiner Knizia"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 154386,
+          "Name": "Medieval Academy",
+          "Year": 2014,
+          "Developers": "Nicolas Poncin"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 193214,
+          "Name": "Meeple Circus",
+          "Year": 2017,
+          "Developers": "C\u00e9dric Millet"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 244608,
+          "Name": "Menara",
+          "Year": 2018,
+          "Developers": "Oliver Richtberg"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 231215,
+          "Name": "Merchants of Muziris",
+          "Year": 2017,
+          "Developers": "John Clowdus"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 124708,
+          "Name": "Mice and Mystics",
+          "Year": 2012,
+          "Developers": "Jerry Hawthorne"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 151347,
+          "Name": "Millennium Blades",
+          "Year": 2016,
+          "Developers": "D. Brad Talton, Jr."
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 244992,
+          "Name": "The Mind",
+          "Year": 2018,
+          "Developers": "Wolfgang Warsch"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 175695,
+          "Name": "Minerva",
+          "Year": 2015,
+          "Developers": "Hisashi Hayashi"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 199242,
+          "Name": "Mini Rogue",
+          "Year": 2016,
+          "Developers": "Paolo Di Stefano,Gabriel Gendron"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 176920,
+          "Name": "Mission: Red Planet (Second Edition)",
+          "Year": 2015,
+          "Developers": "Bruno Cathala,Bruno Faidutti"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 172386,
+          "Name": "Mombasa",
+          "Year": 2015,
+          "Developers": "Alexander Pfister"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 156546,
+          "Name": "Monikers",
+          "Year": 2015,
+          "Developers": "Alex Hague,Justin Vickers"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 238393,
+          "Name": "Monolith Arena",
+          "Year": 2018,
+          "Developers": "Micha\u0142 Oracz"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 122298,
+          "Name": "Morels",
+          "Year": 2012,
+          "Developers": "Brent Povis"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 78954,
+          "Name": "Mousquetaires du Roy",
+          "Year": 2010,
+          "Developers": "Fran\u00e7ois Combe,Gilles Lehmann"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 21763,
+          "Name": "Mr. Jack",
+          "Year": 2006,
+          "Developers": "Bruno Cathala,Ludovic Maublanc"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 72287,
+          "Name": "Mr. Jack Pocket",
+          "Year": 2010,
+          "Developers": "Bruno Cathala,Ludovic Maublanc"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 1927,
+          "Name": "Munchkin",
+          "Year": 2001,
+          "Developers": "Steve Jackson (I)"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 126792,
+          "Name": "Myrmes",
+          "Year": 2012,
+          "Developers": "Yoann Levet"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 113997,
+          "Name": "Tajemnicze Domostwo",
+          "Year": 2013,
+          "Developers": "Oleksandr Nevskiy,Oleg Sidorenko"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 181304,
+          "Name": "Mysterium",
+          "Year": 2015,
+          "Developers": "Oleksandr Nevskiy,Oleg Sidorenko"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 194607,
+          "Name": "Mystic Vale",
+          "Year": 2016,
+          "Developers": "John D. Clair"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 200170,
+          "Name": "Myth: Dark Frontier",
+          "Year": 2017,
+          "Developers": "Adam Sadler,Brady Sadler,Kenny Sims"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 126100,
+          "Name": "Mythos Tales",
+          "Year": 2016,
+          "Developers": "Hal Eccles,Will Kenyon,Jason Maxwell,Tim Uren"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 244191,
+          "Name": "Nagaraja",
+          "Year": 2019,
+          "Developers": "Bruno Cathala,Th\u00e9o Rivi\u00e8re"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 126042,
+          "Name": "Nations",
+          "Year": 2013,
+          "Developers": "Rustan H\u00e5kansson,Nina H\u00e5kansson,Einar Ros\u00e9n,Robert Ros\u00e9n"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 157809,
+          "Name": "Nations: The Dice Game",
+          "Year": 2014,
+          "Developers": "Rustan H\u00e5kansson"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 171662,
+          "Name": "Neanderthal",
+          "Year": 2015,
+          "Developers": "Phil Eklund"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 195421,
+          "Name": "Near and Far",
+          "Year": 2017,
+          "Developers": "Ryan Laukat"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 167355,
+          "Name": "Nemesis",
+          "Year": 2018,
+          "Developers": "Adam Kwapi\u0144ski"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 193486,
+          "Name": "Neolithic",
+          "Year": 2016,
+          "Developers": "John Clowdus"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 21241,
+          "Name": "Neuroshima Hex! 3.0",
+          "Year": 2006,
+          "Developers": "Micha\u0142 Oracz"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 43262,
+          "Name": "Neuroshima Hex! Duel",
+          "Year": 2009,
+          "Developers": "Micha\u0142 Oracz"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 173047,
+          "Name": "Nevermore",
+          "Year": 2015,
+          "Developers": "Curt Covert"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 135654,
+          "Name": "New Dawn",
+          "Year": 2014,
+          "Developers": "Konstantinos Kokkinis,Sotirios Tsantilas"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 174660,
+          "Name": "New York 1901",
+          "Year": 2015,
+          "Developers": "Ch\u00e9nier La Salle"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 88408,
+          "Name": "Nightfall",
+          "Year": 2011,
+          "Developers": "David Gregg"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 280897,
+          "Name": "NINE",
+          "Year": 2019,
+          "Developers": "Gary Kim"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 164448,
+          "Name": "Ninja All-Stars",
+          "Year": 2015,
+          "Developers": "John Cadice,David Freeman,Deke Stella"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 162041,
+          "Name": "Ninja Taisen",
+          "Year": 2014,
+          "Developers": "Katsumasa Tomioka"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 12942,
+          "Name": "No Thanks!",
+          "Year": 2004,
+          "Developers": "Thorsten Gimmler"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 149639,
+          "Name": "Noble Treachery: The Last Alliance",
+          "Year": 2014,
+          "Developers": "Jay Meyer"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 279204,
+          "Name": "The North",
+          "Year": 2019,
+          "Developers": "John Clowdus"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 120523,
+          "Name": "Nothing Personal",
+          "Year": 2013,
+          "Developers": "Stephen Avery,Tom Vasel"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 213984,
+          "Name": "Notre Dame: 10th Anniversary",
+          "Year": 2017,
+          "Developers": "Stefan Feld"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 1107,
+          "Name": "Nyet!",
+          "Year": 1997,
+          "Developers": "Stefan Dorra"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 123219,
+          "Name": "OddVille",
+          "Year": 2012,
+          "Developers": "Carlo Lavezzi"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 4396,
+          "Name": "Odin's Ravens",
+          "Year": 2002,
+          "Developers": "Thorsten Gimmler"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 183840,
+          "Name": "Oh My Goods!",
+          "Year": 2015,
+          "Developers": "Alexander Pfister"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 211940,
+          "Name": "Okey Dokey",
+          "Year": 2016,
+          "Developers": "Hisashi Hayashi"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 94104,
+          "Name": "Omen: A Reign of War",
+          "Year": 2011,
+          "Developers": "John Clowdus"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 212370,
+          "Name": "Omen: Edge of the Aegean",
+          "Year": 2016,
+          "Developers": "John Clowdus"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 281152,
+          "Name": "On the Underground: London/Berlin",
+          "Year": 2019,
+          "Developers": "Sebastian Bleasdale"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 251412,
+          "Name": "On Tour",
+          "Year": 2019,
+          "Developers": "Chad DeShon"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 179275,
+          "Name": "One Deck Dungeon",
+          "Year": 2016,
+          "Developers": "Chris Cieslik"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 147949,
+          "Name": "One Night Ultimate Werewolf",
+          "Year": 2014,
+          "Developers": "Ted Alspach,Akihisa Okui"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 163166,
+          "Name": "One Night Ultimate Werewolf Daybreak",
+          "Year": 2015,
+          "Developers": "Ted Alspach,Akihisa Okui"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 156336,
+          "Name": "Onirim (second edition)",
+          "Year": 2014,
+          "Developers": "Shadi Torbey"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 160477,
+          "Name": "Onitama",
+          "Year": 2014,
+          "Developers": "Shimpei Sato"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 193558,
+          "Name": "The Oracle of Delphi",
+          "Year": 2016,
+          "Developers": "Stefan Feld"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 255507,
+          "Name": "Orbis",
+          "Year": 2018,
+          "Developers": "Tim Armstrong (II)"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 164928,
+          "Name": "Orl\u00e9ans",
+          "Year": 2014,
+          "Developers": "Reiner Stockhausen"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 171905,
+          "Name": "Orl\u00e9ans: Deluxe Edition",
+          "Year": 2015,
+          "Developers": "Reiner Stockhausen"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 172047,
+          "Name": "The Others",
+          "Year": 2016,
+          "Developers": "Eric M. Lang"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 222542,
+          "Name": "Otys",
+          "Year": 2017,
+          "Developers": "Claude Lucchini"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 230200,
+          "Name": "Overbooked",
+          "Year": 2018,
+          "Developers": "Daryl Chow"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 176803,
+          "Name": "Overseers",
+          "Year": 2015,
+          "Developers": "Guan Chih Huang"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 154003,
+          "Name": "Pagoda",
+          "Year": 2014,
+          "Developers": "Arve D. F\u00fchler"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 223278,
+          "Name": "The Palace of Mad King Ludwig",
+          "Year": 2017,
+          "Developers": "Ted Alspach"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 129948,
+          "Name": "The Palaces of Carrara",
+          "Year": 2012,
+          "Developers": "Michael Kiesling,Wolfgang Kramer"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 30549,
+          "Name": "Pandemic",
+          "Year": 2008,
+          "Developers": "Matt Leacock"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 161936,
+          "Name": "Pandemic Legacy: Season 1",
+          "Year": 2015,
+          "Developers": "Rob Daviau,Matt Leacock"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 221107,
+          "Name": "Pandemic Legacy: Season 2",
+          "Year": 2017,
+          "Developers": "Rob Daviau,Matt Leacock"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 198928,
+          "Name": "Pandemic: Iberia",
+          "Year": 2016,
+          "Developers": "Jes\u00fas Torres Castro,Matt Leacock"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 150658,
+          "Name": "Pandemic: The Cure",
+          "Year": 2014,
+          "Developers": "Matt Leacock"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 180051,
+          "Name": "Pani-High!",
+          "Year": 2014,
+          "Developers": "Koipara-Shibucho,Takatsugu Nakazawa"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 217861,
+          "Name": "Paper Tales",
+          "Year": 2017,
+          "Developers": "Masato Uesugi"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 141572,
+          "Name": "Paperback",
+          "Year": 2014,
+          "Developers": "Tim Fowers"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 56692,
+          "Name": "Parade",
+          "Year": 2007,
+          "Developers": "Naoki Homma"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 163412,
+          "Name": "Patchwork",
+          "Year": 2014,
+          "Developers": "Uwe Rosenberg"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 217398,
+          "Name": "Path of Light and Shadow",
+          "Year": 2017,
+          "Developers": "Travis R. Chance,Jonathan Gilmour,Nick Little (I)"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 271060,
+          "Name": "Pathfinder Adventure Card Game: Core Set",
+          "Year": 2019,
+          "Developers": "Chad Brown,Keith Richmond,Aviva Schecterson,Mike Selinker,Liz Spain"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 187687,
+          "Name": "Pathfinder Adventure Card Game: Mummy's Mask \u2013 Base Set",
+          "Year": 2016,
+          "Developers": "Chad Brown,Tanis O'Connor,Paul Peterson,Keith Richmond,Mike Selinker,Liz Spain,Gaby Weidling"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 133038,
+          "Name": "Pathfinder Adventure Card Game: Rise of the Runelords \u2013 Base Set",
+          "Year": 2013,
+          "Developers": "Mike Selinker,Chad Brown,Tanis O'Connor,Paul Peterson,Gaby Weidling"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 151007,
+          "Name": "Pathfinder Adventure Card Game: Skull & Shackles \u2013 Base Set",
+          "Year": 2014,
+          "Developers": "Chad Brown,Tanis O'Connor,Paul Peterson,Mike Selinker,Gaby Weidling"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 169416,
+          "Name": "Pathfinder Adventure Card Game: Wrath of the Righteous \u2013 Base Set",
+          "Year": 2015,
+          "Developers": "Chad Brown,Tanis O'Connor,Paul Peterson,Mike Selinker,Liz Spain,Gaby Weidling"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 42910,
+          "Name": "Peloponnes",
+          "Year": 2009,
+          "Developers": "Bernd Eisenstein"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 148205,
+          "Name": "Penny Press",
+          "Year": 2015,
+          "Developers": "Robert Dijkman Dulkes,Matt Golec"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 256997,
+          "Name": "Perseverance: Castaway Chronicles",
+          "Year": 2020,
+          "Developers": "Richard Amann,Thomas Vande Ginste,Anthony Howgego,Viktor Peter,Wolf Plancke,D\u00e1vid Turczi"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 233976,
+          "Name": "Pie Town",
+          "Year": 2017,
+          "Developers": "Daniel Fremgen"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 24480,
+          "Name": "The Pillars of the Earth",
+          "Year": 2006,
+          "Developers": "Michael Rieneck,Stefan Stadler"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 125548,
+          "Name": "Pixel Tactics",
+          "Year": 2012,
+          "Developers": "D. Brad Talton, Jr."
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 137423,
+          "Name": "Pixel Tactics 2",
+          "Year": 2013,
+          "Developers": "D. Brad Talton, Jr."
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 152899,
+          "Name": "Pixel Tactics 3",
+          "Year": 2014,
+          "Developers": "D. Brad Talton, Jr."
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 169275,
+          "Name": "Pixel Tactics 4",
+          "Year": 2015,
+          "Developers": "D. Brad Talton, Jr."
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 169274,
+          "Name": "Pixel Tactics Deluxe",
+          "Year": 2015,
+          "Developers": "D. Brad Talton, Jr."
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 172385,
+          "Name": "Porta Nigra",
+          "Year": 2015,
+          "Developers": "Michael Kiesling,Wolfgang Kramer"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 137155,
+          "Name": "Potato Man",
+          "Year": 2013,
+          "Developers": "G\u00fcnter Burkhardt,Wolfgang A. Lehmann"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 2651,
+          "Name": "Power Grid",
+          "Year": 2004,
+          "Developers": "Friedemann Friese"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 87890,
+          "Name": "Pr\u00eat-\u00e0-Porter",
+          "Year": 2010,
+          "Developers": "Piotr Haraszczak,Ignacy Trzewiczek"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 218179,
+          "Name": "Princess Jing",
+          "Year": 2018,
+          "Developers": "Roberto Fraga"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 219708,
+          "Name": "Professor Evil and The Citadel of Time",
+          "Year": 2017,
+          "Developers": "Matthew Dunstan,Brett J. Gilbert"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 145203,
+          "Name": "Prosperity",
+          "Year": 2013,
+          "Developers": "Sebastian Bleasdale,Reiner Knizia"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 91536,
+          "Name": "Quarriors!",
+          "Year": 2011,
+          "Developers": "Mike Elliott,Eric M. Lang"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 6068,
+          "Name": "Queen's Necklace",
+          "Year": 2003,
+          "Developers": "Bruno Cathala,Bruno Faidutti"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 232043,
+          "Name": "Queendomino",
+          "Year": 2017,
+          "Developers": "Bruno Cathala"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 217372,
+          "Name": "The Quest for El Dorado",
+          "Year": 2017,
+          "Developers": "Reiner Knizia"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 274093,
+          "Name": "Quirky Circuits",
+          "Year": 2019,
+          "Developers": "Nikki Valens"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 131260,
+          "Name": "Qwixx",
+          "Year": 2012,
+          "Developers": "Steffen Benndorf"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 170042,
+          "Name": "Raiders of the North Sea",
+          "Year": 2015,
+          "Developers": "Shem Phillips"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 207691,
+          "Name": "Railroad Revolution",
+          "Year": 2016,
+          "Developers": "Marco Canetta,Stefania Niccolini"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 220877,
+          "Name": "Rajas of the Ganges",
+          "Year": 2017,
+          "Developers": "Inka Brand,Markus Brand"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 176606,
+          "Name": "Rattle, Battle, Grab the Loot",
+          "Year": 2015,
+          "Developers": "Ignacy Trzewiczek"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 150293,
+          "Name": "The Ravens of Thri Sahashri",
+          "Year": 2013,
+          "Developers": "Kuro"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 256623,
+          "Name": "Realm of Sand",
+          "Year": 2018,
+          "Developers": "Ji Hua Wei"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 208024,
+          "Name": "The Reckoners",
+          "Year": 2018,
+          "Developers": "Brett Sobol,Seth Van Orden"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 33451,
+          "Name": "The Red Dragon Inn 2",
+          "Year": 2008,
+          "Developers": "Cliff Bohm,Geoff Bottone,Colleen Skadl"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 66510,
+          "Name": "The Red Dragon Inn 3",
+          "Year": 2011,
+          "Developers": "Cliff Bohm,Geoff Bottone,Jeff Morrow"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 193668,
+          "Name": "The Red Dragon Inn: Battle for Greyport",
+          "Year": 2016,
+          "Developers": "Nate Heiss,Jeff Morrow,Sam Waller"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 170604,
+          "Name": "Renegade",
+          "Year": 2018,
+          "Developers": "Richard Wilkins"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 135116,
+          "Name": "Rent a Hero",
+          "Year": 2012,
+          "Developers": "Kuro"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 262712,
+          "Name": "Res Arcana",
+          "Year": 2019,
+          "Developers": "Thomas Lehmann"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 41114,
+          "Name": "The Resistance",
+          "Year": 2009,
+          "Developers": "Don Eskridge"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 128882,
+          "Name": "The Resistance: Avalon",
+          "Year": 2012,
+          "Developers": "Don Eskridge"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 225163,
+          "Name": "Reworld",
+          "Year": 2017,
+          "Developers": "Michael Kiesling,Wolfgang Kramer"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 194232,
+          "Name": "Rick and Morty: Total Rickall Card Game",
+          "Year": 2016,
+          "Developers": "Matt Hyra"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 202583,
+          "Name": "Rise of Tribes",
+          "Year": 2018,
+          "Developers": "Brad Brooks"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 185196,
+          "Name": "Rising 5: Runes of Asteros",
+          "Year": 2017,
+          "Developers": "Gary Kim,Evan Song"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 105134,
+          "Name": "Risk Legacy",
+          "Year": 2011,
+          "Developers": "Rob Daviau,Chris Dupuis"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 66056,
+          "Name": "Rivals for Catan",
+          "Year": 2010,
+          "Developers": "Klaus Teuber"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 257759,
+          "Name": "The River",
+          "Year": 2018,
+          "Developers": "S\u00e9bastien Pauchon,Isma\u00ebl Perrin"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 280132,
+          "Name": "Robin of Locksley",
+          "Year": 2019,
+          "Developers": "Uwe Rosenberg"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 121921,
+          "Name": "Robinson Crusoe: Adventures on the Cursed Island",
+          "Year": 2012,
+          "Developers": "Ignacy Trzewiczek"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 144344,
+          "Name": "Rococo",
+          "Year": 2013,
+          "Developers": "Matthias Cramer,Stefan Malz,Louis Malz"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 132531,
+          "Name": "Roll for the Galaxy",
+          "Year": 2014,
+          "Developers": "Wei-Hwa Huang,Thomas Lehmann"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 169426,
+          "Name": "Roll Player",
+          "Year": 2016,
+          "Developers": "Keith Matejka"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 16496,
+          "Name": "Roma",
+          "Year": 2005,
+          "Developers": "Stefan Feld"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 237182,
+          "Name": "Root",
+          "Year": 2018,
+          "Developers": "Cole Wehrle"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 205498,
+          "Name": "Round House",
+          "Year": 2016,
+          "Developers": "Eros Lin,Zong-Hua Yang (Bob)"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 165986,
+          "Name": "Royals",
+          "Year": 2014,
+          "Developers": "Peter Hawes"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 89910,
+          "Name": "Run, Fight, or Die!",
+          "Year": 2014,
+          "Developers": "Richard Launius"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 181530,
+          "Name": "Runebound (Third Edition)",
+          "Year": 2015,
+          "Developers": "Lukas Litzsinger"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 9217,
+          "Name": "Saint Petersburg",
+          "Year": 2004,
+          "Developers": "Bernd Brunnhofer"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 156943,
+          "Name": "Saint Petersburg (second edition)",
+          "Year": 2014,
+          "Developers": "Bernd Brunnhofer,Karl-Heinz Schmiel"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 204493,
+          "Name": "Sakura Arms",
+          "Year": 2016,
+          "Developers": "BakaFire"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 231042,
+          "Name": "Sakura Hunt",
+          "Year": 2017,
+          "Developers": "Yu Maruno (\u4e38\u91ce\u512a)"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 3,
+          "Name": "Samurai",
+          "Year": 1998,
+          "Developers": "Reiner Knizia"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 150533,
+          "Name": "Samurai Gardener",
+          "Year": 2013,
+          "Developers": "Hisashi Hayashi"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 158900,
+          "Name": "Samurai Spirit",
+          "Year": 2014,
+          "Developers": "Antoine Bauza"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 128667,
+          "Name": "Samurai Sword",
+          "Year": 2012,
+          "Developers": "Emiliano Sciarra"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 166669,
+          "Name": "San Juan (Second Edition)",
+          "Year": 2014,
+          "Developers": "Andreas Seyfarth"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 146816,
+          "Name": "Sanssouci",
+          "Year": 2013,
+          "Developers": "Michael Kiesling"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 194655,
+          "Name": "Santorini",
+          "Year": 2016,
+          "Developers": "Gord!"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 169786,
+          "Name": "Scythe",
+          "Year": 2016,
+          "Developers": "Jamey Stegmaier"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 108745,
+          "Name": "Seasons",
+          "Year": 2012,
+          "Developers": "R\u00e9gis Bonness\u00e9e"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 63759,
+          "Name": "Seeland",
+          "Year": 2010,
+          "Developers": "G\u00fcnter Burkhardt,Wolfgang Kramer"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 216428,
+          "Name": "Seikatsu",
+          "Year": 2017,
+          "Developers": "Matt Loomis,Isaac Shalev"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 159868,
+          "Name": "Sellswords",
+          "Year": 2014,
+          "Developers": "Cliff Kamarga"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 223855,
+          "Name": "Sentient",
+          "Year": 2017,
+          "Developers": "J. Alex Kevern"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 102652,
+          "Name": "Sentinels of the Multiverse",
+          "Year": 2011,
+          "Developers": "Christopher Badell,Paul Bender,Adam Rebottaro"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 24068,
+          "Name": "Shadow Hunters",
+          "Year": 2005,
+          "Developers": "Yasutaka Ikeda"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 112092,
+          "Name": "Shadowrift",
+          "Year": 2012,
+          "Developers": "Jeremy Anderson"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 135382,
+          "Name": "Shadowrun: Crossfire",
+          "Year": 2014,
+          "Developers": "Mike Elliott,Rob Heinsoo,Jim Lin,Gregory Marques,Sean McCarthy,Jay Schneider,Rob Watkins"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 229741,
+          "Name": "Shadows in Kyoto",
+          "Year": 2017,
+          "Developers": "Wei-Min Ling"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 154510,
+          "Name": "Shadows of Malice",
+          "Year": 2014,
+          "Developers": "Jim Felli"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 121615,
+          "Name": "Shadows over the Empire",
+          "Year": 2013,
+          "Developers": "Babis Giannios"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 186767,
+          "Name": "Shahrazad",
+          "Year": 2015,
+          "Developers": "\u3086\u304a (Yuo)"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 180511,
+          "Name": "Shakespeare",
+          "Year": 2015,
+          "Developers": "Herv\u00e9 Rigal"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 34320,
+          "Name": "Shanghaien",
+          "Year": 2008,
+          "Developers": "Roman Pelek,Michael Schacht"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 244115,
+          "Name": "Shards of Infinity",
+          "Year": 2018,
+          "Developers": "Gary Arant,Justin Gary"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 167298,
+          "Name": "Sheep & Thief",
+          "Year": 2014,
+          "Developers": "Yuichi Sakashita"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 225977,
+          "Name": "Sheep 'n' Sheep",
+          "Year": 2017,
+          "Developers": "Hisashi Hayashi"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 157969,
+          "Name": "Sheriff of Nottingham",
+          "Year": 2014,
+          "Developers": "S\u00e9rgio Halaban,Andr\u00e9 Zatz"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 2511,
+          "Name": "Sherlock Holmes Consulting Detective: The Thames Murders & Other Cases",
+          "Year": 1981,
+          "Developers": "Raymond Edwards,Suzanne Goldberg,Gary Grady"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 182215,
+          "Name": "Shinobi Arts",
+          "Year": 2015,
+          "Developers": "Seiji Kanai"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 220517,
+          "Name": "The Shipwreck Arcana",
+          "Year": 2017,
+          "Developers": "Kevin Bishop"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 20551,
+          "Name": "Shogun",
+          "Year": 2006,
+          "Developers": "Dirk Henn"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 203715,
+          "Name": "The Shooting Party",
+          "Year": 2016,
+          "Developers": "John Kean"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 187056,
+          "Name": "Siege of the Citadel",
+          "Year": 2019,
+          "Developers": "Richard Borg,Jason Little,Kevin Wilson"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 177678,
+          "Name": "Signorie",
+          "Year": 2015,
+          "Developers": "Andrea Chiarvesio,Pierluca Zizzi"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 270673,
+          "Name": "Silver & Gold",
+          "Year": 2019,
+          "Developers": "Phil Walker-Harding"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 160559,
+          "Name": "Simurgh",
+          "Year": 2015,
+          "Developers": "Pierluca Zizzi"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 232595,
+          "Name": "Skulk Hollow",
+          "Year": 2019,
+          "Developers": "Eduardo Baraf,Seth Johnson,Keith Matejka"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 150145,
+          "Name": "Skull King",
+          "Year": 2013,
+          "Developers": "Brent Beck"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 209664,
+          "Name": "Skyward",
+          "Year": 2017,
+          "Developers": "Brendan Evans"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 122522,
+          "Name": "Smash Up",
+          "Year": 2012,
+          "Developers": "Paul Peterson"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 134726,
+          "Name": "Smash Up: Awesome Level 9000",
+          "Year": 2013,
+          "Developers": "Paul Peterson"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 206061,
+          "Name": "Snooker Solitaire",
+          "Year": 2016,
+          "Developers": "Mark Tuck"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 170199,
+          "Name": "Solarius Mission",
+          "Year": 2016,
+          "Developers": "Michael Keller (II),Andreas \"ode.\" Odendahl"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 254018,
+          "Name": "Solenia",
+          "Year": 2018,
+          "Developers": "S\u00e9bastien Dujardin"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 235014,
+          "Name": "Sorcerer City",
+          "Year": 2019,
+          "Developers": "Scott Caputo"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 143157,
+          "Name": "SOS Titanic",
+          "Year": 2013,
+          "Developers": "Bruno Cathala,Ludovic Maublanc"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 175510,
+          "Name": "Soulfall",
+          "Year": 2015,
+          "Developers": "John Clowdus"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 242302,
+          "Name": "Space Base",
+          "Year": 2018,
+          "Developers": "John D. Clair"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 71721,
+          "Name": "Space Hulk: Death Angel \u2013 The Card Game",
+          "Year": 2010,
+          "Developers": "Corey Konieczka"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 155624,
+          "Name": "Specter Ops",
+          "Year": 2015,
+          "Developers": "Emerson Matsuuchi"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 256313,
+          "Name": "Spell Smashers",
+          "Year": 2018,
+          "Developers": "Christopher Chung"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 162886,
+          "Name": "Spirit Island",
+          "Year": 2017,
+          "Developers": "R. Eric Reuss"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 256606,
+          "Name": "Spirits of the Wild",
+          "Year": 2018,
+          "Developers": "Nick Hayes"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 173291,
+          "Name": "Spit It Out!",
+          "Year": 2015,
+          "Developers": "Martin Nedergaard Andersen"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 148228,
+          "Name": "Splendor",
+          "Year": 2014,
+          "Developers": "Marc Andr\u00e9"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 249106,
+          "Name": "SPQF",
+          "Year": 2018,
+          "Developers": "Grant Rodiek"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 166384,
+          "Name": "Spyfall",
+          "Year": 2014,
+          "Developers": "Alexandr Ushan"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 137269,
+          "Name": "Spyrium",
+          "Year": 2013,
+          "Developers": "William Attia"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 98242,
+          "Name": "Star Trek Deck Building Game: The Next Generation",
+          "Year": 2011,
+          "Developers": "Alex Bykov"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 139771,
+          "Name": "Star Trek: Attack Wing",
+          "Year": 2013,
+          "Developers": "Christopher Guild,Andrew Parks"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 234931,
+          "Name": "Star Wars: Destiny \u2013 Two-Player Game",
+          "Year": 2017,
+          "Developers": "Corey Konieczka,Lukas Litzsinger"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 164153,
+          "Name": "Star Wars: Imperial Assault",
+          "Year": 2014,
+          "Developers": "Justin Kemppainen,Corey Konieczka,Jonathan Ying"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 271896,
+          "Name": "Star Wars: Outer Rim",
+          "Year": 2019,
+          "Developers": "Corey Konieczka,Tony Fanchi"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 187645,
+          "Name": "Star Wars: Rebellion",
+          "Year": 2016,
+          "Developers": "Corey Konieczka"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 103886,
+          "Name": "Star Wars: The Card Game",
+          "Year": 2012,
+          "Developers": "Eric M. Lang"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 121410,
+          "Name": "Steam Park",
+          "Year": 2013,
+          "Developers": "Aureliano Buonfino,Lorenzo Silva,Lorenzo Tucci Sorrentino"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 180592,
+          "Name": "Steam Time",
+          "Year": 2015,
+          "Developers": "R\u00fcdiger Dorn"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 162007,
+          "Name": "Steampunk Rally",
+          "Year": 2015,
+          "Developers": "Orin Bishop"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 161614,
+          "Name": "Stockpile",
+          "Year": 2015,
+          "Developers": "Brett Sobol,Seth Van Orden"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 34635,
+          "Name": "Stone Age",
+          "Year": 2008,
+          "Developers": "Bernd Brunnhofer"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 215312,
+          "Name": "Stop Thief!",
+          "Year": 2017,
+          "Developers": "Rob Daviau,Robert Doyle,Justin D. Jacobson"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 218421,
+          "Name": "Street Masters",
+          "Year": 2018,
+          "Developers": "Adam Sadler,Brady Sadler"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 233312,
+          "Name": "Stuffed Fables",
+          "Year": 2018,
+          "Developers": "Jerry Hawthorne"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 204470,
+          "Name": "The Stygian Society",
+          "Year": 2019,
+          "Developers": "Kevin Wilson"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 123260,
+          "Name": "Suburbia",
+          "Year": 2012,
+          "Developers": "Ted Alspach"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 158889,
+          "Name": "Summoner Wars: Alliances Master Set",
+          "Year": 2014,
+          "Developers": "Colby Dauch"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 93260,
+          "Name": "Summoner Wars: Master Set",
+          "Year": 2011,
+          "Developers": "Colby Dauch"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 92190,
+          "Name": "Super Dungeon Explore",
+          "Year": 2011,
+          "Developers": "Chris Birkenhagen,John Cadice,Deke Stella"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 156548,
+          "Name": "Super Dungeon Explore: Forgotten King",
+          "Year": 2015,
+          "Developers": "Chris Birkenhagen,John Cadice,Deke Stella"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 143405,
+          "Name": "Sylvion",
+          "Year": 2015,
+          "Developers": "Shadi Torbey"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 198778,
+          "Name": "SYNOD",
+          "Year": 2016,
+          "Developers": "John Clowdus"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 146508,
+          "Name": "T.I.M.E Stories",
+          "Year": 2015,
+          "Developers": "Peggy Chassenet,Manuel Rozoy"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 264220,
+          "Name": "Tainted Grail: The Fall of Avalon",
+          "Year": 2019,
+          "Developers": "Krzysztof Piskorski,Marcin \u015awierkot"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 34119,
+          "Name": "Tales of the Arabian Nights",
+          "Year": 2009,
+          "Developers": "Anthony J. Gallela,Eric Goldberg,Kevin Maroney,Zev Shlasinger"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 118048,
+          "Name": "Targi",
+          "Year": 2012,
+          "Developers": "Andreas Steiger"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 146278,
+          "Name": "Tash-Kalar: Arena of Legends",
+          "Year": 2013,
+          "Developers": "Vlaada Chv\u00e1til"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 244169,
+          "Name": "Tears of a Goddess",
+          "Year": 2015,
+          "Developers": ""
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 46213,
+          "Name": "Telestrations",
+          "Year": 2009,
+          "Developers": "(Uncredited)"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 162263,
+          "Name": "Temporum",
+          "Year": 2014,
+          "Developers": "Donald X. Vaccarino"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 229853,
+          "Name": "Teotihuacan: City of Gods",
+          "Year": 2018,
+          "Developers": "Daniele Tascini"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 167791,
+          "Name": "Terraforming Mars",
+          "Year": 2016,
+          "Developers": "Jacob Fryxelius"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 144529,
+          "Name": "Theseus: The Dark Orbit",
+          "Year": 2013,
+          "Developers": "Micha\u0142 Oracz"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 216497,
+          "Name": "Throne and the Grail",
+          "Year": 2016,
+          "Developers": "Nao Shimamura"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 182028,
+          "Name": "Through the Ages: A New Story of Civilization",
+          "Year": 2015,
+          "Developers": "Vlaada Chv\u00e1til"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 503,
+          "Name": "Through the Desert",
+          "Year": 1998,
+          "Developers": "Reiner Knizia"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 191963,
+          "Name": "Thunder & Lightning",
+          "Year": 2016,
+          "Developers": "Richard Borg"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 142961,
+          "Name": "Thunderstone Advance: Numenera",
+          "Year": 2013,
+          "Developers": "Joe Babbitt,Will M. Baker,Edward Bolme,Curt Crane,Mike Elliott,Jeff Quick,Mark Wootton"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 116998,
+          "Name": "Thunderstone Advance: Towers of Ruin",
+          "Year": 2012,
+          "Developers": "Edward Bolme,Mike Elliott,Mark Wootton"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 14996,
+          "Name": "Ticket to Ride: Europe",
+          "Year": 2005,
+          "Developers": "Alan R. Moon"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 21348,
+          "Name": "Ticket to Ride: M\u00e4rklin",
+          "Year": 2006,
+          "Developers": "Alan R. Moon"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 195544,
+          "Name": "Tides of Madness",
+          "Year": 2016,
+          "Developers": "Kristian \u010curla"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 176229,
+          "Name": "Tides of Time",
+          "Year": 2015,
+          "Developers": "Kristian \u010curla"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 155708,
+          "Name": "Tiny Epic Defenders",
+          "Year": 2015,
+          "Developers": "Scott Almes"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 180852,
+          "Name": "Tiny Epic Western",
+          "Year": 2016,
+          "Developers": "Scott Almes"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 265736,
+          "Name": "Tiny Towns",
+          "Year": 2019,
+          "Developers": "Peter McPherson"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 155731,
+          "Name": "Tokaido Collector's Edition",
+          "Year": 2015,
+          "Developers": "Antoine Bauza"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 188314,
+          "Name": "Topoum",
+          "Year": 2016,
+          "Developers": "Perepau Llistosella"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 191877,
+          "Name": "Touria",
+          "Year": 2016,
+          "Developers": "Inka Brand,Markus Brand,Michael Rieneck"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 148319,
+          "Name": "Tragedy Looper",
+          "Year": 2011,
+          "Developers": "BakaFire"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 121408,
+          "Name": "Trains",
+          "Year": 2012,
+          "Developers": "Hisashi Hayashi"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 157001,
+          "Name": "Trains: Rising Sun",
+          "Year": 2014,
+          "Developers": "Steve Ellis (II),Hisashi Hayashi"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 102680,
+          "Name": "Trajan",
+          "Year": 2011,
+          "Developers": "Stefan Feld"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 175293,
+          "Name": "Trambahn",
+          "Year": 2015,
+          "Developers": "Helmut Ohley"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 163805,
+          "Name": "Transatlantic",
+          "Year": 2017,
+          "Developers": "Mac Gerdts"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 274363,
+          "Name": "Trial of the Temples",
+          "Year": 2019,
+          "Developers": "Wei-Min Ling,Michael Mihealsick"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 163068,
+          "Name": "Trickerion: Legends of Illusion",
+          "Year": 2015,
+          "Developers": "Richard Amann,Viktor Peter"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 148291,
+          "Name": "Trieste",
+          "Year": 2013,
+          "Developers": "Matthew Ma"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 53168,
+          "Name": "Triumvirate",
+          "Year": 2009,
+          "Developers": "Travis Worthington"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 73439,
+          "Name": "Troyes",
+          "Year": 2010,
+          "Developers": "S\u00e9bastien Dujardin,Xavier Georges,Alain Orban"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 284584,
+          "Name": "Troyes Dice",
+          "Year": 2020,
+          "Developers": "S\u00e9bastien Dujardin,Xavier Georges,Alain Orban"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 104377,
+          "Name": "TSCHAK!",
+          "Year": 2011,
+          "Developers": "Dominique Ehrhard"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 16992,
+          "Name": "Tsuro",
+          "Year": 2004,
+          "Developers": "Tom McMurchie"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 279198,
+          "Name": "Tungaru",
+          "Year": 2020,
+          "Developers": "Louis Malz,Stefan Malz"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 189932,
+          "Name": "Tyrants of the Underdark",
+          "Year": 2016,
+          "Developers": "Peter Lee,Rodney Thompson,Andrew Veen"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 128063,
+          "Name": "Uchronia",
+          "Year": 2012,
+          "Developers": "Carl Chudyk"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 217085,
+          "Name": "Unearth",
+          "Year": 2017,
+          "Developers": "Jason Harner,Matthew Ransom"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 179172,
+          "Name": "Unfair",
+          "Year": 2017,
+          "Developers": "Joel Finch"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 204605,
+          "Name": "Unicornus Knights",
+          "Year": 2016,
+          "Developers": "Seiji Kanai,Kuro"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 216092,
+          "Name": "Unlock! Squeek & Sausage",
+          "Year": 2017,
+          "Developers": "Alice Carroll"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 216091,
+          "Name": "Unlock! The Formula",
+          "Year": 2017,
+          "Developers": "Cyril Demaegd"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 274637,
+          "Name": "Unmatched: Battle of Legends, Volume One",
+          "Year": 2019,
+          "Developers": "Rob Daviau,JR Honeycutt,Justin D. Jacobson"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 163474,
+          "Name": "V-Commandos",
+          "Year": 2016,
+          "Developers": "Thibaud de la Touanne"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 150999,
+          "Name": "Valley of the Kings",
+          "Year": 2014,
+          "Developers": "Tom Cleaver"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 170416,
+          "Name": "Vast: The Crystal Caverns",
+          "Year": 2016,
+          "Developers": "Patrick Leder,David Somerville"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 15364,
+          "Name": "Vegas Showdown",
+          "Year": 2005,
+          "Developers": "Henry Stern"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 34871,
+          "Name": "Ventura",
+          "Year": 2011,
+          "Developers": "Alberto Menoncin,Silvio Negri-Clementi"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 191231,
+          "Name": "Via Nebula",
+          "Year": 2016,
+          "Developers": "Martin Wallace"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 157526,
+          "Name": "Viceroy",
+          "Year": 2014,
+          "Developers": "Yuri Zhuravljov"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 27173,
+          "Name": "Vikings",
+          "Year": 2007,
+          "Developers": "Michael Kiesling"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 104006,
+          "Name": "Village",
+          "Year": 2011,
+          "Developers": "Inka Brand,Markus Brand"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 212281,
+          "Name": "Village Attacks",
+          "Year": 2017,
+          "Developers": "Adam Smith"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 180040,
+          "Name": "Villages of Valeria",
+          "Year": 2017,
+          "Developers": "Rick Holzgrafe,Isaias Vallejo"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 183394,
+          "Name": "Viticulture Essential Edition",
+          "Year": 2015,
+          "Developers": "Morten Monrad Pedersen,Jamey Stegmaier,Alan Stone"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 139899,
+          "Name": "VivaJava: The Coffee Game: The Dice Game",
+          "Year": 2014,
+          "Developers": "T. C. Petty, III"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 128554,
+          "Name": "V\u00f6lusp\u00e1",
+          "Year": 2012,
+          "Developers": "Scott Caputo"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 171623,
+          "Name": "The Voyages of Marco Polo",
+          "Year": 2015,
+          "Developers": "Simone Luciani,Daniele Tascini"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 75165,
+          "Name": "De Vulgari Eloquentia",
+          "Year": 2010,
+          "Developers": "Mario Papini"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 158572,
+          "Name": "Waggle Dance",
+          "Year": 2014,
+          "Developers": "Mike Nudd"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 286145,
+          "Name": "Walking in Provence",
+          "Year": 2019,
+          "Developers": "Wei-Min Ling"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 249259,
+          "Name": "War Chest",
+          "Year": 2018,
+          "Developers": "Trevor Benjamin,David Thompson (I)"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 156776,
+          "Name": "Warhammer 40,000: Conquest",
+          "Year": 2014,
+          "Developers": "Brad Andres,Nate French,Eric M. Lang"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 181521,
+          "Name": "Warhammer Quest: The Adventure Card Game",
+          "Year": 2015,
+          "Developers": "Justin Kemppainen,Adam Sadler,Brady Sadler"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 261594,
+          "Name": "Warhammer Underworlds: Nightvault",
+          "Year": 2018,
+          "Developers": "David Sanders"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 224597,
+          "Name": "Warhammer Underworlds: Shadespire",
+          "Year": 2017,
+          "Developers": "David Sanders"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 146418,
+          "Name": "Warhammer: Diskwars",
+          "Year": 2013,
+          "Developers": "Tom Jolly,Lukas Litzsinger,Christian T. Petersen"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 221408,
+          "Name": "Warriors of Jogu: Feint",
+          "Year": 2017,
+          "Developers": "Tony Chen"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 206803,
+          "Name": "Warsaw: City of Ruins",
+          "Year": 2016,
+          "Developers": "Filip Mi\u0142u\u0144ski"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 31016,
+          "Name": "We Didn't Playtest This At All",
+          "Year": 2007,
+          "Developers": "Chris Cieslik"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 150312,
+          "Name": "Welcome to the Dungeon",
+          "Year": 2013,
+          "Developers": "Masato Uesugi"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 245422,
+          "Name": "Werewords Deluxe Edition",
+          "Year": 2018,
+          "Developers": "Ted Alspach"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 198454,
+          "Name": "When I Dream",
+          "Year": 2016,
+          "Developers": "Chris Darsaklis"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 190082,
+          "Name": "Whitehall Mystery",
+          "Year": 2017,
+          "Developers": "Gabriele Mari,Gianluca Santopietro"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 244654,
+          "Name": "Wildlands",
+          "Year": 2018,
+          "Developers": "Martin Wallace"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 266192,
+          "Name": "Wingspan",
+          "Year": 2019,
+          "Developers": "Elizabeth Hargrave"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 165401,
+          "Name": "Wir sind das Volk!",
+          "Year": 2014,
+          "Developers": "Richard Siv\u00e9l,Peer Sylvester"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 71655,
+          "Name": "Wok Star",
+          "Year": 2010,
+          "Developers": "Tim Fowers"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 205057,
+          "Name": "Word Domination",
+          "Year": 2017,
+          "Developers": "Jeff Beck (II)"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 111148,
+          "Name": "W\u00fcrfel Bohnanza",
+          "Year": 2012,
+          "Developers": "Uwe Rosenberg"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 163602,
+          "Name": "XCOM: The Board Game",
+          "Year": 2015,
+          "Developers": "Eric M. Lang"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 189660,
+          "Name": "XenoShyft: Dreadmire",
+          "Year": 2017,
+          "Developers": "Michael Shinall"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 159109,
+          "Name": "XenoShyft: Onslaught",
+          "Year": 2015,
+          "Developers": "Keren Philosophales,Michael Shinall"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 213893,
+          "Name": "Yamata\u00ef",
+          "Year": 2017,
+          "Developers": "Bruno Cathala,Marc Paquien"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 117915,
+          "Name": "Yedo",
+          "Year": 2012,
+          "Developers": "Thomas Vande Ginste,Wolf Plancke"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 196340,
+          "Name": "Yokohama",
+          "Year": 2016,
+          "Developers": "Hisashi Hayashi"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 176189,
+          "Name": "Zombicide: Black Plague",
+          "Year": 2015,
+          "Developers": "Rapha\u00ebl Guiton,Jean-Baptiste Lullien,Nicolas Raoult"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 224710,
+          "Name": "Zombicide: Green Horde",
+          "Year": 2018,
+          "Developers": "Rapha\u00ebl Guiton,Jean-Baptiste Lullien,Nicolas Raoult"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 176642,
+          "Name": "\u3072\u3068\u3072\u3089 (Hitohira)",
+          "Year": 2015,
+          "Developers": "\u6298\u53e3 \u65e5\u5411 (Hinata Origuchi)"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 295770,
+          "Name": "Frosthaven",
+          "Year": 2021,
+          "Developers": "Isaac Childres"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 276025,
+          "Name": "Maracaibo",
+          "Year": 2019,
+          "Developers": "Alexander Pfister"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 270844,
+          "Name": "Imperial Settlers: Empires of the North",
+          "Year": 2019,
+          "Developers": "Joanna Kijanka,Ignacy Trzewiczek"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 294378,
+          "Name": "Divinity Original Sin: The Board Game",
+          "Year": 2020,
+          "Developers": "Dylan Birtolo,Josh Derksen,Thomas M. Gofton"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 253344,
+          "Name": "Cthulhu: Death May Die",
+          "Year": 2019,
+          "Developers": "Rob Daviau,Eric M. Lang"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 286096,
+          "Name": "Tapestry",
+          "Year": 2019,
+          "Developers": "Jamey Stegmaier"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 266810,
+          "Name": "Paladins of the West Kingdom",
+          "Year": 2019,
+          "Developers": "Shem Phillips,S J Macdonald"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 248490,
+          "Name": "Atlantis Rising (second edition)",
+          "Year": 2019,
+          "Developers": "Galen Ciscell,Brent Dickman"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 139976,
+          "Name": "Cthulhu Wars",
+          "Year": 2015,
+          "Developers": "Sandy Petersen,Lincoln Petersen"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 244521,
+          "Name": "The Quacks of Quedlinburg",
+          "Year": 2018,
+          "Developers": "Wolfgang Warsch"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 236457,
+          "Name": "Architects of the West Kingdom",
+          "Year": 2018,
+          "Developers": "Shem Phillips,S J Macdonald"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 296151,
+          "Name": "Viscounts of the West Kingdom",
+          "Year": 2020,
+          "Developers": "Shem Phillips,S J Macdonald"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 271324,
+          "Name": "It's a Wonderful World",
+          "Year": 2019,
+          "Developers": "Fr\u00e9d\u00e9ric Gu\u00e9rard"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 266524,
+          "Name": "PARKS",
+          "Year": 2019,
+          "Developers": "Henry Audubon"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 233078,
+          "Name": "Twilight Imperium (Fourth Edition)",
+          "Year": 2017,
+          "Developers": "Dane Beltrami,Corey Konieczka,Christian T. Petersen"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 283355,
+          "Name": "Dune",
+          "Year": 2019,
+          "Developers": "Bill Eberle,Jack Kittredge,Peter Olotka"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 55690,
+          "Name": "Kingdom Death: Monster",
+          "Year": 2015,
+          "Developers": "Adam Poots"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 254640,
+          "Name": "Just One",
+          "Year": 2018,
+          "Developers": "Ludovic Roudy,Bruno Sautter"
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": 268864,
+          "Name": "Undaunted: Normandy",
+          "Year": 2019,
+          "Developers": "Trevor Benjamin,David Thompson (I)"
+        }
+      }
+    }
+  ]
+}

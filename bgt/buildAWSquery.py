@@ -19,3 +19,6 @@ validGames = [Game(**game) for game in games.values()]
 query = {"Games": [game.asPutRequest() for game in validGames]}
 
 print(query)
+
+with open("PutQuery.json", "w") as queryfile:
+    json.dump(query, queryfile, indent=2)
