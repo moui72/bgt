@@ -1,0 +1,9 @@
+README.rst
+setup.py
+bgt/__init__.py
+bgt/main.py
+bgt.egg-info/PKG-INFO
+bgt.egg-info/SOURCES.txt
+bgt.egg-info/dependency_links.txt
+bgt.egg-info/requires.txt
+bgt.egg-info/top_level.txt

@@ -1,0 +1,82 @@
+{
+  "AttributeDefinitions": [
+    {
+      "AttributeName": "Name",
+      "AttributeType": "S"
+    },
+    {
+      "AttributeName": "Id",
+      "AttributeType": "N"
+    },
+    {
+      "AttributeName": "Designers",
+      "AttributeType": "S"
+    },
+
+    {
+      "AttributeName": "Year",
+      "AttributeType": "N"
+    }
+  ],
+  "GlobalSecondaryIndexes": [
+    {
+      "IndexName": "Name-index",
+      "Projection": {
+        "ProjectionType": "ALL"
+      },
+      "ProvisionedThroughput": {
+        "WriteCapacityUnits": 5,
+        "ReadCapacityUnits": 5
+      },
+      "KeySchema": [
+        {
+          "KeyType": "HASH",
+          "AttributeName": "Name"
+        }
+      ]
+    },
+    {
+      "IndexName": "Year-index",
+      "Projection": {
+        "ProjectionType": "ALL"
+      },
+      "ProvisionedThroughput": {
+        "WriteCapacityUnits": 5,
+        "ReadCapacityUnits": 5
+      },
+      "KeySchema": [
+        {
+          "KeyType": "HASH",
+          "AttributeName": "Year"
+        }
+      ]
+    },
+    {
+      "IndexName": "Designers-index",
+      "Projection": {
+        "ProjectionType": "ALL"
+      },
+      "ProvisionedThroughput": {
+        "WriteCapacityUnits": 5,
+        "ReadCapacityUnits": 5
+      },
+      "KeySchema": [
+        {
+          "KeyType": "HASH",
+          "AttributeName": "Designers"
+        }
+      ]
+    }
+  ],
+  "ProvisionedThroughput": {
+    "WriteCapacityUnits": 5,
+    "ReadCapacityUnits": 5
+  },
+  "TableName": "GamesTest",
+  "KeySchema": [
+    {
+      "KeyType": "HASH",
+      "AttributeName": "Id"
+    }
+  ]
+}
