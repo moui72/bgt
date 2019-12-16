@@ -36,10 +36,10 @@ class Game(BaseWithFetched):
 
     def toAWSDyDBScheme(self):
         return {
-            "Id": self.id,
-            "Name": self.name,
-            "Year": self.year_published,
-            "Developers": ','.join(self.developers)
+            "Id": {"N": str(self.id)},
+            "Name": {"S": str(self.name)},
+            "Year": {"N": str(self.year_published)},
+            "Developers": {"S": ','.join(self.developers)}
         }
 
     def asPutRequest(self):

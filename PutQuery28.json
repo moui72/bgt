@@ -1,0 +1,454 @@
+{
+  "GamesTest": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "104377"
+          },
+          "Name": {
+            "S": "TSCHAK!"
+          },
+          "Year": {
+            "N": "2011"
+          },
+          "Developers": {
+            "S": "Dominique Ehrhard"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "16992"
+          },
+          "Name": {
+            "S": "Tsuro"
+          },
+          "Year": {
+            "N": "2004"
+          },
+          "Developers": {
+            "S": "Tom McMurchie"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "279198"
+          },
+          "Name": {
+            "S": "Tungaru"
+          },
+          "Year": {
+            "N": "2020"
+          },
+          "Developers": {
+            "S": "Louis Malz,Stefan Malz"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "189932"
+          },
+          "Name": {
+            "S": "Tyrants of the Underdark"
+          },
+          "Year": {
+            "N": "2016"
+          },
+          "Developers": {
+            "S": "Peter Lee,Rodney Thompson,Andrew Veen"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "128063"
+          },
+          "Name": {
+            "S": "Uchronia"
+          },
+          "Year": {
+            "N": "2012"
+          },
+          "Developers": {
+            "S": "Carl Chudyk"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "217085"
+          },
+          "Name": {
+            "S": "Unearth"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "Jason Harner,Matthew Ransom"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "179172"
+          },
+          "Name": {
+            "S": "Unfair"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "Joel Finch"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "204605"
+          },
+          "Name": {
+            "S": "Unicornus Knights"
+          },
+          "Year": {
+            "N": "2016"
+          },
+          "Developers": {
+            "S": "Seiji Kanai,Kuro"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "216092"
+          },
+          "Name": {
+            "S": "Unlock! Squeek & Sausage"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "Alice Carroll"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "216091"
+          },
+          "Name": {
+            "S": "Unlock! The Formula"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "Cyril Demaegd"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "274637"
+          },
+          "Name": {
+            "S": "Unmatched: Battle of Legends, Volume One"
+          },
+          "Year": {
+            "N": "2019"
+          },
+          "Developers": {
+            "S": "Rob Daviau,JR Honeycutt,Justin D. Jacobson"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "163474"
+          },
+          "Name": {
+            "S": "V-Commandos"
+          },
+          "Year": {
+            "N": "2016"
+          },
+          "Developers": {
+            "S": "Thibaud de la Touanne"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "150999"
+          },
+          "Name": {
+            "S": "Valley of the Kings"
+          },
+          "Year": {
+            "N": "2014"
+          },
+          "Developers": {
+            "S": "Tom Cleaver"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "170416"
+          },
+          "Name": {
+            "S": "Vast: The Crystal Caverns"
+          },
+          "Year": {
+            "N": "2016"
+          },
+          "Developers": {
+            "S": "Patrick Leder,David Somerville"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "15364"
+          },
+          "Name": {
+            "S": "Vegas Showdown"
+          },
+          "Year": {
+            "N": "2005"
+          },
+          "Developers": {
+            "S": "Henry Stern"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "34871"
+          },
+          "Name": {
+            "S": "Ventura"
+          },
+          "Year": {
+            "N": "2011"
+          },
+          "Developers": {
+            "S": "Alberto Menoncin,Silvio Negri-Clementi"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "191231"
+          },
+          "Name": {
+            "S": "Via Nebula"
+          },
+          "Year": {
+            "N": "2016"
+          },
+          "Developers": {
+            "S": "Martin Wallace"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "157526"
+          },
+          "Name": {
+            "S": "Viceroy"
+          },
+          "Year": {
+            "N": "2014"
+          },
+          "Developers": {
+            "S": "Yuri Zhuravljov"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "27173"
+          },
+          "Name": {
+            "S": "Vikings"
+          },
+          "Year": {
+            "N": "2007"
+          },
+          "Developers": {
+            "S": "Michael Kiesling"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "104006"
+          },
+          "Name": {
+            "S": "Village"
+          },
+          "Year": {
+            "N": "2011"
+          },
+          "Developers": {
+            "S": "Inka Brand,Markus Brand"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "212281"
+          },
+          "Name": {
+            "S": "Village Attacks"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "Adam Smith"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "180040"
+          },
+          "Name": {
+            "S": "Villages of Valeria"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "Rick Holzgrafe,Isaias Vallejo"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "183394"
+          },
+          "Name": {
+            "S": "Viticulture Essential Edition"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Morten Monrad Pedersen,Jamey Stegmaier,Alan Stone"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "139899"
+          },
+          "Name": {
+            "S": "VivaJava: The Coffee Game: The Dice Game"
+          },
+          "Year": {
+            "N": "2014"
+          },
+          "Developers": {
+            "S": "T. C. Petty, III"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "128554"
+          },
+          "Name": {
+            "S": "V\u00f6lusp\u00e1"
+          },
+          "Year": {
+            "N": "2012"
+          },
+          "Developers": {
+            "S": "Scott Caputo"
+          }
+        }
+      }
+    }
+  ]
+}

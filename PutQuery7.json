@@ -1,0 +1,454 @@
+{
+  "GamesTest": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "71882"
+          },
+          "Name": {
+            "S": "Conquest of Planet Earth: The Space Alien Game"
+          },
+          "Year": {
+            "N": "2010"
+          },
+          "Developers": {
+            "S": "Jason C. Hill"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "98351"
+          },
+          "Name": {
+            "S": "Core Worlds"
+          },
+          "Year": {
+            "N": "2011"
+          },
+          "Developers": {
+            "S": "Andrew Parks"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "39463"
+          },
+          "Name": {
+            "S": "Cosmic Encounter"
+          },
+          "Year": {
+            "N": "2008"
+          },
+          "Developers": {
+            "S": "Bill Eberle,Jack Kittredge,Bill Norton,Peter Olotka,Kevin Wilson"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "173101"
+          },
+          "Name": {
+            "S": "Council of 4"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Simone Luciani,Daniele Tascini"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "140863"
+          },
+          "Name": {
+            "S": "Council of Verona"
+          },
+          "Year": {
+            "N": "2013"
+          },
+          "Developers": {
+            "S": "Michael Eskue"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "131357"
+          },
+          "Name": {
+            "S": "Coup"
+          },
+          "Year": {
+            "N": "2012"
+          },
+          "Developers": {
+            "S": "Rikki Tahta"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "192457"
+          },
+          "Name": {
+            "S": "Cry Havoc"
+          },
+          "Year": {
+            "N": "2016"
+          },
+          "Developers": {
+            "S": "Grant Rodiek,Micha\u0142 Oracz,Micha\u0142 Walczak"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "223049"
+          },
+          "Name": {
+            "S": "Custom Heroes"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "John D. Clair"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "54998"
+          },
+          "Name": {
+            "S": "Cyclades"
+          },
+          "Year": {
+            "N": "2009"
+          },
+          "Developers": {
+            "S": "Bruno Cathala,Ludovic Maublanc"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "176165"
+          },
+          "Name": {
+            "S": "Dale of Merchants"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Sami Laakso"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "191597"
+          },
+          "Name": {
+            "S": "Dale of Merchants 2"
+          },
+          "Year": {
+            "N": "2016"
+          },
+          "Developers": {
+            "S": "Sami Laakso"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "251551"
+          },
+          "Name": {
+            "S": "Dale of Merchants Collection"
+          },
+          "Year": {
+            "N": "2019"
+          },
+          "Developers": {
+            "S": "Sami Laakso"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "128445"
+          },
+          "Name": {
+            "S": "Darkest Night"
+          },
+          "Year": {
+            "N": "2012"
+          },
+          "Developers": {
+            "S": "Jeremy Lennert"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "44"
+          },
+          "Name": {
+            "S": "David & Goliath"
+          },
+          "Year": {
+            "N": "1997"
+          },
+          "Developers": {
+            "S": "Reinhard Staupe"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "141423"
+          },
+          "Name": {
+            "S": "Dead Men Tell No Tales"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Kane Klenko"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "150376"
+          },
+          "Name": {
+            "S": "Dead of Winter: A Crossroads Game"
+          },
+          "Year": {
+            "N": "2014"
+          },
+          "Developers": {
+            "S": "Jonathan Gilmour,Isaac Vega"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "145601"
+          },
+          "Name": {
+            "S": "Deadline"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "Dan Schnake,Adam West"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "224815"
+          },
+          "Name": {
+            "S": "Deca Slayer"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "Hisashi Hayashi,Seiji Kanai"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "65532"
+          },
+          "Name": {
+            "S": "Defenders of the Realm"
+          },
+          "Year": {
+            "N": "2010"
+          },
+          "Developers": {
+            "S": "Richard Launius"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "104162"
+          },
+          "Name": {
+            "S": "Descent: Journeys in the Dark (Second Edition)"
+          },
+          "Year": {
+            "N": "2012"
+          },
+          "Developers": {
+            "S": "Daniel Clark (I),Corey Konieczka,Adam Sadler,Kevin Wilson"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "162082"
+          },
+          "Name": {
+            "S": "Deus"
+          },
+          "Year": {
+            "N": "2014"
+          },
+          "Developers": {
+            "S": "S\u00e9bastien Dujardin"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "194594"
+          },
+          "Name": {
+            "S": "Dice Forge"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "R\u00e9gis Bonness\u00e9e"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "56022"
+          },
+          "Name": {
+            "S": "Dice of the Living Dead"
+          },
+          "Year": {
+            "N": "2009"
+          },
+          "Developers": {
+            "S": "Mads L. Brynnum"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "216734"
+          },
+          "Name": {
+            "S": "Dice Throne: Season One"
+          },
+          "Year": {
+            "N": "2018"
+          },
+          "Developers": {
+            "S": "Nate Chatellier,Manny Trembley"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "244271"
+          },
+          "Name": {
+            "S": "Dice Throne: Season Two \u2013 Battle Chest"
+          },
+          "Year": {
+            "N": "2018"
+          },
+          "Developers": {
+            "S": "Nate Chatellier,Manny Trembley"
+          }
+        }
+      }
+    }
+  ]
+}

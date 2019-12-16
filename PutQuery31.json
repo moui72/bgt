@@ -1,0 +1,22 @@
+{
+  "GamesTest": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "268864"
+          },
+          "Name": {
+            "S": "Undaunted: Normandy"
+          },
+          "Year": {
+            "N": "2019"
+          },
+          "Developers": {
+            "S": "Trevor Benjamin,David Thompson (I)"
+          }
+        }
+      }
+    }
+  ]
+}

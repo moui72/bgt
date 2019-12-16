@@ -1,0 +1,454 @@
+{
+  "GamesTest": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "184921"
+          },
+          "Name": {
+            "S": "Bunny Kingdom"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "Richard Garfield"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "114438"
+          },
+          "Name": {
+            "S": "But Wait, There's More!"
+          },
+          "Year": {
+            "N": "2011"
+          },
+          "Developers": {
+            "S": "Jay Cormier,Sen-Foong Lim"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "171499"
+          },
+          "Name": {
+            "S": "Cacao"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Phil Walker-Harding"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "69120"
+          },
+          "Name": {
+            "S": "Cadwallon: City of Thieves"
+          },
+          "Year": {
+            "N": "2010"
+          },
+          "Developers": {
+            "S": "Pascal Bernard,Laurent Pouchain"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "41"
+          },
+          "Name": {
+            "S": "Can't Stop"
+          },
+          "Year": {
+            "N": "1980"
+          },
+          "Developers": {
+            "S": "Sid Sackson"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "141008"
+          },
+          "Name": {
+            "S": "Carcassonne Big Box 2"
+          },
+          "Year": {
+            "N": "2008"
+          },
+          "Developers": {
+            "S": "Klaus-J\u00fcrgen Wrede"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "4390"
+          },
+          "Name": {
+            "S": "Carcassonne: Hunters and Gatherers"
+          },
+          "Year": {
+            "N": "2002"
+          },
+          "Developers": {
+            "S": "Klaus-J\u00fcrgen Wrede"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "131014"
+          },
+          "Name": {
+            "S": "Carcassonne: Winter Edition"
+          },
+          "Year": {
+            "N": "2012"
+          },
+          "Developers": {
+            "S": "Klaus-J\u00fcrgen Wrede"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "90305"
+          },
+          "Name": {
+            "S": "Cargo Noir"
+          },
+          "Year": {
+            "N": "2011"
+          },
+          "Developers": {
+            "S": "Serge Laget"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "231484"
+          },
+          "Name": {
+            "S": "Carnival of Monsters"
+          },
+          "Year": {
+            "N": "2019"
+          },
+          "Developers": {
+            "S": "Richard Garfield"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "826"
+          },
+          "Name": {
+            "S": "Cartagena"
+          },
+          "Year": {
+            "N": "2000"
+          },
+          "Developers": {
+            "S": "Leo Colovini"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "263918"
+          },
+          "Name": {
+            "S": "Cartographers: A Roll Player Tale"
+          },
+          "Year": {
+            "N": "2019"
+          },
+          "Developers": {
+            "S": "Jordy Adan"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "224153"
+          },
+          "Name": {
+            "S": "Cartouche Dynasties"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "John Clowdus"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "38386"
+          },
+          "Name": {
+            "S": "A Castle for All Seasons"
+          },
+          "Year": {
+            "N": "2008"
+          },
+          "Developers": {
+            "S": "Inka Brand,Markus Brand"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "84876"
+          },
+          "Name": {
+            "S": "The Castles of Burgundy"
+          },
+          "Year": {
+            "N": "2011"
+          },
+          "Developers": {
+            "S": "Stefan Feld"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "155426"
+          },
+          "Name": {
+            "S": "Castles of Mad King Ludwig"
+          },
+          "Year": {
+            "N": "2014"
+          },
+          "Developers": {
+            "S": "Ted Alspach"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "228504"
+          },
+          "Name": {
+            "S": "Cat Lady"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "Josh Wood"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "204141"
+          },
+          "Name": {
+            "S": "Cat Town"
+          },
+          "Year": {
+            "N": "2016"
+          },
+          "Developers": {
+            "S": "Jog Kung"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "13"
+          },
+          "Name": {
+            "S": "Catan"
+          },
+          "Year": {
+            "N": "1995"
+          },
+          "Developers": {
+            "S": "Klaus Teuber"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "220520"
+          },
+          "Name": {
+            "S": "Caverna: Cave vs Cave"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "Uwe Rosenberg"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "102794"
+          },
+          "Name": {
+            "S": "Caverna: The Cave Farmers"
+          },
+          "Year": {
+            "N": "2013"
+          },
+          "Developers": {
+            "S": "Uwe Rosenberg"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "232832"
+          },
+          "Name": {
+            "S": "Century: Golem Edition"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "Emerson Matsuuchi"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "209685"
+          },
+          "Name": {
+            "S": "Century: Spice Road"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "Emerson Matsuuchi"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "236781"
+          },
+          "Name": {
+            "S": "Cerebria: The Inside World \u2013 Origin Box"
+          },
+          "Year": {
+            "N": "2018"
+          },
+          "Developers": {
+            "S": "Richard Amann,Viktor Peter"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "172287"
+          },
+          "Name": {
+            "S": "Champions of Midgard"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Ole Steiness"
+          }
+        }
+      }
+    }
+  ]
+}

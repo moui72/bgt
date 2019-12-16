@@ -1,0 +1,454 @@
+{
+  "GamesTest": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "43111"
+          },
+          "Name": {
+            "S": "Chaos in the Old World"
+          },
+          "Year": {
+            "N": "2009"
+          },
+          "Developers": {
+            "S": "Eric M. Lang"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "197376"
+          },
+          "Name": {
+            "S": "Charterstone"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "Jamey Stegmaier"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "161943"
+          },
+          "Name": {
+            "S": "Chos\u014fn"
+          },
+          "Year": {
+            "N": "2014"
+          },
+          "Developers": {
+            "S": "Gary Kim"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "54307"
+          },
+          "Name": {
+            "S": "Chronicle"
+          },
+          "Year": {
+            "N": "2009"
+          },
+          "Developers": {
+            "S": "Seiji Kanai"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "264052"
+          },
+          "Name": {
+            "S": "Circadians: First Light"
+          },
+          "Year": {
+            "N": "2019"
+          },
+          "Developers": {
+            "S": "S J Macdonald"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "478"
+          },
+          "Name": {
+            "S": "Citadels"
+          },
+          "Year": {
+            "N": "2000"
+          },
+          "Developers": {
+            "S": "Bruno Faidutti"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "205398"
+          },
+          "Name": {
+            "S": "Citadels"
+          },
+          "Year": {
+            "N": "2016"
+          },
+          "Developers": {
+            "S": "Bruno Faidutti"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "123499"
+          },
+          "Name": {
+            "S": "City of Iron"
+          },
+          "Year": {
+            "N": "2013"
+          },
+          "Developers": {
+            "S": "Ryan Laukat"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "169318"
+          },
+          "Name": {
+            "S": "City of Spies: Estoril 1942"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Gil d'Orey,Antonio Sousa Lara"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "266507"
+          },
+          "Name": {
+            "S": "Clank! Legacy: Acquisitions Incorporated"
+          },
+          "Year": {
+            "N": "2019"
+          },
+          "Developers": {
+            "S": "Andy Clautice,Paul Dennen"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "201808"
+          },
+          "Name": {
+            "S": "Clank!: A Deck-Building Adventure"
+          },
+          "Year": {
+            "N": "2016"
+          },
+          "Developers": {
+            "S": "Paul Dennen"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "216132"
+          },
+          "Name": {
+            "S": "Clans of Caledonia"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "Juma Al-JouJou"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "40765"
+          },
+          "Name": {
+            "S": "Clash of Cultures"
+          },
+          "Year": {
+            "N": "2012"
+          },
+          "Developers": {
+            "S": "Christian Marcussen"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "139952"
+          },
+          "Name": {
+            "S": "Clockwork Wars"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Hassan Lopez"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "178900"
+          },
+          "Name": {
+            "S": "Codenames"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Vlaada Chv\u00e1til"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "224037"
+          },
+          "Name": {
+            "S": "Codenames: Duet"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "Vlaada Chv\u00e1til,Scot Eaton"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "198773"
+          },
+          "Name": {
+            "S": "Codenames: Pictures"
+          },
+          "Year": {
+            "N": "2016"
+          },
+          "Developers": {
+            "S": "Vlaada Chv\u00e1til"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "215437"
+          },
+          "Name": {
+            "S": "Codex: Card-Time Strategy \u2013 Core Set"
+          },
+          "Year": {
+            "N": "2016"
+          },
+          "Developers": {
+            "S": "David Sirlin"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "131111"
+          },
+          "Name": {
+            "S": "Codex: Card-Time Strategy \u2013 Deluxe Set"
+          },
+          "Year": {
+            "N": "2016"
+          },
+          "Developers": {
+            "S": "David Sirlin"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "245638"
+          },
+          "Name": {
+            "S": "Coimbra"
+          },
+          "Year": {
+            "N": "2018"
+          },
+          "Developers": {
+            "S": "Flaminia Brasini,Virginio Gigli"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "192934"
+          },
+          "Name": {
+            "S": "Colony"
+          },
+          "Year": {
+            "N": "2016"
+          },
+          "Developers": {
+            "S": "Ted Alspach,Toryo Hojo,N2"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "159355"
+          },
+          "Name": {
+            "S": "Colors of Kasane"
+          },
+          "Year": {
+            "N": "2014"
+          },
+          "Developers": {
+            "S": "\u6298\u53e3 \u65e5\u5411 (Hinata Origuchi)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "105"
+          },
+          "Name": {
+            "S": "Colossal Arena"
+          },
+          "Year": {
+            "N": "1997"
+          },
+          "Developers": {
+            "S": "Reiner Knizia"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "124361"
+          },
+          "Name": {
+            "S": "Concordia"
+          },
+          "Year": {
+            "N": "2013"
+          },
+          "Developers": {
+            "S": "Mac Gerdts"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "112"
+          },
+          "Name": {
+            "S": "Condottiere"
+          },
+          "Year": {
+            "N": "1995"
+          },
+          "Developers": {
+            "S": "Dominique Ehrhard,Duccio Vitale"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,454 @@
+{
+  "GamesTest": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "155122"
+          },
+          "Name": {
+            "S": "1066, Tears To Many Mothers"
+          },
+          "Year": {
+            "N": "2018"
+          },
+          "Developers": {
+            "S": "Tristan Hall"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "187104"
+          },
+          "Name": {
+            "S": "4 Gods"
+          },
+          "Year": {
+            "N": "2016"
+          },
+          "Developers": {
+            "S": "Christophe Boelinger"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "207830"
+          },
+          "Name": {
+            "S": "5-Minute Dungeon"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "Connor Reid"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "73369"
+          },
+          "Name": {
+            "S": "51st State"
+          },
+          "Year": {
+            "N": "2010"
+          },
+          "Developers": {
+            "S": "Ignacy Trzewiczek"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "192458"
+          },
+          "Name": {
+            "S": "51st State: Master Set"
+          },
+          "Year": {
+            "N": "2016"
+          },
+          "Developers": {
+            "S": "Ignacy Trzewiczek"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "164369"
+          },
+          "Name": {
+            "S": "7 Kingdoms"
+          },
+          "Year": {
+            "N": "2014"
+          },
+          "Developers": {
+            "S": "Gary Kim"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "154173"
+          },
+          "Name": {
+            "S": "7 Ronin"
+          },
+          "Year": {
+            "N": "2013"
+          },
+          "Developers": {
+            "S": "Marek Mydel,Piotr Stankiewicz"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "68448"
+          },
+          "Name": {
+            "S": "7 Wonders"
+          },
+          "Year": {
+            "N": "2010"
+          },
+          "Developers": {
+            "S": "Antoine Bauza"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "173346"
+          },
+          "Name": {
+            "S": "7 Wonders Duel"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Antoine Bauza,Bruno Cathala"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "180263"
+          },
+          "Name": {
+            "S": "The 7th Continent"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "Ludovic Roudy,Bruno Sautter"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "204516"
+          },
+          "Name": {
+            "S": "878 Vikings: Invasions of England"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "Beau Beckett,Dave Kimmel,Jeph Stahl"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "217"
+          },
+          "Name": {
+            "S": "A la carte"
+          },
+          "Year": {
+            "N": "1989"
+          },
+          "Developers": {
+            "S": "Karl-Heinz Schmiel"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "172818"
+          },
+          "Name": {
+            "S": "Above and Below"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Ryan Laukat"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "155987"
+          },
+          "Name": {
+            "S": "Abyss"
+          },
+          "Year": {
+            "N": "2014"
+          },
+          "Developers": {
+            "S": "Bruno Cathala,Charles Chevallier"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "226170"
+          },
+          "Name": {
+            "S": "Advanced Guildhall Fantasy: The Gathering"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "Hope S. Hwang"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "191189"
+          },
+          "Name": {
+            "S": "Aeon's End"
+          },
+          "Year": {
+            "N": "2016"
+          },
+          "Developers": {
+            "S": "Kevin Riley"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "241451"
+          },
+          "Name": {
+            "S": "Aeon's End: Legacy"
+          },
+          "Year": {
+            "N": "2019"
+          },
+          "Developers": {
+            "S": "Nick Little (I),Kevin Riley"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "270633"
+          },
+          "Name": {
+            "S": "Aeon's End: The New Age"
+          },
+          "Year": {
+            "N": "2019"
+          },
+          "Developers": {
+            "S": "Kevin Riley"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "218417"
+          },
+          "Name": {
+            "S": "Aeon's End: War Eternal"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "Kevin Riley"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "155695"
+          },
+          "Name": {
+            "S": "Age of War"
+          },
+          "Year": {
+            "N": "2014"
+          },
+          "Developers": {
+            "S": "Reiner Knizia"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "141932"
+          },
+          "Name": {
+            "S": "The Agents"
+          },
+          "Year": {
+            "N": "2013"
+          },
+          "Developers": {
+            "S": "Saar Shai"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "255262"
+          },
+          "Name": {
+            "S": "Agricola: All Creatures Big and Small \u2013 The Big Box"
+          },
+          "Year": {
+            "N": "2018"
+          },
+          "Developers": {
+            "S": "Uwe Rosenberg"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "154458"
+          },
+          "Name": {
+            "S": "Akrotiri"
+          },
+          "Year": {
+            "N": "2014"
+          },
+          "Developers": {
+            "S": "Jay Cormier,Sen-Foong Lim"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "161970"
+          },
+          "Name": {
+            "S": "Alchemists"
+          },
+          "Year": {
+            "N": "2014"
+          },
+          "Developers": {
+            "S": "Mat\u00fa\u0161 Kotry"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "181293"
+          },
+          "Name": {
+            "S": "Alien Artifacts"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "Marcin Senior Ropka,Viola Kijowska"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,454 @@
+{
+  "GamesTest": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "204675"
+          },
+          "Name": {
+            "S": "The Arrival"
+          },
+          "Year": {
+            "N": "2016"
+          },
+          "Developers": {
+            "S": "Martin Wallace"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "160432"
+          },
+          "Name": {
+            "S": "Ars Alchimia"
+          },
+          "Year": {
+            "N": "2014"
+          },
+          "Developers": {
+            "S": "Kuro"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "128204"
+          },
+          "Name": {
+            "S": "Ars Victor"
+          },
+          "Year": {
+            "N": "2013"
+          },
+          "Developers": {
+            "S": "Stephen DeBaun"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "168609"
+          },
+          "Name": {
+            "S": "Artifacts, Inc."
+          },
+          "Year": {
+            "N": "2014"
+          },
+          "Developers": {
+            "S": "Ryan Laukat"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "92643"
+          },
+          "Name": {
+            "S": "Artus"
+          },
+          "Year": {
+            "N": "2011"
+          },
+          "Developers": {
+            "S": "Michael Kiesling,Wolfgang Kramer"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "136056"
+          },
+          "Name": {
+            "S": "Asante"
+          },
+          "Year": {
+            "N": "2013"
+          },
+          "Developers": {
+            "S": "R\u00fcdiger Dorn"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "69789"
+          },
+          "Name": {
+            "S": "Ascension: Deckbuilding Game"
+          },
+          "Year": {
+            "N": "2010"
+          },
+          "Developers": {
+            "S": "John Fiorillo,Justin Gary"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "230273"
+          },
+          "Name": {
+            "S": "Ascension: Valley of the Ancients"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "Justin Gary,Ben Lundquist"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "131118"
+          },
+          "Name": {
+            "S": "Asgard"
+          },
+          "Year": {
+            "N": "2012"
+          },
+          "Developers": {
+            "S": "Pierluca Zizzi"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "167400"
+          },
+          "Name": {
+            "S": "Ashes: Rise of the Phoenixborn"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Isaac Vega"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "156442"
+          },
+          "Name": {
+            "S": "Asking for Trobils"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Erin McDonald,Christian Strain"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "39683"
+          },
+          "Name": {
+            "S": "At the Gates of Loyang"
+          },
+          "Year": {
+            "N": "2009"
+          },
+          "Developers": {
+            "S": "Uwe Rosenberg"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "55253"
+          },
+          "Name": {
+            "S": "Atlantis"
+          },
+          "Year": {
+            "N": "2009"
+          },
+          "Developers": {
+            "S": "Leo Colovini"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "230802"
+          },
+          "Name": {
+            "S": "Azul"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "Michael Kiesling"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "256226"
+          },
+          "Name": {
+            "S": "Azul: Stained Glass of Sintra"
+          },
+          "Year": {
+            "N": "2018"
+          },
+          "Developers": {
+            "S": "Michael Kiesling"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "986"
+          },
+          "Name": {
+            "S": "Babel"
+          },
+          "Year": {
+            "N": "2000"
+          },
+          "Developers": {
+            "S": "Hagen Dorgathen,Uwe Rosenberg"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "266164"
+          },
+          "Name": {
+            "S": "Babylonia"
+          },
+          "Year": {
+            "N": "2019"
+          },
+          "Developers": {
+            "S": "Reiner Knizia"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "143741"
+          },
+          "Name": {
+            "S": "BANG! The Dice Game"
+          },
+          "Year": {
+            "N": "2013"
+          },
+          "Developers": {
+            "S": "Michael Palm,Lukas Zach"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "216640"
+          },
+          "Name": {
+            "S": "The Banishing"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "Sean Rumble"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "219513"
+          },
+          "Name": {
+            "S": "B\u00e4renpark"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "Phil Walker-Harding"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "223740"
+          },
+          "Name": {
+            "S": "Bargain Quest"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "Jonathan Ying"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "167513"
+          },
+          "Name": {
+            "S": "Barony"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Marc Andr\u00e9"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "186567"
+          },
+          "Name": {
+            "S": "Baseball Highlights: 2045 \u2013 Super Deluxe Edition"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Mike Fitzgerald"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "181236"
+          },
+          "Name": {
+            "S": "Bastion"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Evgeny Nikitin,Nikolay Pegasov"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "178944"
+          },
+          "Name": {
+            "S": "BATTALIA: The Creation"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Alexandar Guerov,Ledha Guerova"
+          }
+        }
+      }
+    }
+  ]
+}

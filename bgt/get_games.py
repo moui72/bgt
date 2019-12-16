@@ -34,6 +34,7 @@ for i in range(0, len(ids), 50):
 
 print(f"Added {len(validGames.keys())} games")
 print(f"Added {len(validDesigners)} designers")
+sort(validDesigners)
 
 with open('games.json', 'w+') as jsongames:
     json.dump(validGames, jsongames, cls=UniversalEncoder, indent=2)

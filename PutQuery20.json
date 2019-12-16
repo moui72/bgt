@@ -1,0 +1,454 @@
+{
+  "GamesTest": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "176803"
+          },
+          "Name": {
+            "S": "Overseers"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Guan Chih Huang"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "154003"
+          },
+          "Name": {
+            "S": "Pagoda"
+          },
+          "Year": {
+            "N": "2014"
+          },
+          "Developers": {
+            "S": "Arve D. F\u00fchler"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "223278"
+          },
+          "Name": {
+            "S": "The Palace of Mad King Ludwig"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "Ted Alspach"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "129948"
+          },
+          "Name": {
+            "S": "The Palaces of Carrara"
+          },
+          "Year": {
+            "N": "2012"
+          },
+          "Developers": {
+            "S": "Michael Kiesling,Wolfgang Kramer"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "30549"
+          },
+          "Name": {
+            "S": "Pandemic"
+          },
+          "Year": {
+            "N": "2008"
+          },
+          "Developers": {
+            "S": "Matt Leacock"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "161936"
+          },
+          "Name": {
+            "S": "Pandemic Legacy: Season 1"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Rob Daviau,Matt Leacock"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "221107"
+          },
+          "Name": {
+            "S": "Pandemic Legacy: Season 2"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "Rob Daviau,Matt Leacock"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "198928"
+          },
+          "Name": {
+            "S": "Pandemic: Iberia"
+          },
+          "Year": {
+            "N": "2016"
+          },
+          "Developers": {
+            "S": "Jes\u00fas Torres Castro,Matt Leacock"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "150658"
+          },
+          "Name": {
+            "S": "Pandemic: The Cure"
+          },
+          "Year": {
+            "N": "2014"
+          },
+          "Developers": {
+            "S": "Matt Leacock"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "180051"
+          },
+          "Name": {
+            "S": "Pani-High!"
+          },
+          "Year": {
+            "N": "2014"
+          },
+          "Developers": {
+            "S": "Koipara-Shibucho,Takatsugu Nakazawa"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "217861"
+          },
+          "Name": {
+            "S": "Paper Tales"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "Masato Uesugi"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "141572"
+          },
+          "Name": {
+            "S": "Paperback"
+          },
+          "Year": {
+            "N": "2014"
+          },
+          "Developers": {
+            "S": "Tim Fowers"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "56692"
+          },
+          "Name": {
+            "S": "Parade"
+          },
+          "Year": {
+            "N": "2007"
+          },
+          "Developers": {
+            "S": "Naoki Homma"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "163412"
+          },
+          "Name": {
+            "S": "Patchwork"
+          },
+          "Year": {
+            "N": "2014"
+          },
+          "Developers": {
+            "S": "Uwe Rosenberg"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "217398"
+          },
+          "Name": {
+            "S": "Path of Light and Shadow"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "Travis R. Chance,Jonathan Gilmour,Nick Little (I)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "271060"
+          },
+          "Name": {
+            "S": "Pathfinder Adventure Card Game: Core Set"
+          },
+          "Year": {
+            "N": "2019"
+          },
+          "Developers": {
+            "S": "Chad Brown,Keith Richmond,Aviva Schecterson,Mike Selinker,Liz Spain"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "187687"
+          },
+          "Name": {
+            "S": "Pathfinder Adventure Card Game: Mummy's Mask \u2013 Base Set"
+          },
+          "Year": {
+            "N": "2016"
+          },
+          "Developers": {
+            "S": "Chad Brown,Tanis O'Connor,Paul Peterson,Keith Richmond,Mike Selinker,Liz Spain,Gaby Weidling"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "133038"
+          },
+          "Name": {
+            "S": "Pathfinder Adventure Card Game: Rise of the Runelords \u2013 Base Set"
+          },
+          "Year": {
+            "N": "2013"
+          },
+          "Developers": {
+            "S": "Mike Selinker,Chad Brown,Tanis O'Connor,Paul Peterson,Gaby Weidling"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "151007"
+          },
+          "Name": {
+            "S": "Pathfinder Adventure Card Game: Skull & Shackles \u2013 Base Set"
+          },
+          "Year": {
+            "N": "2014"
+          },
+          "Developers": {
+            "S": "Chad Brown,Tanis O'Connor,Paul Peterson,Mike Selinker,Gaby Weidling"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "169416"
+          },
+          "Name": {
+            "S": "Pathfinder Adventure Card Game: Wrath of the Righteous \u2013 Base Set"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Chad Brown,Tanis O'Connor,Paul Peterson,Mike Selinker,Liz Spain,Gaby Weidling"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "42910"
+          },
+          "Name": {
+            "S": "Peloponnes"
+          },
+          "Year": {
+            "N": "2009"
+          },
+          "Developers": {
+            "S": "Bernd Eisenstein"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "148205"
+          },
+          "Name": {
+            "S": "Penny Press"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Robert Dijkman Dulkes,Matt Golec"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "256997"
+          },
+          "Name": {
+            "S": "Perseverance: Castaway Chronicles"
+          },
+          "Year": {
+            "N": "2020"
+          },
+          "Developers": {
+            "S": "Richard Amann,Thomas Vande Ginste,Anthony Howgego,Viktor Peter,Wolf Plancke,D\u00e1vid Turczi"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "233976"
+          },
+          "Name": {
+            "S": "Pie Town"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "Daniel Fremgen"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "24480"
+          },
+          "Name": {
+            "S": "The Pillars of the Earth"
+          },
+          "Year": {
+            "N": "2006"
+          },
+          "Developers": {
+            "S": "Michael Rieneck,Stefan Stadler"
+          }
+        }
+      }
+    }
+  ]
+}

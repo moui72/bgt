@@ -1,0 +1,454 @@
+{
+  "GamesTest": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "234477"
+          },
+          "Name": {
+            "S": "Battle for Rokugan"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "Molly Glover,Tom Jolly"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "760"
+          },
+          "Name": {
+            "S": "Battle Line"
+          },
+          "Year": {
+            "N": "2000"
+          },
+          "Developers": {
+            "S": "Reiner Knizia"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "135219"
+          },
+          "Name": {
+            "S": "The Battle of Five Armies"
+          },
+          "Year": {
+            "N": "2014"
+          },
+          "Developers": {
+            "S": "Roberto Di Meglio,Marco Maggi,Francesco Nepitello"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "123123"
+          },
+          "Name": {
+            "S": "BattleCON: Devastation of Indines"
+          },
+          "Year": {
+            "N": "2013"
+          },
+          "Developers": {
+            "S": "D. Brad Talton, Jr."
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "162388"
+          },
+          "Name": {
+            "S": "BattleCON: Fate of Indines"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "D. Brad Talton, Jr."
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "204728"
+          },
+          "Name": {
+            "S": "BattleCON: Trials of Indines"
+          },
+          "Year": {
+            "N": "2016"
+          },
+          "Developers": {
+            "S": "D. Brad Talton, Jr."
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "89409"
+          },
+          "Name": {
+            "S": "BattleCON: War of Indines"
+          },
+          "Year": {
+            "N": "2010"
+          },
+          "Developers": {
+            "S": "D. Brad Talton, Jr."
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "146439"
+          },
+          "Name": {
+            "S": "BattleLore (Second Edition)"
+          },
+          "Year": {
+            "N": "2013"
+          },
+          "Developers": {
+            "S": "Richard Borg,Robert A. Kouba"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "165950"
+          },
+          "Name": {
+            "S": "Beasty Bar"
+          },
+          "Year": {
+            "N": "2014"
+          },
+          "Developers": {
+            "S": "Stefan Klo\u00df"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "34219"
+          },
+          "Name": {
+            "S": "Biblios"
+          },
+          "Year": {
+            "N": "2007"
+          },
+          "Developers": {
+            "S": "Steve Finn"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "171233"
+          },
+          "Name": {
+            "S": "The Big Book of Madness"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Maxime Rambourg"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "230244"
+          },
+          "Name": {
+            "S": "Black Angel"
+          },
+          "Year": {
+            "N": "2019"
+          },
+          "Developers": {
+            "S": "S\u00e9bastien Dujardin,Xavier Georges,Alain Orban"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "156858"
+          },
+          "Name": {
+            "S": "Black Orchestra"
+          },
+          "Year": {
+            "N": "2016"
+          },
+          "Developers": {
+            "S": "Philip duBarry"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "262215"
+          },
+          "Name": {
+            "S": "Blackout: Hong Kong"
+          },
+          "Year": {
+            "N": "2018"
+          },
+          "Developers": {
+            "S": "Alexander Pfister"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "206504"
+          },
+          "Name": {
+            "S": "The Blood of an Englishman"
+          },
+          "Year": {
+            "N": "2016"
+          },
+          "Developers": {
+            "S": "Dan Cassar"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "170216"
+          },
+          "Name": {
+            "S": "Blood Rage"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Eric M. Lang"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "180593"
+          },
+          "Name": {
+            "S": "The Bloody Inn"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Nicolas Robert"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "244331"
+          },
+          "Name": {
+            "S": "Blue Lagoon"
+          },
+          "Year": {
+            "N": "2018"
+          },
+          "Developers": {
+            "S": "Reiner Knizia"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "21882"
+          },
+          "Name": {
+            "S": "Blue Moon City"
+          },
+          "Year": {
+            "N": "2006"
+          },
+          "Developers": {
+            "S": "Reiner Knizia"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "147154"
+          },
+          "Name": {
+            "S": "Blue Moon Legends"
+          },
+          "Year": {
+            "N": "2014"
+          },
+          "Developers": {
+            "S": "Reiner Knizia"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "224517"
+          },
+          "Name": {
+            "S": "Brass: Birmingham"
+          },
+          "Year": {
+            "N": "2018"
+          },
+          "Developers": {
+            "S": "Gavan Brown,Matt Tolman,Martin Wallace"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "28720"
+          },
+          "Name": {
+            "S": "Brass: Lancashire"
+          },
+          "Year": {
+            "N": "2007"
+          },
+          "Developers": {
+            "S": "Martin Wallace"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "112373"
+          },
+          "Name": {
+            "S": "BraveRats"
+          },
+          "Year": {
+            "N": "2011"
+          },
+          "Developers": {
+            "S": "Seiji Kanai"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "172308"
+          },
+          "Name": {
+            "S": "Broom Service"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Andreas Pelikan,Alexander Pfister"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "136888"
+          },
+          "Name": {
+            "S": "Bruges"
+          },
+          "Year": {
+            "N": "2013"
+          },
+          "Developers": {
+            "S": "Stefan Feld"
+          }
+        }
+      }
+    }
+  ]
+}

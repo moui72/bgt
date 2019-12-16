@@ -18,9 +18,8 @@ with open('designers.json', 'r') as jsondesigners:
 
 validGames = [Game(**game) for game in games.values()]
 
-query = {tableName: [game.asPutRequest() for game in validGames]}
-
-print(query)
-
-with open("PutQuery.json", "w") as queryfile:
-    json.dump(query, queryfile, indent=2)
+for i in range(0, len(validGames), 25):
+    query = {tableName: [game.asPutRequest() for game in validGames[i:i+25]]}
+    filename = f"PutQuery{int((i/25)+1)}.json"
+    with open(filename, "w") as queryfile:
+        json.dump(query, queryfile, indent=2)

@@ -1,0 +1,454 @@
+{
+  "GamesTest": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "191963"
+          },
+          "Name": {
+            "S": "Thunder & Lightning"
+          },
+          "Year": {
+            "N": "2016"
+          },
+          "Developers": {
+            "S": "Richard Borg"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "142961"
+          },
+          "Name": {
+            "S": "Thunderstone Advance: Numenera"
+          },
+          "Year": {
+            "N": "2013"
+          },
+          "Developers": {
+            "S": "Joe Babbitt,Will M. Baker,Edward Bolme,Curt Crane,Mike Elliott,Jeff Quick,Mark Wootton"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "116998"
+          },
+          "Name": {
+            "S": "Thunderstone Advance: Towers of Ruin"
+          },
+          "Year": {
+            "N": "2012"
+          },
+          "Developers": {
+            "S": "Edward Bolme,Mike Elliott,Mark Wootton"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "14996"
+          },
+          "Name": {
+            "S": "Ticket to Ride: Europe"
+          },
+          "Year": {
+            "N": "2005"
+          },
+          "Developers": {
+            "S": "Alan R. Moon"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "21348"
+          },
+          "Name": {
+            "S": "Ticket to Ride: M\u00e4rklin"
+          },
+          "Year": {
+            "N": "2006"
+          },
+          "Developers": {
+            "S": "Alan R. Moon"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "195544"
+          },
+          "Name": {
+            "S": "Tides of Madness"
+          },
+          "Year": {
+            "N": "2016"
+          },
+          "Developers": {
+            "S": "Kristian \u010curla"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "176229"
+          },
+          "Name": {
+            "S": "Tides of Time"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Kristian \u010curla"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "155708"
+          },
+          "Name": {
+            "S": "Tiny Epic Defenders"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Scott Almes"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "180852"
+          },
+          "Name": {
+            "S": "Tiny Epic Western"
+          },
+          "Year": {
+            "N": "2016"
+          },
+          "Developers": {
+            "S": "Scott Almes"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "265736"
+          },
+          "Name": {
+            "S": "Tiny Towns"
+          },
+          "Year": {
+            "N": "2019"
+          },
+          "Developers": {
+            "S": "Peter McPherson"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "155731"
+          },
+          "Name": {
+            "S": "Tokaido Collector's Edition"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Antoine Bauza"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "188314"
+          },
+          "Name": {
+            "S": "Topoum"
+          },
+          "Year": {
+            "N": "2016"
+          },
+          "Developers": {
+            "S": "Perepau Llistosella"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "191877"
+          },
+          "Name": {
+            "S": "Touria"
+          },
+          "Year": {
+            "N": "2016"
+          },
+          "Developers": {
+            "S": "Inka Brand,Markus Brand,Michael Rieneck"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "148319"
+          },
+          "Name": {
+            "S": "Tragedy Looper"
+          },
+          "Year": {
+            "N": "2011"
+          },
+          "Developers": {
+            "S": "BakaFire"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "121408"
+          },
+          "Name": {
+            "S": "Trains"
+          },
+          "Year": {
+            "N": "2012"
+          },
+          "Developers": {
+            "S": "Hisashi Hayashi"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "157001"
+          },
+          "Name": {
+            "S": "Trains: Rising Sun"
+          },
+          "Year": {
+            "N": "2014"
+          },
+          "Developers": {
+            "S": "Steve Ellis (II),Hisashi Hayashi"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "102680"
+          },
+          "Name": {
+            "S": "Trajan"
+          },
+          "Year": {
+            "N": "2011"
+          },
+          "Developers": {
+            "S": "Stefan Feld"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "175293"
+          },
+          "Name": {
+            "S": "Trambahn"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Helmut Ohley"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "163805"
+          },
+          "Name": {
+            "S": "Transatlantic"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "Mac Gerdts"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "274363"
+          },
+          "Name": {
+            "S": "Trial of the Temples"
+          },
+          "Year": {
+            "N": "2019"
+          },
+          "Developers": {
+            "S": "Wei-Min Ling,Michael Mihealsick"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "163068"
+          },
+          "Name": {
+            "S": "Trickerion: Legends of Illusion"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Richard Amann,Viktor Peter"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "148291"
+          },
+          "Name": {
+            "S": "Trieste"
+          },
+          "Year": {
+            "N": "2013"
+          },
+          "Developers": {
+            "S": "Matthew Ma"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "53168"
+          },
+          "Name": {
+            "S": "Triumvirate"
+          },
+          "Year": {
+            "N": "2009"
+          },
+          "Developers": {
+            "S": "Travis Worthington"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "73439"
+          },
+          "Name": {
+            "S": "Troyes"
+          },
+          "Year": {
+            "N": "2010"
+          },
+          "Developers": {
+            "S": "S\u00e9bastien Dujardin,Xavier Georges,Alain Orban"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "284584"
+          },
+          "Name": {
+            "S": "Troyes Dice"
+          },
+          "Year": {
+            "N": "2020"
+          },
+          "Developers": {
+            "S": "S\u00e9bastien Dujardin,Xavier Georges,Alain Orban"
+          }
+        }
+      }
+    }
+  ]
+}

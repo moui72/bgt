@@ -1,0 +1,454 @@
+{
+  "GamesTest": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "181797"
+          },
+          "Name": {
+            "S": "Inhabit the Earth"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Richard Breese"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "155821"
+          },
+          "Name": {
+            "S": "Inis"
+          },
+          "Year": {
+            "N": "2016"
+          },
+          "Developers": {
+            "S": "Christian Martinez"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "63888"
+          },
+          "Name": {
+            "S": "Innovation"
+          },
+          "Year": {
+            "N": "2010"
+          },
+          "Developers": {
+            "S": "Carl Chudyk"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "185257"
+          },
+          "Name": {
+            "S": "Innovation Deluxe"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "Carl Chudyk"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "235627"
+          },
+          "Name": {
+            "S": "Iquazu\u0301"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "Michael Feldk\u00f6tter"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "176494"
+          },
+          "Name": {
+            "S": "Isle of Skye: From Chieftain to King"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Andreas Pelikan,Alexander Pfister"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "148949"
+          },
+          "Name": {
+            "S": "Istanbul"
+          },
+          "Year": {
+            "N": "2014"
+          },
+          "Developers": {
+            "S": "R\u00fcdiger Dorn"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "54043"
+          },
+          "Name": {
+            "S": "Jaipur"
+          },
+          "Year": {
+            "N": "2009"
+          },
+          "Developers": {
+            "S": "S\u00e9bastien Pauchon"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "12002"
+          },
+          "Name": {
+            "S": "Jambo"
+          },
+          "Year": {
+            "N": "2004"
+          },
+          "Developers": {
+            "S": "R\u00fcdiger Dorn"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "170901"
+          },
+          "Name": {
+            "S": "Jarl: The Vikings Tile-Laying Game"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Randall N. Bills,Loren Coleman"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "161965"
+          },
+          "Name": {
+            "S": "Johari"
+          },
+          "Year": {
+            "N": "2014"
+          },
+          "Developers": {
+            "S": "Carlo Lavezzi"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "193739"
+          },
+          "Name": {
+            "S": "J\u00f3rv\u00edk"
+          },
+          "Year": {
+            "N": "2016"
+          },
+          "Developers": {
+            "S": "Stefan Feld"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "145599"
+          },
+          "Name": {
+            "S": "Journey: Wrath of Demons"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "129736"
+          },
+          "Name": {
+            "S": "Kakerlakenpoker Royal"
+          },
+          "Year": {
+            "N": "2012"
+          },
+          "Developers": {
+            "S": "Jacques Zeimet"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "200147"
+          },
+          "Name": {
+            "S": "Kanagawa"
+          },
+          "Year": {
+            "N": "2016"
+          },
+          "Developers": {
+            "S": "Bruno Cathala,Charles Chevallier"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "183251"
+          },
+          "Name": {
+            "S": "Karuba"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "R\u00fcdiger Dorn"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "185276"
+          },
+          "Name": {
+            "S": "Keep"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "John Clowdus"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "172362"
+          },
+          "Name": {
+            "S": "Kenjin"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Nicolas Sato"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "122515"
+          },
+          "Name": {
+            "S": "Keyflower"
+          },
+          "Year": {
+            "N": "2012"
+          },
+          "Developers": {
+            "S": "Sebastian Bleasdale,Richard Breese"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "272453"
+          },
+          "Name": {
+            "S": "KeyForge: Age of Ascension"
+          },
+          "Year": {
+            "N": "2019"
+          },
+          "Developers": {
+            "S": "Richard Garfield"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "72848"
+          },
+          "Name": {
+            "S": "Kill the Overlord"
+          },
+          "Year": {
+            "N": "2012"
+          },
+          "Developers": {
+            "S": "D. Brad Talton, Jr."
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "147930"
+          },
+          "Name": {
+            "S": "King & Assassins"
+          },
+          "Year": {
+            "N": "2013"
+          },
+          "Developers": {
+            "S": "\u0141ukasz Wo\u017aniak"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "173649"
+          },
+          "Name": {
+            "S": "King Chocolate"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Stefan Alexander"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "172996"
+          },
+          "Name": {
+            "S": "The King Is Dead"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Peer Sylvester"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "159910"
+          },
+          "Name": {
+            "S": "The King of Frontier"
+          },
+          "Year": {
+            "N": "2013"
+          },
+          "Developers": {
+            "S": "Shun Taguchi"
+          }
+        }
+      }
+    }
+  ]
+}

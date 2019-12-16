@@ -1,0 +1,454 @@
+{
+  "GamesTest": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "159109"
+          },
+          "Name": {
+            "S": "XenoShyft: Onslaught"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Keren Philosophales,Michael Shinall"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "213893"
+          },
+          "Name": {
+            "S": "Yamata\u00ef"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "Bruno Cathala,Marc Paquien"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "117915"
+          },
+          "Name": {
+            "S": "Yedo"
+          },
+          "Year": {
+            "N": "2012"
+          },
+          "Developers": {
+            "S": "Thomas Vande Ginste,Wolf Plancke"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "196340"
+          },
+          "Name": {
+            "S": "Yokohama"
+          },
+          "Year": {
+            "N": "2016"
+          },
+          "Developers": {
+            "S": "Hisashi Hayashi"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "176189"
+          },
+          "Name": {
+            "S": "Zombicide: Black Plague"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Rapha\u00ebl Guiton,Jean-Baptiste Lullien,Nicolas Raoult"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "224710"
+          },
+          "Name": {
+            "S": "Zombicide: Green Horde"
+          },
+          "Year": {
+            "N": "2018"
+          },
+          "Developers": {
+            "S": "Rapha\u00ebl Guiton,Jean-Baptiste Lullien,Nicolas Raoult"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "176642"
+          },
+          "Name": {
+            "S": "\u3072\u3068\u3072\u3089 (Hitohira)"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "\u6298\u53e3 \u65e5\u5411 (Hinata Origuchi)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "295770"
+          },
+          "Name": {
+            "S": "Frosthaven"
+          },
+          "Year": {
+            "N": "2021"
+          },
+          "Developers": {
+            "S": "Isaac Childres"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "276025"
+          },
+          "Name": {
+            "S": "Maracaibo"
+          },
+          "Year": {
+            "N": "2019"
+          },
+          "Developers": {
+            "S": "Alexander Pfister"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "270844"
+          },
+          "Name": {
+            "S": "Imperial Settlers: Empires of the North"
+          },
+          "Year": {
+            "N": "2019"
+          },
+          "Developers": {
+            "S": "Joanna Kijanka,Ignacy Trzewiczek"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "294378"
+          },
+          "Name": {
+            "S": "Divinity Original Sin: The Board Game"
+          },
+          "Year": {
+            "N": "2020"
+          },
+          "Developers": {
+            "S": "Dylan Birtolo,Josh Derksen,Thomas M. Gofton"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "253344"
+          },
+          "Name": {
+            "S": "Cthulhu: Death May Die"
+          },
+          "Year": {
+            "N": "2019"
+          },
+          "Developers": {
+            "S": "Rob Daviau,Eric M. Lang"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "286096"
+          },
+          "Name": {
+            "S": "Tapestry"
+          },
+          "Year": {
+            "N": "2019"
+          },
+          "Developers": {
+            "S": "Jamey Stegmaier"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "266810"
+          },
+          "Name": {
+            "S": "Paladins of the West Kingdom"
+          },
+          "Year": {
+            "N": "2019"
+          },
+          "Developers": {
+            "S": "Shem Phillips,S J Macdonald"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "248490"
+          },
+          "Name": {
+            "S": "Atlantis Rising (second edition)"
+          },
+          "Year": {
+            "N": "2019"
+          },
+          "Developers": {
+            "S": "Galen Ciscell,Brent Dickman"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "139976"
+          },
+          "Name": {
+            "S": "Cthulhu Wars"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Sandy Petersen,Lincoln Petersen"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "244521"
+          },
+          "Name": {
+            "S": "The Quacks of Quedlinburg"
+          },
+          "Year": {
+            "N": "2018"
+          },
+          "Developers": {
+            "S": "Wolfgang Warsch"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "236457"
+          },
+          "Name": {
+            "S": "Architects of the West Kingdom"
+          },
+          "Year": {
+            "N": "2018"
+          },
+          "Developers": {
+            "S": "Shem Phillips,S J Macdonald"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "296151"
+          },
+          "Name": {
+            "S": "Viscounts of the West Kingdom"
+          },
+          "Year": {
+            "N": "2020"
+          },
+          "Developers": {
+            "S": "Shem Phillips,S J Macdonald"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "271324"
+          },
+          "Name": {
+            "S": "It's a Wonderful World"
+          },
+          "Year": {
+            "N": "2019"
+          },
+          "Developers": {
+            "S": "Fr\u00e9d\u00e9ric Gu\u00e9rard"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "266524"
+          },
+          "Name": {
+            "S": "PARKS"
+          },
+          "Year": {
+            "N": "2019"
+          },
+          "Developers": {
+            "S": "Henry Audubon"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "233078"
+          },
+          "Name": {
+            "S": "Twilight Imperium (Fourth Edition)"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "Dane Beltrami,Corey Konieczka,Christian T. Petersen"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "283355"
+          },
+          "Name": {
+            "S": "Dune"
+          },
+          "Year": {
+            "N": "2019"
+          },
+          "Developers": {
+            "S": "Bill Eberle,Jack Kittredge,Peter Olotka"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "55690"
+          },
+          "Name": {
+            "S": "Kingdom Death: Monster"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Adam Poots"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "254640"
+          },
+          "Name": {
+            "S": "Just One"
+          },
+          "Year": {
+            "N": "2018"
+          },
+          "Developers": {
+            "S": "Ludovic Roudy,Bruno Sautter"
+          }
+        }
+      }
+    }
+  ]
+}

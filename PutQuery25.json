@@ -1,0 +1,454 @@
+{
+  "GamesTest": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "143157"
+          },
+          "Name": {
+            "S": "SOS Titanic"
+          },
+          "Year": {
+            "N": "2013"
+          },
+          "Developers": {
+            "S": "Bruno Cathala,Ludovic Maublanc"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "175510"
+          },
+          "Name": {
+            "S": "Soulfall"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "John Clowdus"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "242302"
+          },
+          "Name": {
+            "S": "Space Base"
+          },
+          "Year": {
+            "N": "2018"
+          },
+          "Developers": {
+            "S": "John D. Clair"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "71721"
+          },
+          "Name": {
+            "S": "Space Hulk: Death Angel \u2013 The Card Game"
+          },
+          "Year": {
+            "N": "2010"
+          },
+          "Developers": {
+            "S": "Corey Konieczka"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "155624"
+          },
+          "Name": {
+            "S": "Specter Ops"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Emerson Matsuuchi"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "256313"
+          },
+          "Name": {
+            "S": "Spell Smashers"
+          },
+          "Year": {
+            "N": "2018"
+          },
+          "Developers": {
+            "S": "Christopher Chung"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "162886"
+          },
+          "Name": {
+            "S": "Spirit Island"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "R. Eric Reuss"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "256606"
+          },
+          "Name": {
+            "S": "Spirits of the Wild"
+          },
+          "Year": {
+            "N": "2018"
+          },
+          "Developers": {
+            "S": "Nick Hayes"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "173291"
+          },
+          "Name": {
+            "S": "Spit It Out!"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Martin Nedergaard Andersen"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "148228"
+          },
+          "Name": {
+            "S": "Splendor"
+          },
+          "Year": {
+            "N": "2014"
+          },
+          "Developers": {
+            "S": "Marc Andr\u00e9"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "249106"
+          },
+          "Name": {
+            "S": "SPQF"
+          },
+          "Year": {
+            "N": "2018"
+          },
+          "Developers": {
+            "S": "Grant Rodiek"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "166384"
+          },
+          "Name": {
+            "S": "Spyfall"
+          },
+          "Year": {
+            "N": "2014"
+          },
+          "Developers": {
+            "S": "Alexandr Ushan"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "137269"
+          },
+          "Name": {
+            "S": "Spyrium"
+          },
+          "Year": {
+            "N": "2013"
+          },
+          "Developers": {
+            "S": "William Attia"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "98242"
+          },
+          "Name": {
+            "S": "Star Trek Deck Building Game: The Next Generation"
+          },
+          "Year": {
+            "N": "2011"
+          },
+          "Developers": {
+            "S": "Alex Bykov"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "139771"
+          },
+          "Name": {
+            "S": "Star Trek: Attack Wing"
+          },
+          "Year": {
+            "N": "2013"
+          },
+          "Developers": {
+            "S": "Christopher Guild,Andrew Parks"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "234931"
+          },
+          "Name": {
+            "S": "Star Wars: Destiny \u2013 Two-Player Game"
+          },
+          "Year": {
+            "N": "2017"
+          },
+          "Developers": {
+            "S": "Corey Konieczka,Lukas Litzsinger"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "164153"
+          },
+          "Name": {
+            "S": "Star Wars: Imperial Assault"
+          },
+          "Year": {
+            "N": "2014"
+          },
+          "Developers": {
+            "S": "Justin Kemppainen,Corey Konieczka,Jonathan Ying"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "271896"
+          },
+          "Name": {
+            "S": "Star Wars: Outer Rim"
+          },
+          "Year": {
+            "N": "2019"
+          },
+          "Developers": {
+            "S": "Corey Konieczka,Tony Fanchi"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "187645"
+          },
+          "Name": {
+            "S": "Star Wars: Rebellion"
+          },
+          "Year": {
+            "N": "2016"
+          },
+          "Developers": {
+            "S": "Corey Konieczka"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "103886"
+          },
+          "Name": {
+            "S": "Star Wars: The Card Game"
+          },
+          "Year": {
+            "N": "2012"
+          },
+          "Developers": {
+            "S": "Eric M. Lang"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "121410"
+          },
+          "Name": {
+            "S": "Steam Park"
+          },
+          "Year": {
+            "N": "2013"
+          },
+          "Developers": {
+            "S": "Aureliano Buonfino,Lorenzo Silva,Lorenzo Tucci Sorrentino"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "180592"
+          },
+          "Name": {
+            "S": "Steam Time"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "R\u00fcdiger Dorn"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "162007"
+          },
+          "Name": {
+            "S": "Steampunk Rally"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Orin Bishop"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "161614"
+          },
+          "Name": {
+            "S": "Stockpile"
+          },
+          "Year": {
+            "N": "2015"
+          },
+          "Developers": {
+            "S": "Brett Sobol,Seth Van Orden"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Id": {
+            "N": "34635"
+          },
+          "Name": {
+            "S": "Stone Age"
+          },
+          "Year": {
+            "N": "2008"
+          },
+          "Developers": {
+            "S": "Bernd Brunnhofer"
+          }
+        }
+      }
+    }
+  ]
+}
