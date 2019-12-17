@@ -25,14 +25,14 @@ question_templates: List[dict] = [
 
 
 class BaseWithFetched(BaseModel):
-    fetched: datetime = datetime.now()
-    id: int
+    Fetched: str = datetime.now().isoformat()
+    Id: int
 
 
 class Game(BaseWithFetched):
-    name: str
-    developers: List[str]
-    year_published: int
+    Name: str
+    Developers: List[str]
+    Year: int
 
     def toAWSDyDBScheme(self):
         return {
@@ -51,11 +51,11 @@ class Game(BaseWithFetched):
 
 
 class Score(BaseWithFetched):
-    name: str
-    score: PositiveInt
+    Player_name: str
+    Score: PositiveInt
 
 
 class Question(BaseWithFetched):
-    correctGame: Game
-    alternatives: List[Game]
-    template_index: conint(ge=0, le=len(question_templates))
+    Correct_game: Game
+    Alternatives: List[Game]
+    Template_index: conint(ge=0, le=len(question_templates))

@@ -4,16 +4,35 @@ from decimal import Decimal
 from enum import Enum
 from types import GeneratorType
 from boardgamegeek import BGGClient, CacheBackendSqlite
-from schema import Game
+from app.schema import Game
 import datetime
 import json
+from itertools import islice
+
+
+def take(n, iterable):
+    "Return first n items of the iterable as a list"
+    return list(islice(iterable, n))
 
 
 def isoformat(o):
+    "returns input datetime in isoformat"
     return o.isoformat()
 
 
+def update_schema(game):
+    "takes a game with old scheme (lowercase props) and renames (uppercase)" "renames year_published to Year"
+    return {
+        "Name": game['name'],
+        "Id": game['id'],
+        "Fetched": game['fetched'],
+        "Developers": game['developers'],
+        "Year": game['year_published']
+    }
+
+
 class UniversalEncoder(json.JSONEncoder):
+    # I got this from stack overflow, should find again and credit the author
     ENCODER_BY_TYPE = {
         datetime.datetime: isoformat,
         datetime.date: isoformat,
@@ -37,6 +56,7 @@ class UniversalEncoder(json.JSONEncoder):
 
 
 def oxford_join(items):
+    "joins a list with a comma, but used 'and' before the last item"
     if (len(items) < 1):
         return None
     if len(items) == 1:
