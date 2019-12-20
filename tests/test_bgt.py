@@ -1,72 +1,92 @@
-
-import requests
-import pytest
-import boto3
 import os
 from random import randint
-from moto import mock_dynamodb2
-from json import load, dump
+from pathlib import Path
+from json import load, dump, loads
+
 from starlette.testclient import TestClient
-from app import __version__
-from app.main import app
+from moto import mock_dynamodb
+import pytest
+from pytest import fixture
+import boto3
+
+from app._version import __version__
+from app._main import app
 from app.schema import Game
-from app.utils import take, UniversalEncoder
+from app.utils import UniversalEncoder
 
-client = TestClient(app)
-
-
-def rel_path(fn):
-    return os.path.join(os.path.dirname(__file__), fn)
+with mock_dynamodb():
+    client = TestClient(app)
 
 
-def local_url(path):
-    return "http://localhost:8000"+path
+@fixture
+def games_data():
+    # load game data
+    with open(Path(__file__).parent/"games_test_data.json", "r") as games_put_json:
+        games_raw = load(games_put_json)
+        # validate/cast game data
+    games = []
+    for game in games_raw:
+        games.append(Game(**game))
+    return games
+
+
+@fixture
+def outside_game_data():
+    with open(Path(__file__).parent/"outside_game.json", "r") as outside_game_json:
+        return Game(**load(outside_game_json))
+
+
+@fixture
+@mock_dynamodb
+def setup_db(games_data, scope="module"):
+    # load table schema
+    with open(Path(__file__).parent.parent/"games_table_schema.json", "r") as schema_json:
+        schema = load(schema_json)
+
+    # create dynamodb interface (mocked by moto decorator)
+    dynamodb = boto3.resource('dynamodb', 'us-east-1')
+
+    # create table with schema
+    table = dynamodb.create_table(
+        **schema
+    )
+
+    # put games in table
+    with table.batch_writer() as batch:
+        for game in games_data:
+            batch.put_item(game.dict())
+    assert table.items_count > 0
+    yield table
 
 
 def test_version():
     assert __version__ == '0.1.0'
 
 
-def test_root():
+def test_root(setup_db):
     response = client.get("/")
     assert response.status_code == 200
 
 
-@mock_dynamodb2
-def test_get_game():
-    # load table scheme
-    scheme_fp = rel_path("gameTableScheme.json")
-    with open(scheme_fp, "r") as scheme_json:
-        scheme = load(scheme_json)
+def test_get_game(games_data):
+    test_game = games_data[randint(0, 24)]
+    assert hasattr(test_game, "id")
+    response = client.get(f"/games/{test_game.id}")
+    assert response.status_code == 200
 
-    # load game data
-    games_put_fp = rel_path("games_to_put.json")
-    with open(games_put_fp, "r") as games_put_json:
-        games = load(games_put_json)
 
-    # validate/cast game data
-    Games = []
-    for game in games:
-        Games.append(Game(**game))
+def test_get_games(games_data):
+    test_game = games_data[randint(0, 24)]
+    assert hasattr(test_game, "id")
+    response = client.get(f"/games/")
+    result = loads(response.content)
+    assert len(result["Items"]) < 40
+    assert response.status_code == 200
 
-    # create dynamodb interface (mocked by moto decorator)
-    dynamodb = boto3.resource('dynamodb', 'us-east-1')
 
-    # create table with scheme
-    table = dynamodb.create_table(
-        **scheme
-    )
-
-    # put games in table
-    with table.batch_writer() as batch:
-        for game in Games:
-            batch.put_item(game.dict())
-
-    test_game = Games[randint(0, 24)]
-    assert hasattr(test_game, "Id")
-    response = client.get("/games/"+str(test_game.Id))
-    assert response.status_code >= 200 and response.status_code <= 299
-
-# resp = requests.get(local_url("/game/"))
-# print(resp.json())
-# assert_that(resp.ok, 'HTTP Request OK').is_true()
+def test_get_nogame(outside_game_data):
+    test_game = outside_game_data
+    assert hasattr(test_game, "id")
+    assert outside_game_data.id == 59946
+    response = client.get(f"/games/{test_game.id}")
+    assert response.status_code == 404

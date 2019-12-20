@@ -1,23 +1,23 @@
 
+# stdlib
+import datetime
+import json
+from itertools import islice
 from typing import Dict, List, Set
 from decimal import Decimal
 from enum import Enum
 from types import GeneratorType
+
+# third party
 from boardgamegeek import BGGClient, CacheBackendSqlite
+
+# local
 from app.schema import Game
-import datetime
-import json
-from itertools import islice
 
 
 def take(n, iterable):
     "Return first n items of the iterable as a list"
     return list(islice(iterable, n))
-
-
-def isoformat(o):
-    "returns input datetime in isoformat"
-    return o.isoformat()
 
 
 def update_schema(game):
@@ -34,9 +34,9 @@ def update_schema(game):
 class UniversalEncoder(json.JSONEncoder):
     # I got this from stack overflow, should find again and credit the author
     ENCODER_BY_TYPE = {
-        datetime.datetime: isoformat,
-        datetime.date: isoformat,
-        datetime.time: isoformat,
+        datetime.datetime: lambda dt: dt.isoformat(),
+        datetime.date: lambda dt: dt.isoformat(),
+        datetime.time: lambda dt: dt.isoformat(),
         set: list,
         frozenset: list,
         GeneratorType: list,

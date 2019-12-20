@@ -1,26 +1,32 @@
-from fastapi import FastAPI
-from app.schema import (Score)
+from pathlib import Path
+from fastapi import FastAPI, HTTPException
 import boto3
+from app.schema import Score
+from app._version import __version__
 
-api_version = "1.0.0"
-dynamodb = boto3.resource('dynamodb')
 app = FastAPI()
-Games = dynamodb.Table('GamesTest')
+dynamodb = boto3.resource('dynamodb')
+games = dynamodb.Table('GamesTest')
 
 
 @app.get("/")
 async def root():
-    return {"version": f"v{api_version}"}
+    return {"version": f"v{__version__}"}
+
+
+@app.get("/games/")
+async def read_games():
+    response = games.scan()
+    return response
 
 
 @app.get("/games/{game_id}")
 async def read_game(game_id: int):
-    response = Games.get_item(Key={"Id": game_id})
-    print(response)
+    response = games.get_item(Key={"id": game_id})
     try:
         return response["Item"]
     except KeyError:
-        {"detail": "Not Found"}
+        raise HTTPException(status_code=404, detail="Item not found")
 
 
 @app.get("/questions/{question_id}")

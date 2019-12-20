@@ -1,26 +1,26 @@
 {
   "AttributeDefinitions": [
     {
-      "AttributeName": "Name",
+      "AttributeName": "name",
       "AttributeType": "S"
     },
     {
-      "AttributeName": "Id",
+      "AttributeName": "id",
       "AttributeType": "N"
     },
     {
-      "AttributeName": "Designers",
+      "AttributeName": "designers",
       "AttributeType": "S"
     },
 
     {
-      "AttributeName": "Year",
+      "AttributeName": "year_published",
       "AttributeType": "N"
     }
   ],
   "GlobalSecondaryIndexes": [
     {
-      "IndexName": "Name-index",
+      "IndexName": "name-index",
       "Projection": {
         "ProjectionType": "ALL"
       },
@@ -31,12 +31,12 @@
       "KeySchema": [
         {
           "KeyType": "HASH",
-          "AttributeName": "Name"
+          "AttributeName": "name"
         }
       ]
     },
     {
-      "IndexName": "Year-index",
+      "IndexName": "year_published-index",
       "Projection": {
         "ProjectionType": "ALL"
       },
@@ -47,12 +47,12 @@
       "KeySchema": [
         {
           "KeyType": "HASH",
-          "AttributeName": "Year"
+          "AttributeName": "year_published"
         }
       ]
     },
     {
-      "IndexName": "Designers-index",
+      "IndexName": "designers-index",
       "Projection": {
         "ProjectionType": "ALL"
       },
@@ -63,7 +63,7 @@
       "KeySchema": [
         {
           "KeyType": "HASH",
-          "AttributeName": "Designers"
+          "AttributeName": "designers"
         }
       ]
     }
@@ -76,7 +76,7 @@
   "KeySchema": [
     {
       "KeyType": "HASH",
-      "AttributeName": "Id"
+      "AttributeName": "id"
     }
   ]
 }

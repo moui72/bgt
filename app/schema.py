@@ -25,21 +25,21 @@ question_templates: List[dict] = [
 
 
 class BaseWithFetched(BaseModel):
-    Fetched: str = datetime.now().isoformat()
-    Id: int
+    fetched: str = datetime.now().isoformat()
+    id: int
 
 
 class Game(BaseWithFetched):
-    Name: str
-    Developers: List[str]
-    Year: int
+    name: str
+    developers: List[str]
+    year_published: int
 
     def toAWSDyDBScheme(self):
         return {
-            "Id": {"N": str(self.id)},
-            "Name": {"S": str(self.name)},
-            "Year": {"N": str(self.year_published)},
-            "Developers": {"S": ','.join(self.developers)}
+            "id": {"N": str(self.id)},
+            "name": {"S": str(self.name)},
+            "year": {"N": str(self.year_published)},
+            "developers": {"S": ','.join(self.developers)}
         }
 
     def asPutRequest(self):
@@ -51,11 +51,11 @@ class Game(BaseWithFetched):
 
 
 class Score(BaseWithFetched):
-    Player_name: str
-    Score: PositiveInt
+    player_name: str
+    score: PositiveInt
 
 
 class Question(BaseWithFetched):
-    Correct_game: Game
-    Alternatives: List[Game]
-    Template_index: conint(ge=0, le=len(question_templates))
+    correct_game: Game
+    alternatives: List[Game]
+    template_index: conint(ge=0, le=len(question_templates))
