@@ -91,10 +91,10 @@ description = "The AWS SDK for Python"
 name = "boto3"
 optional = false
 python-versions = "*"
-version = "1.10.40"
+version = "1.10.41"
 
 [package.dependencies]
-botocore = ">=1.13.40,<1.14.0"
+botocore = ">=1.13.41,<1.14.0"
 jmespath = ">=0.7.1,<1.0.0"
 s3transfer = ">=0.2.0,<0.3.0"
 
@@ -104,7 +104,7 @@ description = "Low-level, data-driven core of boto 3."
 name = "botocore"
 optional = false
 python-versions = "*"
-version = "1.13.40"
+version = "1.13.41"
 
 [package.dependencies]
 docutils = ">=0.10,<0.16"
@@ -143,7 +143,7 @@ description = "checks cloudformation for practices and behaviour         that co
 name = "cfn-lint"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
-version = "0.26.0"
+version = "0.26.1"
 
 [package.dependencies]
 aws-sam-translator = ">=1.15.1"
@@ -567,7 +567,7 @@ description = "pytest: simple powerful testing with Python"
 name = "pytest"
 optional = false
 python-versions = ">=3.5"
-version = "5.3.1"
+version = "5.3.2"
 
 [package.dependencies]
 atomicwrites = ">=1.0"
@@ -894,12 +894,12 @@ boto = [
     {file = "boto-2.49.0.tar.gz", hash = "sha256:ea0d3b40a2d852767be77ca343b58a9e3a4b00d9db440efb8da74b4e58025e5a"},
 ]
 boto3 = [
-    {file = "boto3-1.10.40-py2.py3-none-any.whl", hash = "sha256:e8f02208f0127dd73443b8518aacd8207563576e6f6b245a621fdf5080acd5fb"},
-    {file = "boto3-1.10.40.tar.gz", hash = "sha256:8a3b9bb731270888271cd3e0de8d96b35db86be55cfd47296087a074ff23ea86"},
+    {file = "boto3-1.10.41-py2.py3-none-any.whl", hash = "sha256:5db4db12a017be2a0b07ec662584b7b9e8afa05894c8aaac145576a7c39a9886"},
+    {file = "boto3-1.10.41.tar.gz", hash = "sha256:7fb8bf70ff2403991c8ae7bc548333811be6e432c7665721364ea0c858eb824e"},
 ]
 botocore = [
-    {file = "botocore-1.13.40-py2.py3-none-any.whl", hash = "sha256:7e44f4c527c11c90942b3ea32ef4577596b08e77d01ab3f9a260b4873402a84d"},
-    {file = "botocore-1.13.40.tar.gz", hash = "sha256:0f30d5f09181231166c4e74ba7335d0740e1645c4354d76271fde0cad606d8a4"},
+    {file = "botocore-1.13.41-py2.py3-none-any.whl", hash = "sha256:5bfffa38ebba26ab462bb40e858702390fbe3ae2093a2177a8cde050ad6cb7e3"},
+    {file = "botocore-1.13.41.tar.gz", hash = "sha256:62ddff63be904781f97ced737836a66f5b72579af788c905cfdab32d2970e15e"},
 ]
 certifi = [
     {file = "certifi-2019.11.28-py2.py3-none-any.whl", hash = "sha256:017c25db2a153ce562900032d5bc68e9f191e44e9a0f762f373977de9df1fbb3"},
@@ -941,8 +941,8 @@ cffi = [
     {file = "cffi-1.13.2.tar.gz", hash = "sha256:599a1e8ff057ac530c9ad1778293c665cb81a791421f46922d80a86473c13346"},
 ]
 cfn-lint = [
-    {file = "cfn-lint-0.26.0.tar.gz", hash = "sha256:77e20da64290a38afc6e9054c0101b84480231e1fb5056bee7214e9cb778a80c"},
-    {file = "cfn_lint-0.26.0-py3-none-any.whl", hash = "sha256:7e10510fc7aef1afa337b6627e422ee4b9e70486fcd4e169d76b3b0f7844b21e"},
+    {file = "cfn-lint-0.26.1.tar.gz", hash = "sha256:648c9fc70abc479183c63e53eebaae5a9d5236480b55e7fae033a727c21592fd"},
+    {file = "cfn_lint-0.26.1-py3-none-any.whl", hash = "sha256:f399dabc7c7579be4140f5987bb70b158bdaaf12b999139cc2548466eb9dd651"},
 ]
 chardet = [
     {file = "chardet-3.0.4-py2.py3-none-any.whl", hash = "sha256:fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691"},
@@ -1164,8 +1164,8 @@ pyrsistent = [
     {file = "pyrsistent-0.15.6.tar.gz", hash = "sha256:f3b280d030afb652f79d67c5586157c5c1355c9a58dfc7940566e28d28f3df1b"},
 ]
 pytest = [
-    {file = "pytest-5.3.1-py3-none-any.whl", hash = "sha256:63344a2e3bce2e4d522fd62b4fdebb647c019f1f9e4ca075debbd13219db4418"},
-    {file = "pytest-5.3.1.tar.gz", hash = "sha256:f67403f33b2b1d25a6756184077394167fe5e2f9d8bdaab30707d19ccec35427"},
+    {file = "pytest-5.3.2-py3-none-any.whl", hash = "sha256:e41d489ff43948babd0fad7ad5e49b8735d5d55e26628a58673c39ff61d95de4"},
+    {file = "pytest-5.3.2.tar.gz", hash = "sha256:6b571215b5a790f9b41f19f3531c53a45cf6bb8ef2988bc1ff9afb38270b25fa"},
 ]
 python-dateutil = [
     {file = "python-dateutil-2.8.0.tar.gz", hash = "sha256:c89805f6f4d64db21ed966fda138f8a5ed7a4fdbc1a8ee329ce1b74e3c74da9e"},

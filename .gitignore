@@ -1,1 +1,8 @@
 .DS_Store
+__pycache__
+*.egg-info
+.vscode
+.venv
+.mypy_cache
+.pytest_cache
+__pypackages__
