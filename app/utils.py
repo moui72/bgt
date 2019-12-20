@@ -11,7 +11,7 @@ from types import GeneratorType
 # third party
 from boardgamegeek import BGGClient, CacheBackendSqlite
 
-# local
+# local (abs)
 from app.schema import Game
 
 

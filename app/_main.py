@@ -1,7 +1,7 @@
 from pathlib import Path
 from fastapi import FastAPI, HTTPException
 import boto3
-from app.schema import Score
+from app.schema import *
 from app._version import __version__
 
 app = FastAPI()
