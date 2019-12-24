@@ -1,5 +1,5 @@
 
-# stdlib
+# std
 import datetime
 import json
 from itertools import islice
@@ -8,28 +8,10 @@ from decimal import Decimal
 from enum import Enum
 from types import GeneratorType
 
-# third party
-from boardgamegeek import BGGClient, CacheBackendSqlite
+# vendor
 
-# local (abs)
+# local 
 from app.schema import Game
-
-
-def take(n, iterable):
-    "Return first n items of the iterable as a list"
-    return list(islice(iterable, n))
-
-
-def update_schema(game):
-    "takes a game with old scheme (lowercase props) and renames (uppercase)" "renames year_published to Year"
-    return {
-        "Name": game['name'],
-        "Id": game['id'],
-        "Fetched": game['fetched'],
-        "Developers": game['developers'],
-        "Year": game['year_published']
-    }
-
 
 class UniversalEncoder(json.JSONEncoder):
     # I got this from stack overflow, should find again and credit the author
@@ -42,7 +24,7 @@ class UniversalEncoder(json.JSONEncoder):
         GeneratorType: list,
         bytes: lambda o: o.decode(),
         Decimal: str,
-        Game: dict,
+        Game: lambda g: g.json(),
     }
 
     def default(self, obj):

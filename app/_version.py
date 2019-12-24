@@ -1,5 +1,10 @@
-import toml
+# std
 from pathlib import Path
+
+# vendor
+import toml
+
+# local
 
 with open(Path(__file__).parent.parent / "pyproject.toml") as pyproject_toml:
     pyproject = toml.load(pyproject_toml)

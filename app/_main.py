@@ -1,6 +1,11 @@
+# std
 from pathlib import Path
+
+# vendor
 from fastapi import FastAPI, HTTPException
 import boto3
+
+# local
 from app.schema import *
 from app._version import __version__
 
