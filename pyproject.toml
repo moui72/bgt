@@ -12,6 +12,7 @@ boardgamegeek2 = "^1.0.1"
 jsons = "^1.1.0"
 boto3 = "^1.10.40"
 toml = "^0.10.0"
+pydantic = "^1.3"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
@@ -21,7 +22,9 @@ untangle = "^1.1.1"
 xmltodict = "^0.12.0"
 moto = "^1.3.14"
 
+[tool.poetry.scripts]
+start = "uvicorn app._main:app --reload"
+
 [build-system]
 requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
-

@@ -73,17 +73,30 @@ def test_version():
     assert __version__ == '0.1.0'
 
 
+def test_get_nogame(outside_game_data, setup_db):
+    "Makes sure we're testing against the mocked DB and not the real one"
+    client = setup_db
+    test_game = outside_game_data
+    assert hasattr(test_game, "id")
+    assert outside_game_data.id == 59946
+    response = client.get(f"/games/{test_game.id}")
+    assert response.status_code == 404
+
+
 def test_root(setup_db):
+    "The root should return the current version"
     client = setup_db
     response = client.get("/")
+    print(response)
     assert response.status_code == 200
+    assert 0
 
 
 def test_get_game(games_data, setup_db):
     client = setup_db
     test_game = games_data[randint(0, 24)]
-    assert hasattr(test_game, "id")
     response = client.get(f"/games/{test_game.id}")
+    assert hasattr(test_game, "id")
     assert response.status_code == 200
 
 
@@ -92,13 +105,4 @@ def test_get_games(setup_db):
     response = client.get(f"/games/")
     result = loads(response.content)
     assert response.status_code == 200
-    assert len(result["Items"]) == 25
-
-
-def test_get_nogame(outside_game_data, setup_db):
-    client = setup_db
-    test_game = outside_game_data
-    assert hasattr(test_game, "id")
-    assert outside_game_data.id == 59946
-    response = client.get(f"/games/{test_game.id}")
-    assert response.status_code == 404
+    assert len(result) == 25

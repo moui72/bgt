@@ -22,14 +22,15 @@ async def root():
 @app.get("/games/")
 async def read_games():
     response = games.scan()
-    return response
+    all_games = [Game(**g) for g in response["Items"]]
+    return all_games
 
 
 @app.get("/games/{game_id}")
 async def read_game(game_id: int):
     response = games.get_item(Key={"id": game_id})
     try:
-        return response["Item"]
+        return Game(**response["Item"])
     except KeyError:
         raise HTTPException(status_code=404, detail="Item not found")
 
