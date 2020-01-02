@@ -2,30 +2,32 @@
 from datetime import datetime
 
 # vendor
-from pydantic import (BaseModel, conint, PositiveInt)
-from typing import List
+from pydantic import BaseModel, conint, PositiveInt
+from typing import List, Union
 
 #local
 
 
 question_templates: List[dict] = [
     {
-        "text": "Who designed >>name<<?",
-        "answer_type": ">>designer<<"
+        "text": lambda g: f"Who designed {g.name}?",
+        "answer_type": "developers",
+        "category": "design"
     },
     {
-        "text": "When was >>name<< released?",
-        "answer_type": ">>year_published<<"
+        "text": lambda g: f"When was {g.name} released?",
+        "answer_type": "year_published",
+        "category": "year"
     },
-
     {
-        "text": "Which game was designed by >>designer<<?",
-        "answer_type": ">>name<<"
+        "text": lambda g: f"Which game was designed by {oxford_join(g.developers)}?",
+        "answer_type": "name",
+        "category": "design"
     },
-
     {
-        "text": "Which game came out in >>year_published<<?",
-        "answer_type": ">>name<<"
+        "text": lambda g: f"Which game came out in {g.year_published}?",
+        "answer_type": "name",
+        "category": "year"
     },
 ]
 
@@ -39,6 +41,12 @@ class Game(BaseWithFetched):
     name: str
     developers: List[str]
     year_published: int
+
+    def __hash__(self):
+        return hash(self.id)
+
+    def __eq__(self, other):
+        return self.id == other.id
 
     def toAWSDyDBScheme(self):
         return {
@@ -61,7 +69,7 @@ class Score(BaseWithFetched):
     score: PositiveInt
 
 
-class Question(BaseWithFetched):
-    correct_game: Game
-    alternatives: List[Game]
+class Question(BaseModel):
+    answers: List[Union[str,int]]
     template_index: conint(ge=0, le=len(question_templates))
+    id: str

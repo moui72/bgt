@@ -37,13 +37,11 @@ class UniversalEncoder(json.JSONEncoder):
         return encoder(obj)
 
 
-def oxford_join(items):
+def oxford_join(items: List):
     "joins a list with a comma, but uses 'and' before the last item"
-    if (len(items) < 1):
-        return None
+    if not isinstance(items,list) or len(items) < 1:
+        return items
     if len(items) == 1:
         return items[0]
-
-    oxford = (",","")[len(items) == 2]
-
-    return ', '.join(items[:-1]) + f'{oxford} and  {items[-1]}'
+    oxford_comma = (",","")[len(items) == 2]
+    return ', '.join(items[:-1]) + f'{oxford_comma} and  {items[-1]}'

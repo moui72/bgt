@@ -14,7 +14,7 @@ from starlette.testclient import TestClient
 
 # local
 from app._version import __version__
-from app.schema import Game
+from app.schema import Game, Question
 from app.utils import UniversalEncoder
 
 
@@ -62,14 +62,16 @@ def test_get_question(games_data, client):
     ids = set(g.id for g in games_data)
     asked = []
     for i in range(10):
-        query_string = f"?asked={','.join(asked)}" if len(asked) > 0 else None
-        response = client.get(f"/questions/{query_string if query_string is not None else ''}")
-        result = loads(response.content)
+        query_string = f"?asked={','.join(asked)}" if len(asked) > 0 else ''
+        response = client.get(
+            "/questions/" + query_string 
+        )
         assert response.status_code == 200
-        assert result["question_id"] not in asked
-        q, g = result["question_id"].split("-")
-        q = int(q)
-        g = int(g)
+        response_body = loads(response.content)
+        asked = [] if response_body["asked"] is None else response_body["asked"].split(",") 
+        question = Question(**response_body["question"])
+        assert question.id not in asked
+        q, g = (int(s) for s in question.id.split("-"))
         assert q >= 0 and q <= 3
         assert g in ids
-        asked.append(result["question_id"])
+        asked.append(question.id)

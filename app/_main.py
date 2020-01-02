@@ -1,14 +1,16 @@
-# std
+# std imports
 from pathlib import Path
 import random
+from datetime import datetime
 
-# vendor
+# vendor imports
 from fastapi import FastAPI, HTTPException
 import boto3
 
-# local
+# local imports
 from app.schema import *
 from app._version import __version__
+from app.utils import oxford_join
 
 # startup
 app = FastAPI()
@@ -16,7 +18,7 @@ dynamodb = boto3.resource('dynamodb', 'us-east-1')
 games = dynamodb.Table('GamesTest')
 all_games = games.scan()
 all_games = [Game(**g) for g in all_games["Items"]]
-all_game_ids = set(g.id for g in all_games)
+all_game_ids = tuple(g.id for g in all_games)
 all_games_by_id = {g.id: g for g in all_games}
 
 # routes
@@ -40,17 +42,22 @@ async def read_game(game_id: int):
 @app.get("/questions/")
 async def read_question(asked: str = None):
     "asked is a comma separated list of question ids that have been asked"
-    "memo is passed back and forth between server and client to ensure "
-    "questions are not repeated"
-    
+    # memo passed between client & server ensures questions aren't repeated    
     asked_memo = set(asked.split(",") if asked is not None else ())
-    (template_index, right_game_id) = get_question_ids()
+    (template_index, right_game_id) = get_question_id_parts()
     new_qid = f"{template_index}-{right_game_id}"
     while new_qid in asked_memo:
         (template_index, right_game_id) = get_question_ids()
         new_qid = f"{template_index}-{right_game_id}"
-
-    return {"question_id": new_qid}
+    return {
+        "question": Question(
+            id=new_qid,
+            template_index=template_index,
+            correct_game=all_games_by_id[right_game_id],
+            answers=get_answers(template_index,right_game_id)
+        ), 
+        "asked": asked
+    }
 
 
 @app.post("/score/")
@@ -58,8 +65,29 @@ async def create_item(player_name: str, score: int):
     return Score(player_name, score)
 
 # helpers
-def get_question_ids():
+def get_question_id_parts():
     template_index = random.randrange(len(question_templates))
-    right_game_id = random.choice(tuple(all_game_ids))
+    right_game_id = random.choice(all_game_ids)
     return template_index, right_game_id
 
+def get_answers(template_index,right_game_id):
+    template = question_templates[template_index]
+    right_game = all_games_by_id[right_game_id]
+    right_answer = getattr(right_game, template["answer_type"])
+    answers = set()
+    answers.add(oxford_join(right_answer))
+    while len(answers) < 4:
+        if template["answer_type"] == "year_published":
+            # is the complication of code worth the extent to which this is 
+            # better than sampling random games?
+            alt_answer = random.randint(
+                right_game.year_published-10, 
+                min(datetime.now().year, right_game.year_published+10)
+            )
+        else:
+            alt_answer = getattr(
+                random.choice(all_games), 
+                template["answer_type"]
+            )
+        answers.add(oxford_join(alt_answer))
+    return list(answers)
