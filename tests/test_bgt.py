@@ -55,10 +55,6 @@ def test_get_games(client):
     assert len(result) == 25
 
 def test_get_question(games_data, client):
-    "GET questions takes 1 query param, asked --"
-    "asked is a comma separated list of question ids that have been asked"
-    "memo is passed back and forth between server and client to ensure "
-    "questions are not repeated"
     ids = set(g.id for g in games_data)
     asked = []
     for i in range(10):
@@ -70,6 +66,7 @@ def test_get_question(games_data, client):
         response_body = loads(response.content)
         asked = [] if response_body["asked"] is None else response_body["asked"].split(",") 
         question = Question(**response_body["question"])
+        # make sure no question is served twice 
         assert question.id not in asked
         q, g = (int(s) for s in question.id.split("-"))
         assert q >= 0 and q <= 3

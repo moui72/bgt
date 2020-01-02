@@ -47,11 +47,13 @@ async def read_question(asked: str = None):
     (template_index, right_game_id) = get_question_id_parts()
     new_qid = f"{template_index}-{right_game_id}"
     while new_qid in asked_memo:
-        (template_index, right_game_id) = get_question_ids()
+        (template_index, right_game_id) = get_question_id_parts()
         new_qid = f"{template_index}-{right_game_id}"
+    right_game = all_games_by_id[right_game_id]
     return {
         "question": Question(
             id=new_qid,
+            text=question_templates[template_index]["text"](right_game),
             template_index=template_index,
             correct_game=all_games_by_id[right_game_id],
             answers=get_answers(template_index,right_game_id)

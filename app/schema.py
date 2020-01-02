@@ -20,7 +20,7 @@ question_templates: List[dict] = [
         "category": "year"
     },
     {
-        "text": lambda g: f"Which game was designed by {oxford_join(g.developers)}?",
+        "text": lambda g: f"Which game was designed by {g.devs()}?",
         "answer_type": "name",
         "category": "design"
     },
@@ -63,6 +63,13 @@ class Game(BaseWithFetched):
             }
         }
 
+    def devs(self):
+        items = self.developers
+        if len(items) == 1:
+            return items[0]
+        oxford_comma = (",","")[len(items) == 2]
+        return ', '.join(items[:-1]) + f'{oxford_comma} and  {items[-1]}'
+
 
 class Score(BaseWithFetched):
     player_name: str
@@ -70,6 +77,7 @@ class Score(BaseWithFetched):
 
 
 class Question(BaseModel):
-    answers: List[Union[str,int]]
-    template_index: conint(ge=0, le=len(question_templates))
     id: str
+    template_index: conint(ge=0, le=len(question_templates))
+    text: str
+    answers: List[Union[str,int]]
