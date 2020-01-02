@@ -1,5 +1,6 @@
 # std
 import os
+import toml
 from random import randint
 from pathlib import Path
 from json import load, dump, loads
@@ -17,65 +18,14 @@ from app.schema import Game
 from app.utils import UniversalEncoder
 
 
-@fixture
-def aws_credentials():
-    """Mocked AWS Credentials for moto."""
-    os.environ['AWS_ACCESS_KEY_ID'] = 'testing'
-    os.environ['AWS_SECRET_ACCESS_KEY'] = 'testing'
-    os.environ['AWS_SECURITY_TOKEN'] = 'testing'
-    os.environ['AWS_SESSION_TOKEN'] = 'testing'
-
-
-@fixture
-def games_data():
-    # load game data
-    with open(Path(__file__).parent/"games_test_data.json", "r") as games_put_json:
-        games_raw = load(games_put_json)
-        # validate/cast game data
-    games = []
-    for game in games_raw:
-        games.append(Game(**game))
-    return games
-
-
-@fixture
-def outside_game_data():
-    with open(Path(__file__).parent/"outside_game.json", "r") as outside_game_json:
-        return Game(**load(outside_game_json))
-
-
-@fixture
-def setup_db(games_data, aws_credentials):
-    with mock_dynamodb2():
-        # load table schema
-        with open(Path(__file__).parent.parent/"games_table_schema.json", "r") as schema_json:
-            schema = load(schema_json)
-
-        # create dynamodb interface (mocked by moto decorator)
-        dynamodb = boto3.resource('dynamodb', 'us-east-1')
-
-        # create table with schema
-        table = dynamodb.create_table(
-            **schema
-        )
-        table.wait_until_exists()
-
-        # put games in table
-        with table.batch_writer() as batch:
-            for game in games_data:
-                batch.put_item(game.dict())
-        from app._main import app
-        client = TestClient(app)
-        yield client
-
-
 def test_version():
-    assert __version__ == '0.1.0'
+    with open(Path(__file__).parent.parent / "pyproject.toml") as f:
+        pyproject_toml = toml.load(f)
+    assert __version__ == pyproject_toml["tool"]["poetry"]["version"]
 
 
-def test_get_nogame(outside_game_data, setup_db):
+def test_get_nogame(outside_game_data, client):
     "Makes sure we're testing against the mocked DB and not the real one"
-    client = setup_db
     test_game = outside_game_data
     assert hasattr(test_game, "id")
     assert outside_game_data.id == 59946
@@ -83,26 +33,43 @@ def test_get_nogame(outside_game_data, setup_db):
     assert response.status_code == 404
 
 
-def test_root(setup_db):
-    "The root should return the current version"
-    client = setup_db
+def test_root(client):
+    "Should return the current version"
     response = client.get("/")
-    print(response)
     assert response.status_code == 200
-    assert 0
 
 
-def test_get_game(games_data, setup_db):
-    client = setup_db
+def test_get_game(games_data, client):
+    "Should successfully get game by id"
     test_game = games_data[randint(0, 24)]
     response = client.get(f"/games/{test_game.id}")
     assert hasattr(test_game, "id")
     assert response.status_code == 200
 
 
-def test_get_games(setup_db):
-    client = setup_db
+def test_get_games(client):
+    "Should successfully get all games"
     response = client.get(f"/games/")
     result = loads(response.content)
     assert response.status_code == 200
     assert len(result) == 25
+
+def test_get_question(games_data, client):
+    "GET questions takes 1 query param, asked --"
+    "asked is a comma separated list of question ids that have been asked"
+    "memo is passed back and forth between server and client to ensure "
+    "questions are not repeated"
+    ids = set(g.id for g in games_data)
+    asked = []
+    for i in range(10):
+        query_string = f"?asked={','.join(asked)}" if len(asked) > 0 else None
+        response = client.get(f"/questions/{query_string if query_string is not None else ''}")
+        result = loads(response.content)
+        assert response.status_code == 200
+        assert result["question_id"] not in asked
+        q, g = result["question_id"].split("-")
+        q = int(q)
+        g = int(g)
+        assert q >= 0 and q <= 3
+        assert g in ids
+        asked.append(result["question_id"])

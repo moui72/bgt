@@ -16,15 +16,15 @@ from app.schema import Game
 class UniversalEncoder(json.JSONEncoder):
     # I got this from stack overflow, should find again and credit the author
     ENCODER_BY_TYPE = {
-        datetime.datetime: datetime.datetime.isoformat(),
-        datetime.date: datetime.date.isoformat(),
-        datetime.time: datetime.time.isoformat(),
+        datetime.datetime: datetime.datetime.isoformat,
+        datetime.date: datetime.date.isoformat,
+        datetime.time: datetime.time.isoformat,
         set: list,
         frozenset: list,
         GeneratorType: list,
-        bytes: bytes.decode(),
+        bytes: bytes.decode,
         Decimal: str,
-        Game: Game.json(),
+        Game: Game.json,
     }
 
     def default(self, obj):

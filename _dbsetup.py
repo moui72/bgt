@@ -21,7 +21,6 @@ else:
 
 
 def create_table():
-    # create dynamodb interface (mocked by moto decorator)
     dynamodb = boto3.resource('dynamodb', 'us-east-1')
     table_name = "GamesTest"
 
@@ -46,7 +45,7 @@ def create_table():
     # create table with scheme
     print("creating table")
     try:
-        if (table.item_count == 0):
+        if table.item_count == 0:
             table = dynamodb.create_table(
                 **schema
             )
