@@ -1,9 +1,9 @@
 # std
 import os
 import toml
-from random import randint
+import random
 from pathlib import Path
-from json import load, dump, loads
+from json import loads
 
 # vendor
 from moto import mock_dynamodb2
@@ -14,9 +14,9 @@ from starlette.testclient import TestClient
 
 # local
 from app._version import __version__
-from app.schema import Game, Question
+from app.schema import Game, Question, question_templates
 from app.utils import UniversalEncoder
-
+from app.questions import QuestionSelector, Games
 
 def test_version():
     with open(Path(__file__).parent.parent / "pyproject.toml") as f:
@@ -24,51 +24,39 @@ def test_version():
     assert __version__ == pyproject_toml["tool"]["poetry"]["version"]
 
 
-def test_get_nogame(outside_game_data, client):
-    "Makes sure we're testing against the mocked DB and not the real one"
-    test_game = outside_game_data
-    assert hasattr(test_game, "id")
-    assert outside_game_data.id == 59946
-    response = client.get(f"/games/{test_game.id}")
-    assert response.status_code == 404
-
-
-def test_root(client):
-    "Should return the current version"
+def test_root(client, games_data):
+    "Should return the current version and the number of possible questions"
     response = client.get("/")
     assert response.status_code == 200
-
-
-def test_get_game(games_data, client):
-    "Should successfully get game by id"
-    test_game = games_data[randint(0, 24)]
-    response = client.get(f"/games/{test_game.id}")
-    assert hasattr(test_game, "id")
-    assert response.status_code == 200
-
-
-def test_get_games(client):
-    "Should successfully get all games"
-    response = client.get(f"/games/")
-    result = loads(response.content)
-    assert response.status_code == 200
-    assert len(result) == 25
+    body = loads(response.content)
+    assert body["version"] == f"v{__version__}"
+    assert body["question_count"] == len(games_data) * len(question_templates)
 
 def test_get_question(games_data, client):
     ids = set(g.id for g in games_data)
     asked = []
-    for i in range(10):
-        query_string = f"?asked={','.join(asked)}" if len(asked) > 0 else ''
+    for i in range(3):       
+        if len(asked) > 0:
+            query_string = f"?asked={','.join(str(a) for a in asked)}"
+        else:
+            query_string = ''
         response = client.get(
             "/questions/" + query_string 
         )
         assert response.status_code == 200
         response_body = loads(response.content)
-        asked = [] if response_body["asked"] is None else response_body["asked"].split(",") 
         question = Question(**response_body["question"])
         # make sure no question is served twice 
         assert question.id not in asked
-        q, g = (int(s) for s in question.id.split("-"))
-        assert q >= 0 and q <= 3
-        assert g in ids
-        asked.append(question.id)
+        if response_body["asked"] is not None:
+            asked = response_body["asked"]
+
+
+def test_question_selector(games_data):
+    qs = QuestionSelector(games=Games(games_data),asked=[])
+    q1 = qs.nextQuestion() 
+    q2 = qs.nextQuestion() 
+    assert q1 != q2
+    assert len(q1["asked"]) < len(q2["asked"])
+    assert q1["asked"].issubset(q2["asked"])
+    assert len(q1["question"].answers) == 4

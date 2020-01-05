@@ -2,94 +2,49 @@
 from pathlib import Path
 import random
 from datetime import datetime
+from typing import List, Union, Set, Tuple, Dict
+from functools import wraps
 
 # vendor imports
-from fastapi import FastAPI, HTTPException
-import boto3
+from fastapi import FastAPI, HTTPException, APIRouter
+from starlette.requests import Request
+from pydantic import BaseModel, conint, PositiveInt
 
 # local imports
-from app.schema import *
+from app.schema import Game, question_templates, Score, QID
 from app._version import __version__
 from app.utils import oxford_join
+from app.questions import QuestionSelector, Games
 
-# startup
-app = FastAPI()
-dynamodb = boto3.resource('dynamodb', 'us-east-1')
-games = dynamodb.Table('GamesTest')
-all_games = games.scan()
-all_games = [Game(**g) for g in all_games["Items"]]
-all_game_ids = tuple(g.id for g in all_games)
-all_games_by_id = {g.id: g for g in all_games}
+routes = APIRouter()
+
+def create_app():
+    # other initialization here
+    app = FastAPI()
+    app.include_router(routes)
+    app.state.games = Games()
+        
+    return app
 
 # routes
-@app.get("/")
-async def root():
-    return {"version": f"v{__version__}"}
-
-@app.get("/games/")
-def read_games(n: int = None):
-    return all_games
-
-@app.get("/games/{game_id}")
-async def read_game(game_id: int):
-    response = games.get_item(Key={"id": game_id})
-    try:
-        return Game(**response["Item"])
-    except KeyError:
-        raise HTTPException(status_code=404, detail="Item not found")
-
-
-@app.get("/questions/")
-async def read_question(asked: str = None):
-    "asked is a comma separated list of question ids that have been asked"
-    # memo passed between client & server ensures questions aren't repeated    
-    asked_memo = set(asked.split(",") if asked is not None else ())
-    (template_index, right_game_id) = get_question_id_parts()
-    new_qid = f"{template_index}-{right_game_id}"
-    while new_qid in asked_memo:
-        (template_index, right_game_id) = get_question_id_parts()
-        new_qid = f"{template_index}-{right_game_id}"
-    right_game = all_games_by_id[right_game_id]
+@routes.get("/")
+async def root(request: Request):
+    state = request.app.state
     return {
-        "question": Question(
-            id=new_qid,
-            text=question_templates[template_index]["text"](right_game),
-            template_index=template_index,
-            correct_game=all_games_by_id[right_game_id],
-            answers=get_answers(template_index,right_game_id)
-        ), 
-        "asked": asked
+        "version": f"v{__version__}", 
+        "question_count": len(state.games.all_games) * len(question_templates)
     }
 
+@routes.get("/questions/")
+async def read_question(request: Request, asked: List[str] = None):
+    "asked is a comma separated list of question ids that have been asked"
+    state = request.app.state
+    # memo passed between client & server ensures questions aren't repeated    
+    asked_memo = set(asked.split(",") if asked is not None else ())
+    qs = QuestionSelector(asked=asked_memo, games=state.games)
+    return qs.nextQuestion()
 
-@app.post("/score/")
-async def create_item(player_name: str, score: int):
-    return Score(player_name, score)
 
-# helpers
-def get_question_id_parts():
-    template_index = random.randrange(len(question_templates))
-    right_game_id = random.choice(all_game_ids)
-    return template_index, right_game_id
-
-def get_answers(template_index,right_game_id):
-    template = question_templates[template_index]
-    right_game = all_games_by_id[right_game_id]
-    right_answer = getattr(right_game, template["answer_type"])
-    answers = set()
-    answers.add(oxford_join(right_answer))
-    while len(answers) < 4:
-        if template["answer_type"] == "year_published":
-            # is the complication of code worth the extent to which this is 
-            # better than sampling random games?
-            alt_answer = random.randint(
-                right_game.year_published-10, 
-                min(datetime.now().year, right_game.year_published+10)
-            )
-        else:
-            alt_answer = getattr(
-                random.choice(all_games), 
-                template["answer_type"]
-            )
-        answers.add(oxford_join(alt_answer))
-    return list(answers)
+@routes.post("/score/", response_model=Score)
+async def create_score(score:Score):
+    return score

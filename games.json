@@ -7,7 +7,7 @@
     "developers": [
       "Tristan Hall"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "187104": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -17,7 +17,7 @@
     "developers": [
       "Christophe Boelinger"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "207830": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -27,7 +27,7 @@
     "developers": [
       "Connor Reid"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "73369": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -37,7 +37,7 @@
     "developers": [
       "Ignacy Trzewiczek"
     ],
-    "year_published": 2010
+    "year": 2010
   },
   "192458": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -47,7 +47,7 @@
     "developers": [
       "Ignacy Trzewiczek"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "164369": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -57,7 +57,7 @@
     "developers": [
       "Gary Kim"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "154173": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -68,7 +68,7 @@
       "Marek Mydel",
       "Piotr Stankiewicz"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "68448": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -78,7 +78,7 @@
     "developers": [
       "Antoine Bauza"
     ],
-    "year_published": 2010
+    "year": 2010
   },
   "173346": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -89,7 +89,7 @@
       "Antoine Bauza",
       "Bruno Cathala"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "180263": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -100,7 +100,7 @@
       "Ludovic Roudy",
       "Bruno Sautter"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "204516": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -112,7 +112,7 @@
       "Dave Kimmel",
       "Jeph Stahl"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "217": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -122,7 +122,7 @@
     "developers": [
       "Karl-Heinz Schmiel"
     ],
-    "year_published": 1989
+    "year": 1989
   },
   "172818": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -132,7 +132,7 @@
     "developers": [
       "Ryan Laukat"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "155987": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -143,7 +143,7 @@
       "Bruno Cathala",
       "Charles Chevallier"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "226170": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -153,7 +153,7 @@
     "developers": [
       "Hope S. Hwang"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "191189": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -163,7 +163,7 @@
     "developers": [
       "Kevin Riley"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "241451": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -174,7 +174,7 @@
       "Nick Little (I)",
       "Kevin Riley"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "270633": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -184,7 +184,7 @@
     "developers": [
       "Kevin Riley"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "218417": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -194,7 +194,7 @@
     "developers": [
       "Kevin Riley"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "155695": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -204,7 +204,7 @@
     "developers": [
       "Reiner Knizia"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "141932": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -214,7 +214,7 @@
     "developers": [
       "Saar Shai"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "255262": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -224,7 +224,7 @@
     "developers": [
       "Uwe Rosenberg"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "154458": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -235,7 +235,7 @@
       "Jay Cormier",
       "Sen-Foong Lim"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "161970": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -245,7 +245,7 @@
     "developers": [
       "Mat\u00fa\u0161 Kotry"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "181293": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -256,7 +256,7 @@
       "Marcin Senior Ropka",
       "Viola Kijowska"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "48726": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -266,7 +266,7 @@
     "developers": [
       "Tory Niemann"
     ],
-    "year_published": 2010
+    "year": 2010
   },
   "36986": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -277,7 +277,7 @@
       "Ed Teixeira",
       "Mark H. Walker"
     ],
-    "year_published": 2009
+    "year": 2009
   },
   "234487": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -287,7 +287,7 @@
     "developers": [
       "Reiner Stockhausen"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "228959": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -297,7 +297,7 @@
     "developers": [
       "Tony Boydell"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "192297": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -308,7 +308,7 @@
       "Ted Alspach",
       "Friedemann Friese"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "110277": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -318,7 +318,7 @@
     "developers": [
       "Vangelis Bagiartakis"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "170318": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -329,7 +329,7 @@
       "Vangelis Bagiartakis",
       "Panagiotis Zinoviadis"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "185343": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -341,7 +341,7 @@
       "Richard Amann",
       "Viktor Peter"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "147253": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -351,7 +351,7 @@
     "developers": [
       "Ryan Laukat"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "193557": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -362,7 +362,7 @@
       "Jordi Gen\u00e9",
       "Gregorio Morales"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "124742": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -373,7 +373,7 @@
       "Richard Garfield",
       "Lukas Litzsinger"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "24935": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -383,7 +383,7 @@
     "developers": [
       "Anima Studio"
     ],
-    "year_published": 2006
+    "year": 2006
   },
   "191572": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -394,7 +394,7 @@
       "Wolfgang Sentker",
       "Ralf zur Linde"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "104955": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -404,7 +404,7 @@
     "developers": [
       "Mac Gerdts"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "178007": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -414,7 +414,7 @@
     "developers": [
       "Florian Fay"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "34194": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -424,7 +424,7 @@
     "developers": [
       "Michael Schacht"
     ],
-    "year_published": 2008
+    "year": 2008
   },
   "140934": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -434,7 +434,7 @@
     "developers": [
       "Dan Cassar"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "155068": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -447,7 +447,7 @@
       "Eric M. Lang",
       "Fred Perret"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "179803": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -460,7 +460,7 @@
       "Eric M. Lang",
       "Fred Perret"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "144734": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -471,7 +471,7 @@
       "Eric M. Lang",
       "Kevin Wilson"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "207753": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -481,7 +481,7 @@
     "developers": [
       "Maxime Rambourg"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "56931": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -491,7 +491,7 @@
     "developers": [
       "Stefan Feld"
     ],
-    "year_published": 2009
+    "year": 2009
   },
   "144797": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -501,7 +501,7 @@
     "developers": [
       "Trey Chambers"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "257499": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -513,7 +513,7 @@
       "Nikki Valens",
       "Kevin Wilson"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "205637": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -524,7 +524,7 @@
       "Nate French",
       "Matthew Newman"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "204675": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -534,7 +534,7 @@
     "developers": [
       "Martin Wallace"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "160432": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -544,7 +544,7 @@
     "developers": [
       "Kuro"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "128204": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -554,7 +554,7 @@
     "developers": [
       "Stephen DeBaun"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "168609": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -564,7 +564,7 @@
     "developers": [
       "Ryan Laukat"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "92643": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -575,7 +575,7 @@
       "Michael Kiesling",
       "Wolfgang Kramer"
     ],
-    "year_published": 2011
+    "year": 2011
   },
   "136056": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -585,7 +585,7 @@
     "developers": [
       "R\u00fcdiger Dorn"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "69789": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -596,7 +596,7 @@
       "John Fiorillo",
       "Justin Gary"
     ],
-    "year_published": 2010
+    "year": 2010
   },
   "230273": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -607,7 +607,7 @@
       "Justin Gary",
       "Ben Lundquist"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "131118": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -617,7 +617,7 @@
     "developers": [
       "Pierluca Zizzi"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "167400": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -627,7 +627,7 @@
     "developers": [
       "Isaac Vega"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "156442": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -638,7 +638,7 @@
       "Erin McDonald",
       "Christian Strain"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "39683": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -648,7 +648,7 @@
     "developers": [
       "Uwe Rosenberg"
     ],
-    "year_published": 2009
+    "year": 2009
   },
   "55253": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -658,7 +658,7 @@
     "developers": [
       "Leo Colovini"
     ],
-    "year_published": 2009
+    "year": 2009
   },
   "230802": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -668,7 +668,7 @@
     "developers": [
       "Michael Kiesling"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "256226": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -678,7 +678,7 @@
     "developers": [
       "Michael Kiesling"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "986": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -689,7 +689,7 @@
       "Hagen Dorgathen",
       "Uwe Rosenberg"
     ],
-    "year_published": 2000
+    "year": 2000
   },
   "266164": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -699,7 +699,7 @@
     "developers": [
       "Reiner Knizia"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "143741": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -710,7 +710,7 @@
       "Michael Palm",
       "Lukas Zach"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "216640": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -720,7 +720,7 @@
     "developers": [
       "Sean Rumble"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "219513": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -730,7 +730,7 @@
     "developers": [
       "Phil Walker-Harding"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "223740": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -740,7 +740,7 @@
     "developers": [
       "Jonathan Ying"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "167513": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -750,7 +750,7 @@
     "developers": [
       "Marc Andr\u00e9"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "186567": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -760,7 +760,7 @@
     "developers": [
       "Mike Fitzgerald"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "181236": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -771,7 +771,7 @@
       "Evgeny Nikitin",
       "Nikolay Pegasov"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "178944": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -782,7 +782,7 @@
       "Alexandar Guerov",
       "Ledha Guerova"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "234477": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -793,7 +793,7 @@
       "Molly Glover",
       "Tom Jolly"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "760": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -803,7 +803,7 @@
     "developers": [
       "Reiner Knizia"
     ],
-    "year_published": 2000
+    "year": 2000
   },
   "135219": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -815,7 +815,7 @@
       "Marco Maggi",
       "Francesco Nepitello"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "123123": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -825,7 +825,7 @@
     "developers": [
       "D. Brad Talton, Jr."
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "162388": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -835,7 +835,7 @@
     "developers": [
       "D. Brad Talton, Jr."
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "204728": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -845,7 +845,7 @@
     "developers": [
       "D. Brad Talton, Jr."
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "89409": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -855,7 +855,7 @@
     "developers": [
       "D. Brad Talton, Jr."
     ],
-    "year_published": 2010
+    "year": 2010
   },
   "146439": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -866,7 +866,7 @@
       "Richard Borg",
       "Robert A. Kouba"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "165950": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -876,7 +876,7 @@
     "developers": [
       "Stefan Klo\u00df"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "34219": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -886,7 +886,7 @@
     "developers": [
       "Steve Finn"
     ],
-    "year_published": 2007
+    "year": 2007
   },
   "171233": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -896,7 +896,7 @@
     "developers": [
       "Maxime Rambourg"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "230244": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -908,7 +908,7 @@
       "Xavier Georges",
       "Alain Orban"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "156858": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -918,7 +918,7 @@
     "developers": [
       "Philip duBarry"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "262215": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -928,7 +928,7 @@
     "developers": [
       "Alexander Pfister"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "206504": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -938,7 +938,7 @@
     "developers": [
       "Dan Cassar"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "170216": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -948,7 +948,7 @@
     "developers": [
       "Eric M. Lang"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "180593": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -958,7 +958,7 @@
     "developers": [
       "Nicolas Robert"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "244331": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -968,7 +968,7 @@
     "developers": [
       "Reiner Knizia"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "21882": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -978,7 +978,7 @@
     "developers": [
       "Reiner Knizia"
     ],
-    "year_published": 2006
+    "year": 2006
   },
   "147154": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -988,7 +988,7 @@
     "developers": [
       "Reiner Knizia"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "224517": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1000,7 +1000,7 @@
       "Matt Tolman",
       "Martin Wallace"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "28720": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1010,7 +1010,7 @@
     "developers": [
       "Martin Wallace"
     ],
-    "year_published": 2007
+    "year": 2007
   },
   "112373": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1020,7 +1020,7 @@
     "developers": [
       "Seiji Kanai"
     ],
-    "year_published": 2011
+    "year": 2011
   },
   "172308": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1031,7 +1031,7 @@
       "Andreas Pelikan",
       "Alexander Pfister"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "136888": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1041,7 +1041,7 @@
     "developers": [
       "Stefan Feld"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "184921": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1051,7 +1051,7 @@
     "developers": [
       "Richard Garfield"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "114438": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1062,7 +1062,7 @@
       "Jay Cormier",
       "Sen-Foong Lim"
     ],
-    "year_published": 2011
+    "year": 2011
   },
   "171499": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1072,7 +1072,7 @@
     "developers": [
       "Phil Walker-Harding"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "69120": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1083,7 +1083,7 @@
       "Pascal Bernard",
       "Laurent Pouchain"
     ],
-    "year_published": 2010
+    "year": 2010
   },
   "41": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1093,7 +1093,7 @@
     "developers": [
       "Sid Sackson"
     ],
-    "year_published": 1980
+    "year": 1980
   },
   "141008": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1103,7 +1103,7 @@
     "developers": [
       "Klaus-J\u00fcrgen Wrede"
     ],
-    "year_published": 2008
+    "year": 2008
   },
   "4390": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1113,7 +1113,7 @@
     "developers": [
       "Klaus-J\u00fcrgen Wrede"
     ],
-    "year_published": 2002
+    "year": 2002
   },
   "131014": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1123,7 +1123,7 @@
     "developers": [
       "Klaus-J\u00fcrgen Wrede"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "90305": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1133,7 +1133,7 @@
     "developers": [
       "Serge Laget"
     ],
-    "year_published": 2011
+    "year": 2011
   },
   "231484": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1143,7 +1143,7 @@
     "developers": [
       "Richard Garfield"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "826": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1153,7 +1153,7 @@
     "developers": [
       "Leo Colovini"
     ],
-    "year_published": 2000
+    "year": 2000
   },
   "263918": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1163,7 +1163,7 @@
     "developers": [
       "Jordy Adan"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "224153": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1173,7 +1173,7 @@
     "developers": [
       "John Clowdus"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "38386": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1184,7 +1184,7 @@
       "Inka Brand",
       "Markus Brand"
     ],
-    "year_published": 2008
+    "year": 2008
   },
   "84876": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1194,7 +1194,7 @@
     "developers": [
       "Stefan Feld"
     ],
-    "year_published": 2011
+    "year": 2011
   },
   "155426": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1204,7 +1204,7 @@
     "developers": [
       "Ted Alspach"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "228504": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1214,7 +1214,7 @@
     "developers": [
       "Josh Wood"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "204141": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1224,7 +1224,7 @@
     "developers": [
       "Jog Kung"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "13": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1234,7 +1234,7 @@
     "developers": [
       "Klaus Teuber"
     ],
-    "year_published": 1995
+    "year": 1995
   },
   "220520": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1244,7 +1244,7 @@
     "developers": [
       "Uwe Rosenberg"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "102794": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1254,7 +1254,7 @@
     "developers": [
       "Uwe Rosenberg"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "232832": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1264,7 +1264,7 @@
     "developers": [
       "Emerson Matsuuchi"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "209685": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1274,7 +1274,7 @@
     "developers": [
       "Emerson Matsuuchi"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "236781": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1285,7 +1285,7 @@
       "Richard Amann",
       "Viktor Peter"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "172287": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1295,7 +1295,7 @@
     "developers": [
       "Ole Steiness"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "43111": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1305,7 +1305,7 @@
     "developers": [
       "Eric M. Lang"
     ],
-    "year_published": 2009
+    "year": 2009
   },
   "197376": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1315,7 +1315,7 @@
     "developers": [
       "Jamey Stegmaier"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "161943": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1325,7 +1325,7 @@
     "developers": [
       "Gary Kim"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "54307": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1335,7 +1335,7 @@
     "developers": [
       "Seiji Kanai"
     ],
-    "year_published": 2009
+    "year": 2009
   },
   "264052": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1345,7 +1345,7 @@
     "developers": [
       "S J Macdonald"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "478": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1355,7 +1355,7 @@
     "developers": [
       "Bruno Faidutti"
     ],
-    "year_published": 2000
+    "year": 2000
   },
   "205398": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1365,7 +1365,7 @@
     "developers": [
       "Bruno Faidutti"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "123499": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1375,7 +1375,7 @@
     "developers": [
       "Ryan Laukat"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "169318": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1386,7 +1386,7 @@
       "Gil d'Orey",
       "Antonio Sousa Lara"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "266507": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1397,7 +1397,7 @@
       "Andy Clautice",
       "Paul Dennen"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "201808": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1407,7 +1407,7 @@
     "developers": [
       "Paul Dennen"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "216132": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1417,7 +1417,7 @@
     "developers": [
       "Juma Al-JouJou"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "40765": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1427,7 +1427,7 @@
     "developers": [
       "Christian Marcussen"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "139952": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1437,7 +1437,7 @@
     "developers": [
       "Hassan Lopez"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "178900": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1447,7 +1447,7 @@
     "developers": [
       "Vlaada Chv\u00e1til"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "224037": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1458,7 +1458,7 @@
       "Vlaada Chv\u00e1til",
       "Scot Eaton"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "198773": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1468,7 +1468,7 @@
     "developers": [
       "Vlaada Chv\u00e1til"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "215437": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1478,7 +1478,7 @@
     "developers": [
       "David Sirlin"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "131111": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1488,7 +1488,7 @@
     "developers": [
       "David Sirlin"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "245638": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1499,7 +1499,7 @@
       "Flaminia Brasini",
       "Virginio Gigli"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "192934": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1511,7 +1511,7 @@
       "Toryo Hojo",
       "N2"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "159355": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1521,7 +1521,7 @@
     "developers": [
       "\u6298\u53e3 \u65e5\u5411 (Hinata Origuchi)"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "105": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1531,7 +1531,7 @@
     "developers": [
       "Reiner Knizia"
     ],
-    "year_published": 1997
+    "year": 1997
   },
   "124361": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1541,7 +1541,7 @@
     "developers": [
       "Mac Gerdts"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "112": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1552,7 +1552,7 @@
       "Dominique Ehrhard",
       "Duccio Vitale"
     ],
-    "year_published": 1995
+    "year": 1995
   },
   "71882": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1562,7 +1562,7 @@
     "developers": [
       "Jason C. Hill"
     ],
-    "year_published": 2010
+    "year": 2010
   },
   "98351": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1572,7 +1572,7 @@
     "developers": [
       "Andrew Parks"
     ],
-    "year_published": 2011
+    "year": 2011
   },
   "39463": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1586,7 +1586,7 @@
       "Peter Olotka",
       "Kevin Wilson"
     ],
-    "year_published": 2008
+    "year": 2008
   },
   "173101": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1597,7 +1597,7 @@
       "Simone Luciani",
       "Daniele Tascini"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "140863": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1607,7 +1607,7 @@
     "developers": [
       "Michael Eskue"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "131357": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1617,7 +1617,7 @@
     "developers": [
       "Rikki Tahta"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "192457": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1629,7 +1629,7 @@
       "Micha\u0142 Oracz",
       "Micha\u0142 Walczak"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "223049": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1639,7 +1639,7 @@
     "developers": [
       "John D. Clair"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "54998": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1650,7 +1650,7 @@
       "Bruno Cathala",
       "Ludovic Maublanc"
     ],
-    "year_published": 2009
+    "year": 2009
   },
   "176165": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1660,7 +1660,7 @@
     "developers": [
       "Sami Laakso"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "191597": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1670,7 +1670,7 @@
     "developers": [
       "Sami Laakso"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "251551": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1680,7 +1680,7 @@
     "developers": [
       "Sami Laakso"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "128445": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1690,7 +1690,7 @@
     "developers": [
       "Jeremy Lennert"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "44": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1700,7 +1700,7 @@
     "developers": [
       "Reinhard Staupe"
     ],
-    "year_published": 1997
+    "year": 1997
   },
   "141423": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1710,7 +1710,7 @@
     "developers": [
       "Kane Klenko"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "150376": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1721,7 +1721,7 @@
       "Jonathan Gilmour",
       "Isaac Vega"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "145601": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1732,7 +1732,7 @@
       "Dan Schnake",
       "Adam West"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "224815": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1743,7 +1743,7 @@
       "Hisashi Hayashi",
       "Seiji Kanai"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "65532": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1753,7 +1753,7 @@
     "developers": [
       "Richard Launius"
     ],
-    "year_published": 2010
+    "year": 2010
   },
   "104162": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1766,7 +1766,7 @@
       "Adam Sadler",
       "Kevin Wilson"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "162082": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1776,7 +1776,7 @@
     "developers": [
       "S\u00e9bastien Dujardin"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "194594": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1786,7 +1786,7 @@
     "developers": [
       "R\u00e9gis Bonness\u00e9e"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "56022": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1796,7 +1796,7 @@
     "developers": [
       "Mads L. Brynnum"
     ],
-    "year_published": 2009
+    "year": 2009
   },
   "216734": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1807,7 +1807,7 @@
       "Nate Chatellier",
       "Manny Trembley"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "244271": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1818,7 +1818,7 @@
       "Nate Chatellier",
       "Manny Trembley"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "221194": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1829,7 +1829,7 @@
       "Jonathan Gilmour",
       "Brian Lewis"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "141653": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1839,7 +1839,7 @@
     "developers": [
       "D. Brad Talton, Jr."
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "171669": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1849,7 +1849,7 @@
     "developers": [
       "C\u00e9drick Chaboussit"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "39856": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1859,7 +1859,7 @@
     "developers": [
       "Jean-Louis Roubira"
     ],
-    "year_published": 2008
+    "year": 2008
   },
   "179182": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1869,7 +1869,7 @@
     "developers": [
       "Roberto Pestrin"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "199793": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1879,7 +1879,7 @@
     "developers": [
       "Mikko Punakallio"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "247643": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1890,7 +1890,7 @@
       "Eilif Svensson",
       "Kristian Amundsen \u00d8stby"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "188021": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1900,7 +1900,7 @@
     "developers": [
       "Ikaga-Ya"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "13004": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1910,7 +1910,7 @@
     "developers": [
       "Klaus-J\u00fcrgen Wrede"
     ],
-    "year_published": 2004
+    "year": 2004
   },
   "142262": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1921,7 +1921,7 @@
       "Robert Burke",
       "Richard Launius"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "230013": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1931,7 +1931,7 @@
     "developers": [
       "Li Hsiao En"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "232219": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1943,7 +1943,7 @@
       "Luca Ricci",
       "Lorenzo Silva"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "172866": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1953,7 +1953,7 @@
     "developers": [
       "Koen Hendrix"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "136594": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1963,7 +1963,7 @@
     "developers": [
       "Nathanael Mortensen"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "66171": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1973,7 +1973,7 @@
     "developers": [
       "R\u00fcdiger Dorn"
     ],
-    "year_published": 2010
+    "year": 2010
   },
   "184704": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1984,7 +1984,7 @@
       "Thomas Vande Ginste",
       "Wolf Plancke"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "171630": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -1994,7 +1994,7 @@
     "developers": [
       "Tom Jolly"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "194880": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2004,7 +2004,7 @@
     "developers": [
       "Klemens Kalicki"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "129459": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2014,7 +2014,7 @@
     "developers": [
       "Brett G. Murrell"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "247236": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2024,7 +2024,7 @@
     "developers": [
       "Ian Moss"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "36235": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2035,7 +2035,7 @@
       "Jeremy Holcomb",
       "Stephen McLaughlin"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "209660": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2045,7 +2045,7 @@
     "developers": [
       "Andrew Parks"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "102548": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2057,7 +2057,7 @@
       "Lorenzo Silva",
       "Lorenzo Tucci Sorrentino"
     ],
-    "year_published": 2011
+    "year": 2011
   },
   "148975": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2067,7 +2067,7 @@
     "developers": [
       "Desnet Amane"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "97207": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2077,7 +2077,7 @@
     "developers": [
       "Vlaada Chv\u00e1til"
     ],
-    "year_published": 2011
+    "year": 2011
   },
   "42124": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2087,7 +2087,7 @@
     "developers": [
       "Christophe Boelinger"
     ],
-    "year_published": 2009
+    "year": 2009
   },
   "160902": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2098,7 +2098,7 @@
       "Mike Elliott",
       "Eric M. Lang"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "183572": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2109,7 +2109,7 @@
       "Mike Elliott",
       "Eric M. Lang"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "59946": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2122,7 +2122,7 @@
       "Mike Mearls",
       "Bill Slavicsek"
     ],
-    "year_published": 2010
+    "year": 2010
   },
   "92044": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2134,7 +2134,7 @@
       "Mons Johnson",
       "Peter Lee"
     ],
-    "year_published": 2011
+    "year": 2011
   },
   "91872": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2144,7 +2144,7 @@
     "developers": [
       "Peter Lee"
     ],
-    "year_published": 2011
+    "year": 2011
   },
   "142326": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2154,7 +2154,7 @@
     "developers": [
       "Ryan Laukat"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "177197": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2164,7 +2164,7 @@
     "developers": [
       "Henri Kermarrec"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "100423": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2175,7 +2175,7 @@
       "Richard Launius",
       "Kevin Wilson"
     ],
-    "year_published": 2011
+    "year": 2011
   },
   "146021": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2186,7 +2186,7 @@
       "Corey Konieczka",
       "Nikki Valens"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "170980": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2197,7 +2197,7 @@
       "Ronald Hofst\u00e4tter",
       "Fred Horn"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "163968": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2208,7 +2208,7 @@
       "Matthew Dunstan",
       "Brett J. Gilbert"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "68425": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2218,7 +2218,7 @@
     "developers": [
       "Seth Jaffee"
     ],
-    "year_published": 2011
+    "year": 2011
   },
   "163640": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2228,7 +2228,7 @@
     "developers": [
       "Seth Jaffee"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "270971": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2238,7 +2238,7 @@
     "developers": [
       "Matt Leacock"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "113294": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2248,7 +2248,7 @@
     "developers": [
       "Kristian Amundsen \u00d8stby"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "279419": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2258,7 +2258,7 @@
     "developers": [
       "Paul Dennen"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "206718": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2268,7 +2268,7 @@
     "developers": [
       "Paolo Mori"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "199792": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2278,7 +2278,7 @@
     "developers": [
       "James A. Wilson"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "182134": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2290,7 +2290,7 @@
       "Dmitry Knorre",
       "Sergey Machin"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "201825": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2300,7 +2300,7 @@
     "developers": [
       "Adam P. McIver"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "256779": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2310,7 +2310,7 @@
     "developers": [
       "D. Brad Talton, Jr."
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "203417": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2321,7 +2321,7 @@
       "Inka Brand",
       "Markus Brand"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "226518": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2332,7 +2332,7 @@
       "Inka Brand",
       "Markus Brand"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "122842": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2343,7 +2343,7 @@
       "Agnieszka Kopera",
       "Andrei Novac"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "220792": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2353,7 +2353,7 @@
     "developers": [
       "Geoff Engelstein"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "172225": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2365,7 +2365,7 @@
       "Elan Lee",
       "Shane Small"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "13823": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2375,7 +2375,7 @@
     "developers": [
       "Satoshi Nakamura"
     ],
-    "year_published": 2004
+    "year": 2004
   },
   "220780": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2386,7 +2386,7 @@
       "Matthew Dunstan",
       "Brett J. Gilbert"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "140125": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2397,7 +2397,7 @@
       "Tom W. Green, III",
       "Stephen C. Smith"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "232918": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2408,7 +2408,7 @@
       "Andrew Fischer",
       "Nathan I. Hajek"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "125046": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2418,7 +2418,7 @@
     "developers": [
       "Alf Seegert"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "223040": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2428,7 +2428,7 @@
     "developers": [
       "Bruce Glassco"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "171011": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2438,7 +2438,7 @@
     "developers": [
       "Thomas Lehmann"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "177736": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2448,7 +2448,7 @@
     "developers": [
       "Uwe Rosenberg"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "159675": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2458,7 +2458,7 @@
     "developers": [
       "Uwe Rosenberg"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "192834": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2468,7 +2468,7 @@
     "developers": [
       "Matthias Cramer"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "206941": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2478,7 +2478,7 @@
     "developers": [
       "Helmut Ohley"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "157354": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2488,7 +2488,7 @@
     "developers": [
       "Bruno Cathala"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "199478": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2498,7 +2498,7 @@
     "developers": [
       "Asger Harding Granerud"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "107190": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2508,7 +2508,7 @@
     "developers": [
       "David Sirlin"
     ],
-    "year_published": 2011
+    "year": 2011
   },
   "100901": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2518,7 +2518,7 @@
     "developers": [
       "Kevin Lanzing"
     ],
-    "year_published": 2011
+    "year": 2011
   },
   "121297": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2529,7 +2529,7 @@
       "Ben Pinchback",
       "Matt Riddle"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "169124": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2540,7 +2540,7 @@
       "Ga\u00ebtan Beaujannot",
       "Jean Yves Monpertuis"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "168679": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2550,7 +2550,7 @@
     "developers": [
       "Chih-Fan Chen"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "175324": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2560,7 +2560,7 @@
     "developers": [
       "Jacob Jaskov"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "136063": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2570,7 +2570,7 @@
     "developers": [
       "Matt Leacock"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "146221": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2580,7 +2580,7 @@
     "developers": [
       "Isaac Childres"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "221965": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2590,7 +2590,7 @@
     "developers": [
       "Joshua Buergel"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "288169": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2600,7 +2600,7 @@
     "developers": [
       "Foxtrot Games"
     ],
-    "year_published": 2020
+    "year": 2020
   },
   "140603": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2610,7 +2610,7 @@
     "developers": [
       "Peter Hawes"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "66188": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2622,7 +2622,7 @@
       "Marco Ruskowski",
       "Marcel S\u00fc\u00dfelbeck"
     ],
-    "year_published": 2010
+    "year": 2010
   },
   "139991": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2634,7 +2634,7 @@
       "Marco Ruskowski",
       "Marcel S\u00fc\u00dfelbeck"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "43570": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2644,7 +2644,7 @@
     "developers": [
       "Friedemann Friese"
     ],
-    "year_published": 2011
+    "year": 2011
   },
   "171273": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2654,7 +2654,7 @@
     "developers": [
       "Kane Klenko"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "220308": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2665,7 +2665,7 @@
       "Jens Dr\u00f6gem\u00fcller",
       "Helge Ostertag"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "137811": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2675,7 +2675,7 @@
     "developers": [
       "Christopher Badell"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "205610": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2685,7 +2685,7 @@
     "developers": [
       "Bruno Cathala"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "169255": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2696,7 +2696,7 @@
       "Nate French",
       "Eric M. Lang"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "42776": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2706,7 +2706,7 @@
     "developers": [
       "Corey Konieczka"
     ],
-    "year_published": 2011
+    "year": 2011
   },
   "198855": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2716,7 +2716,7 @@
     "developers": [
       "John Clowdus"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "249703": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2726,7 +2726,7 @@
     "developers": [
       "Stefan Risthaus"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "37046": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2736,7 +2736,7 @@
     "developers": [
       "Antoine Bauza"
     ],
-    "year_published": 2008
+    "year": 2008
   },
   "143693": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2746,7 +2746,7 @@
     "developers": [
       "Uwe Rosenberg"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "66362": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2756,7 +2756,7 @@
     "developers": [
       "Matthias Cramer"
     ],
-    "year_published": 2010
+    "year": 2010
   },
   "265188": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2766,7 +2766,7 @@
     "developers": [
       "Matthias Cramer"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "12692": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2776,7 +2776,7 @@
     "developers": [
       "Keith Baker"
     ],
-    "year_published": 2005
+    "year": 2005
   },
   "174430": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2786,7 +2786,7 @@
     "developers": [
       "Isaac Childres"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "164338": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2796,7 +2796,7 @@
     "developers": [
       "Luigi Ferrini"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "123536": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2806,7 +2806,7 @@
     "developers": [
       "Kim Sat\u00f4"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "182874": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2817,7 +2817,7 @@
       "Virginio Gigli",
       "Simone Luciani"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "146886": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2828,7 +2828,7 @@
       "Michael Keller (II)",
       "Andreas \"ode.\" Odendahl"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "193738": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2838,7 +2838,7 @@
     "developers": [
       "Alexander Pfister"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "156501": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2849,7 +2849,7 @@
       "Phil Eklund",
       "Philipp Klarmann"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "173018": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2859,7 +2859,7 @@
     "developers": [
       "Stephen Gibson"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "171668": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2870,7 +2870,7 @@
       "Fabien Riffaud",
       "Juan Rodriguez"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "231327": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2881,7 +2881,7 @@
       "Fabien Riffaud",
       "Juan Rodriguez"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "256159": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2891,7 +2891,7 @@
     "developers": [
       "Callin Flores"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "250458": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2901,7 +2901,7 @@
     "developers": [
       "Andreas Steding"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "256317": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2911,7 +2911,7 @@
     "developers": [
       "Chris Antony"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "196305": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2921,7 +2921,7 @@
     "developers": [
       "Hope S. Hwang"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "196306": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2931,7 +2931,7 @@
     "developers": [
       "Hope S. Hwang"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "202755": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2941,7 +2941,7 @@
     "developers": [
       "Hope S. Hwang"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "134157": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2951,7 +2951,7 @@
     "developers": [
       "Tony Boydell"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "116": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2961,7 +2961,7 @@
     "developers": [
       "Paul Peterson"
     ],
-    "year_published": 1998
+    "year": 1998
   },
   "251890": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2971,7 +2971,7 @@
     "developers": [
       "Jeffrey D. Allers"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "200853": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2981,7 +2981,7 @@
     "developers": [
       "Corn\u00e9 van Moorsel"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "37628": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -2991,7 +2991,7 @@
     "developers": [
       "Sean Ross (I)"
     ],
-    "year_published": 2010
+    "year": 2010
   },
   "98778": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3001,7 +3001,7 @@
     "developers": [
       "Antoine Bauza"
     ],
-    "year_published": 2010
+    "year": 2010
   },
   "158600": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3011,7 +3011,7 @@
     "developers": [
       "Kota Nakayama (\u4e2d\u5c71 \u5b8f\u592a)"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "197320": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3021,7 +3021,7 @@
     "developers": [
       "Martin Wallace"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "194626": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3032,7 +3032,7 @@
       "Ken Gruhl",
       "Quentin Weir"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "223750": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3043,7 +3043,7 @@
       "Jeff Beck (II)",
       "Tim Fowers"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "199042": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3055,7 +3055,7 @@
       "Kami Mandell",
       "Andrew Wolf"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "200058": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3065,7 +3065,7 @@
     "developers": [
       "Trey Chambers"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "205127": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3075,7 +3075,7 @@
     "developers": [
       "Alf Seegert"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "131904": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3085,7 +3085,7 @@
     "developers": [
       "ginkgo"
     ],
-    "year_published": 2011
+    "year": 2011
   },
   "156372": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3095,7 +3095,7 @@
     "developers": [
       "ginkgo"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "227789": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3106,7 +3106,7 @@
       "Michael Kiesling",
       "Andreas Schmidt"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "286247": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3116,7 +3116,7 @@
     "developers": [
       "Seppy Yoon"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "192906": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3126,7 +3126,7 @@
     "developers": [
       "Alf Seegert"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "224152": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3136,7 +3136,7 @@
     "developers": [
       "John Clowdus"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "172563": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3146,7 +3146,7 @@
     "developers": [
       "John Clowdus"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "182875": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3156,7 +3156,7 @@
     "developers": [
       "Uwe Rosenberg"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "182120": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3167,7 +3167,7 @@
       "Bruno Cathala",
       "Christian Martinez"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "154597": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3177,7 +3177,7 @@
     "developers": [
       "John Yianni"
     ],
-    "year_published": 2010
+    "year": 2010
   },
   "171261": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3188,7 +3188,7 @@
       "Joshua Buergel",
       "Grant Rodiek"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "260332": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3198,7 +3198,7 @@
     "developers": [
       "Kalle Malmioja"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "245444": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3209,7 +3209,7 @@
       "Michael Fox (II)",
       "Rory O'Connor"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "174078": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3219,7 +3219,7 @@
     "developers": [
       "Diego Iba\u00f1ez"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "203664": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3229,7 +3229,7 @@
     "developers": [
       "Kuro"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "207336": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3239,7 +3239,7 @@
     "developers": [
       "Kalle Malmioja"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "182228": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3249,7 +3249,7 @@
     "developers": [
       "John Clowdus"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "237388": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3259,7 +3259,7 @@
     "developers": [
       "Lin Yen-Kuang"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "142988": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3269,7 +3269,7 @@
     "developers": [
       "Tony Go"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "119788": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3280,7 +3280,7 @@
       "Andrea Chiarvesio",
       "Pierluca Zizzi"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "177478": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3290,7 +3290,7 @@
     "developers": [
       "Koota Yamada"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "218804": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3301,7 +3301,7 @@
       "Bruno Cathala",
       "Florian Sirieix"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "191862": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3311,7 +3311,7 @@
     "developers": [
       "Phil Walker-Harding"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "154203": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3322,7 +3322,7 @@
       "Maciej Obsza\u0144ski",
       "Ignacy Trzewiczek"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "233015": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3332,7 +3332,7 @@
     "developers": [
       "Grant Rodiek"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "217776": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3342,7 +3342,7 @@
     "developers": [
       "Jordan Draper"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "144239": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3352,7 +3352,7 @@
     "developers": [
       "Carl Chudyk"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "233678": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3362,7 +3362,7 @@
     "developers": [
       "Uwe Rosenberg"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "116954": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3372,7 +3372,7 @@
     "developers": [
       "Reiner Knizia"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "181797": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3382,7 +3382,7 @@
     "developers": [
       "Richard Breese"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "155821": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3392,7 +3392,7 @@
     "developers": [
       "Christian Martinez"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "63888": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3402,7 +3402,7 @@
     "developers": [
       "Carl Chudyk"
     ],
-    "year_published": 2010
+    "year": 2010
   },
   "185257": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3412,7 +3412,7 @@
     "developers": [
       "Carl Chudyk"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "235627": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3422,7 +3422,7 @@
     "developers": [
       "Michael Feldk\u00f6tter"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "176494": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3433,7 +3433,7 @@
       "Andreas Pelikan",
       "Alexander Pfister"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "148949": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3443,7 +3443,7 @@
     "developers": [
       "R\u00fcdiger Dorn"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "54043": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3453,7 +3453,7 @@
     "developers": [
       "S\u00e9bastien Pauchon"
     ],
-    "year_published": 2009
+    "year": 2009
   },
   "12002": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3463,7 +3463,7 @@
     "developers": [
       "R\u00fcdiger Dorn"
     ],
-    "year_published": 2004
+    "year": 2004
   },
   "170901": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3474,7 +3474,7 @@
       "Randall N. Bills",
       "Loren Coleman"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "161965": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3484,7 +3484,7 @@
     "developers": [
       "Carlo Lavezzi"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "193739": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3494,7 +3494,7 @@
     "developers": [
       "Stefan Feld"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "145599": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3502,7 +3502,7 @@
     "name": "Journey: Wrath of Demons",
     "bgg_game_id": 145599,
     "developers": [],
-    "year_published": 2015
+    "year": 2015
   },
   "129736": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3512,7 +3512,7 @@
     "developers": [
       "Jacques Zeimet"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "200147": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3523,7 +3523,7 @@
       "Bruno Cathala",
       "Charles Chevallier"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "183251": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3533,7 +3533,7 @@
     "developers": [
       "R\u00fcdiger Dorn"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "185276": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3543,7 +3543,7 @@
     "developers": [
       "John Clowdus"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "172362": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3553,7 +3553,7 @@
     "developers": [
       "Nicolas Sato"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "122515": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3564,7 +3564,7 @@
       "Sebastian Bleasdale",
       "Richard Breese"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "272453": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3574,7 +3574,7 @@
     "developers": [
       "Richard Garfield"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "72848": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3584,7 +3584,7 @@
     "developers": [
       "D. Brad Talton, Jr."
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "147930": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3594,7 +3594,7 @@
     "developers": [
       "\u0141ukasz Wo\u017aniak"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "173649": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3604,7 +3604,7 @@
     "developers": [
       "Stefan Alexander"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "172996": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3614,7 +3614,7 @@
     "developers": [
       "Peer Sylvester"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "159910": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3624,7 +3624,7 @@
     "developers": [
       "Shun Taguchi"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "172159": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3634,7 +3634,7 @@
     "developers": [
       "Jason Washburn"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "204583": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3644,7 +3644,7 @@
     "developers": [
       "Bruno Cathala"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "281960": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3655,7 +3655,7 @@
       "Bruno Cathala",
       "Ludovic Maublanc"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "27162": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3666,7 +3666,7 @@
       "Andrea Chiarvesio",
       "Luca Iennaco"
     ],
-    "year_published": 2007
+    "year": 2007
   },
   "180867": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3676,7 +3676,7 @@
     "developers": [
       "Aza Chen"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "227758": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3687,7 +3687,7 @@
       "Eilif Svensson",
       "Kristian Amundsen \u00d8stby"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "112138": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3699,7 +3699,7 @@
       "Nicolas Degouy",
       "TOT"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "155495": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3709,7 +3709,7 @@
     "developers": [
       "Babis Giannios"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "160851": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3719,7 +3719,7 @@
     "developers": [
       "Christopher Chung"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "97842": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3729,7 +3729,7 @@
     "developers": [
       "Vladim\u00edr Such\u00fd"
     ],
-    "year_published": 2011
+    "year": 2011
   },
   "234669": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3743,7 +3743,7 @@
       "Annie VanderMeer Mitsoda",
       "Greg Spyridis"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "230050": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3754,7 +3754,7 @@
       "Sen-Foong Lim",
       "Jessey Wright"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "220784": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3764,7 +3764,7 @@
     "developers": [
       "\u6298\u53e3 \u65e5\u5411 (Hinata Origuchi)"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "214125": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3775,7 +3775,7 @@
       "Eduardo Baraf",
       "Christopher Hamm"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "129437": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3785,7 +3785,7 @@
     "developers": [
       "Devin Low"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "127398": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3795,7 +3795,7 @@
     "developers": [
       "Michael Menzel"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "275467": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3805,7 +3805,7 @@
     "developers": [
       "Ondra Skoup\u00fd"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "169147": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3815,7 +3815,7 @@
     "developers": [
       "Brad Brooks"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "125618": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3825,7 +3825,7 @@
     "developers": [
       "Paolo Mori"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "4174": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3835,7 +3835,7 @@
     "developers": [
       "Jeff Siadek"
     ],
-    "year_published": 2002
+    "year": 2002
   },
   "153065": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3846,7 +3846,7 @@
       "Michael Kiesling",
       "Wolfgang Kramer"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "65781": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3856,7 +3856,7 @@
     "developers": [
       "Martin Wallace"
     ],
-    "year_published": 2010
+    "year": 2010
   },
   "236191": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3866,7 +3866,7 @@
     "developers": [
       "Martin Wallace"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "178134": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3876,7 +3876,7 @@
     "developers": [
       "Asger Johansen"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "160419": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3884,7 +3884,7 @@
     "name": "Long Live the Queen",
     "bgg_game_id": 160419,
     "developers": [],
-    "year_published": 2014
+    "year": 2014
   },
   "1536": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3894,7 +3894,7 @@
     "developers": [
       "James Ernest"
     ],
-    "year_published": 1998
+    "year": 1998
   },
   "130912": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3907,7 +3907,7 @@
       "Brett Myers",
       "Jeph Stahl"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "269385": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3918,7 +3918,7 @@
       "Nathan I. Hajek",
       "Grace Holdinghaus"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "77423": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3928,7 +3928,7 @@
     "developers": [
       "Nate French"
     ],
-    "year_published": 2011
+    "year": 2011
   },
   "67888": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3938,7 +3938,7 @@
     "developers": [
       "Richard James"
     ],
-    "year_published": 2010
+    "year": 2010
   },
   "110327": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3949,7 +3949,7 @@
       "Peter Lee",
       "Rodney Thompson"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "203993": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3961,7 +3961,7 @@
       "Virginio Gigli",
       "Simone Luciani"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "50": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3971,7 +3971,7 @@
     "developers": [
       "Reiner Knizia"
     ],
-    "year_published": 1999
+    "year": 1999
   },
   "216459": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3981,7 +3981,7 @@
     "developers": [
       "Peer Sylvester"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "131891": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -3991,7 +3991,7 @@
     "developers": [
       "Mike Elliott"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "129622": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4001,7 +4001,7 @@
     "developers": [
       "Seiji Kanai"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "70512": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4011,7 +4011,7 @@
     "developers": [
       "Stefan Feld"
     ],
-    "year_published": 2010
+    "year": 2010
   },
   "143884": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4021,7 +4021,7 @@
     "developers": [
       "Masao Suganuma"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "154443": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4032,7 +4032,7 @@
       "Bruno Cathala",
       "Ludovic Maublanc"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "107640": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4042,7 +4042,7 @@
     "developers": [
       "Tomoshow"
     ],
-    "year_published": 2011
+    "year": 2011
   },
   "96848": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4052,7 +4052,7 @@
     "developers": [
       "Vlaada Chv\u00e1til"
     ],
-    "year_published": 2011
+    "year": 2011
   },
   "172503": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4064,7 +4064,7 @@
       "Matthew Burch",
       "Bryan Pope"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "101721": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4075,7 +4075,7 @@
       "Bryan Pope",
       "Benjamin Pope"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "209778": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4085,7 +4085,7 @@
     "developers": [
       "Kasper Lapp"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "171431": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4095,7 +4095,7 @@
     "developers": [
       "Todd Sanders"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "240843": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4105,7 +4105,7 @@
     "developers": [
       "Kenneth C. Shannon, III"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "230080": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4115,7 +4115,7 @@
     "developers": [
       "Marc Andr\u00e9"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "220224": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4125,7 +4125,7 @@
     "developers": [
       "Hassan Lopez"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "205059": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4135,7 +4135,7 @@
     "developers": [
       "Nikki Valens"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "40425": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4145,7 +4145,7 @@
     "developers": [
       "G\u00fcnter Burkhardt"
     ],
-    "year_published": 2009
+    "year": 2009
   },
   "285774": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4157,7 +4157,7 @@
       "Nate French",
       "Caleb Grace"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "148575": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4168,7 +4168,7 @@
       "Mike Elliott",
       "Eric M. Lang"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "194723": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4179,7 +4179,7 @@
       "Takashi Hamada",
       "Kenji Shimojima"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "9108": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4189,7 +4189,7 @@
     "developers": [
       "Satoshi Nakamura"
     ],
-    "year_published": 2003
+    "year": 2003
   },
   "193322": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4200,7 +4200,7 @@
       "Ekaterina Gorn",
       "Igor Sklyuev"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "235839": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4210,7 +4210,7 @@
     "developers": [
       "Randy Van Gelder"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "166107": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4220,7 +4220,7 @@
     "developers": [
       "David Harding (II)"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "209010": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4234,7 +4234,7 @@
       "Prashant Saraswat",
       "Nathan Tiras"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "202288": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4244,7 +4244,7 @@
     "developers": [
       "Reiner Knizia"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "154386": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4254,7 +4254,7 @@
     "developers": [
       "Nicolas Poncin"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "193214": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4264,7 +4264,7 @@
     "developers": [
       "C\u00e9dric Millet"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "244608": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4274,7 +4274,7 @@
     "developers": [
       "Oliver Richtberg"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "231215": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4284,7 +4284,7 @@
     "developers": [
       "John Clowdus"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "124708": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4294,7 +4294,7 @@
     "developers": [
       "Jerry Hawthorne"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "151347": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4304,7 +4304,7 @@
     "developers": [
       "D. Brad Talton, Jr."
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "244992": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4314,7 +4314,7 @@
     "developers": [
       "Wolfgang Warsch"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "175695": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4324,7 +4324,7 @@
     "developers": [
       "Hisashi Hayashi"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "199242": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4335,7 +4335,7 @@
       "Paolo Di Stefano",
       "Gabriel Gendron"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "176920": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4346,7 +4346,7 @@
       "Bruno Cathala",
       "Bruno Faidutti"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "172386": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4356,7 +4356,7 @@
     "developers": [
       "Alexander Pfister"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "156546": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4367,7 +4367,7 @@
       "Alex Hague",
       "Justin Vickers"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "238393": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4377,7 +4377,7 @@
     "developers": [
       "Micha\u0142 Oracz"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "122298": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4387,7 +4387,7 @@
     "developers": [
       "Brent Povis"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "78954": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4398,7 +4398,7 @@
       "Fran\u00e7ois Combe",
       "Gilles Lehmann"
     ],
-    "year_published": 2010
+    "year": 2010
   },
   "21763": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4409,7 +4409,7 @@
       "Bruno Cathala",
       "Ludovic Maublanc"
     ],
-    "year_published": 2006
+    "year": 2006
   },
   "72287": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4420,7 +4420,7 @@
       "Bruno Cathala",
       "Ludovic Maublanc"
     ],
-    "year_published": 2010
+    "year": 2010
   },
   "1927": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4430,7 +4430,7 @@
     "developers": [
       "Steve Jackson (I)"
     ],
-    "year_published": 2001
+    "year": 2001
   },
   "126792": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4440,7 +4440,7 @@
     "developers": [
       "Yoann Levet"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "113997": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4451,7 +4451,7 @@
       "Oleksandr Nevskiy",
       "Oleg Sidorenko"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "181304": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4462,7 +4462,7 @@
       "Oleksandr Nevskiy",
       "Oleg Sidorenko"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "194607": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4472,7 +4472,7 @@
     "developers": [
       "John D. Clair"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "200170": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4484,7 +4484,7 @@
       "Brady Sadler",
       "Kenny Sims"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "126100": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4497,7 +4497,7 @@
       "Jason Maxwell",
       "Tim Uren"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "244191": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4508,7 +4508,7 @@
       "Bruno Cathala",
       "Th\u00e9o Rivi\u00e8re"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "126042": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4521,7 +4521,7 @@
       "Einar Ros\u00e9n",
       "Robert Ros\u00e9n"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "157809": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4531,7 +4531,7 @@
     "developers": [
       "Rustan H\u00e5kansson"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "171662": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4541,7 +4541,7 @@
     "developers": [
       "Phil Eklund"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "195421": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4551,7 +4551,7 @@
     "developers": [
       "Ryan Laukat"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "167355": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4561,7 +4561,7 @@
     "developers": [
       "Adam Kwapi\u0144ski"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "193486": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4571,7 +4571,7 @@
     "developers": [
       "John Clowdus"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "21241": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4581,7 +4581,7 @@
     "developers": [
       "Micha\u0142 Oracz"
     ],
-    "year_published": 2006
+    "year": 2006
   },
   "43262": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4591,7 +4591,7 @@
     "developers": [
       "Micha\u0142 Oracz"
     ],
-    "year_published": 2009
+    "year": 2009
   },
   "173047": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4601,7 +4601,7 @@
     "developers": [
       "Curt Covert"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "135654": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4612,7 +4612,7 @@
       "Konstantinos Kokkinis",
       "Sotirios Tsantilas"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "174660": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4622,7 +4622,7 @@
     "developers": [
       "Ch\u00e9nier La Salle"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "88408": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4632,7 +4632,7 @@
     "developers": [
       "David Gregg"
     ],
-    "year_published": 2011
+    "year": 2011
   },
   "280897": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4642,7 +4642,7 @@
     "developers": [
       "Gary Kim"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "164448": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4654,7 +4654,7 @@
       "David Freeman",
       "Deke Stella"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "162041": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4664,7 +4664,7 @@
     "developers": [
       "Katsumasa Tomioka"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "12942": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4674,7 +4674,7 @@
     "developers": [
       "Thorsten Gimmler"
     ],
-    "year_published": 2004
+    "year": 2004
   },
   "149639": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4684,7 +4684,7 @@
     "developers": [
       "Jay Meyer"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "279204": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4694,7 +4694,7 @@
     "developers": [
       "John Clowdus"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "120523": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4705,7 +4705,7 @@
       "Stephen Avery",
       "Tom Vasel"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "213984": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4715,7 +4715,7 @@
     "developers": [
       "Stefan Feld"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "1107": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4725,7 +4725,7 @@
     "developers": [
       "Stefan Dorra"
     ],
-    "year_published": 1997
+    "year": 1997
   },
   "123219": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4735,7 +4735,7 @@
     "developers": [
       "Carlo Lavezzi"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "4396": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4745,7 +4745,7 @@
     "developers": [
       "Thorsten Gimmler"
     ],
-    "year_published": 2002
+    "year": 2002
   },
   "183840": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4755,7 +4755,7 @@
     "developers": [
       "Alexander Pfister"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "211940": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4765,7 +4765,7 @@
     "developers": [
       "Hisashi Hayashi"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "94104": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4775,7 +4775,7 @@
     "developers": [
       "John Clowdus"
     ],
-    "year_published": 2011
+    "year": 2011
   },
   "212370": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4785,7 +4785,7 @@
     "developers": [
       "John Clowdus"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "281152": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4795,7 +4795,7 @@
     "developers": [
       "Sebastian Bleasdale"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "251412": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4805,7 +4805,7 @@
     "developers": [
       "Chad DeShon"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "179275": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4815,7 +4815,7 @@
     "developers": [
       "Chris Cieslik"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "147949": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4826,7 +4826,7 @@
       "Ted Alspach",
       "Akihisa Okui"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "163166": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4837,7 +4837,7 @@
       "Ted Alspach",
       "Akihisa Okui"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "156336": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4847,7 +4847,7 @@
     "developers": [
       "Shadi Torbey"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "160477": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4857,7 +4857,7 @@
     "developers": [
       "Shimpei Sato"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "193558": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4867,7 +4867,7 @@
     "developers": [
       "Stefan Feld"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "255507": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4877,7 +4877,7 @@
     "developers": [
       "Tim Armstrong (II)"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "164928": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4887,7 +4887,7 @@
     "developers": [
       "Reiner Stockhausen"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "171905": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4897,7 +4897,7 @@
     "developers": [
       "Reiner Stockhausen"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "172047": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4907,7 +4907,7 @@
     "developers": [
       "Eric M. Lang"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "222542": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4917,7 +4917,7 @@
     "developers": [
       "Claude Lucchini"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "230200": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4927,7 +4927,7 @@
     "developers": [
       "Daryl Chow"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "176803": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4937,7 +4937,7 @@
     "developers": [
       "Guan Chih Huang"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "154003": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4947,7 +4947,7 @@
     "developers": [
       "Arve D. F\u00fchler"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "223278": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4957,7 +4957,7 @@
     "developers": [
       "Ted Alspach"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "129948": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4968,7 +4968,7 @@
       "Michael Kiesling",
       "Wolfgang Kramer"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "30549": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4978,7 +4978,7 @@
     "developers": [
       "Matt Leacock"
     ],
-    "year_published": 2008
+    "year": 2008
   },
   "161936": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -4989,7 +4989,7 @@
       "Rob Daviau",
       "Matt Leacock"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "221107": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5000,7 +5000,7 @@
       "Rob Daviau",
       "Matt Leacock"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "198928": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5011,7 +5011,7 @@
       "Jes\u00fas Torres Castro",
       "Matt Leacock"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "150658": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5021,7 +5021,7 @@
     "developers": [
       "Matt Leacock"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "180051": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5032,7 +5032,7 @@
       "Koipara-Shibucho",
       "Takatsugu Nakazawa"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "217861": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5042,7 +5042,7 @@
     "developers": [
       "Masato Uesugi"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "141572": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5052,7 +5052,7 @@
     "developers": [
       "Tim Fowers"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "56692": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5062,7 +5062,7 @@
     "developers": [
       "Naoki Homma"
     ],
-    "year_published": 2007
+    "year": 2007
   },
   "163412": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5072,7 +5072,7 @@
     "developers": [
       "Uwe Rosenberg"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "217398": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5084,7 +5084,7 @@
       "Jonathan Gilmour",
       "Nick Little (I)"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "271060": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5098,7 +5098,7 @@
       "Mike Selinker",
       "Liz Spain"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "187687": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5114,7 +5114,7 @@
       "Liz Spain",
       "Gaby Weidling"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "133038": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5128,7 +5128,7 @@
       "Paul Peterson",
       "Gaby Weidling"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "151007": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5142,7 +5142,7 @@
       "Mike Selinker",
       "Gaby Weidling"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "169416": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5157,7 +5157,7 @@
       "Liz Spain",
       "Gaby Weidling"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "42910": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5167,7 +5167,7 @@
     "developers": [
       "Bernd Eisenstein"
     ],
-    "year_published": 2009
+    "year": 2009
   },
   "148205": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5178,7 +5178,7 @@
       "Robert Dijkman Dulkes",
       "Matt Golec"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "256997": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5193,7 +5193,7 @@
       "Wolf Plancke",
       "D\u00e1vid Turczi"
     ],
-    "year_published": 2020
+    "year": 2020
   },
   "233976": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5203,7 +5203,7 @@
     "developers": [
       "Daniel Fremgen"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "24480": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5214,7 +5214,7 @@
       "Michael Rieneck",
       "Stefan Stadler"
     ],
-    "year_published": 2006
+    "year": 2006
   },
   "125548": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5224,7 +5224,7 @@
     "developers": [
       "D. Brad Talton, Jr."
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "137423": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5234,7 +5234,7 @@
     "developers": [
       "D. Brad Talton, Jr."
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "152899": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5244,7 +5244,7 @@
     "developers": [
       "D. Brad Talton, Jr."
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "169275": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5254,7 +5254,7 @@
     "developers": [
       "D. Brad Talton, Jr."
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "169274": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5264,7 +5264,7 @@
     "developers": [
       "D. Brad Talton, Jr."
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "172385": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5275,7 +5275,7 @@
       "Michael Kiesling",
       "Wolfgang Kramer"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "137155": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5286,7 +5286,7 @@
       "G\u00fcnter Burkhardt",
       "Wolfgang A. Lehmann"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "2651": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5296,7 +5296,7 @@
     "developers": [
       "Friedemann Friese"
     ],
-    "year_published": 2004
+    "year": 2004
   },
   "87890": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5307,7 +5307,7 @@
       "Piotr Haraszczak",
       "Ignacy Trzewiczek"
     ],
-    "year_published": 2010
+    "year": 2010
   },
   "218179": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5317,7 +5317,7 @@
     "developers": [
       "Roberto Fraga"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "219708": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5328,7 +5328,7 @@
       "Matthew Dunstan",
       "Brett J. Gilbert"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "145203": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5339,7 +5339,7 @@
       "Sebastian Bleasdale",
       "Reiner Knizia"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "91536": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5350,7 +5350,7 @@
       "Mike Elliott",
       "Eric M. Lang"
     ],
-    "year_published": 2011
+    "year": 2011
   },
   "6068": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5361,7 +5361,7 @@
       "Bruno Cathala",
       "Bruno Faidutti"
     ],
-    "year_published": 2003
+    "year": 2003
   },
   "232043": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5371,7 +5371,7 @@
     "developers": [
       "Bruno Cathala"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "217372": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5381,7 +5381,7 @@
     "developers": [
       "Reiner Knizia"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "274093": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5391,7 +5391,7 @@
     "developers": [
       "Nikki Valens"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "131260": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5401,7 +5401,7 @@
     "developers": [
       "Steffen Benndorf"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "170042": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5411,7 +5411,7 @@
     "developers": [
       "Shem Phillips"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "207691": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5422,7 +5422,7 @@
       "Marco Canetta",
       "Stefania Niccolini"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "220877": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5433,7 +5433,7 @@
       "Inka Brand",
       "Markus Brand"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "176606": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5443,7 +5443,7 @@
     "developers": [
       "Ignacy Trzewiczek"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "150293": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5453,7 +5453,7 @@
     "developers": [
       "Kuro"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "256623": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5463,7 +5463,7 @@
     "developers": [
       "Ji Hua Wei"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "208024": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5474,7 +5474,7 @@
       "Brett Sobol",
       "Seth Van Orden"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "33451": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5486,7 +5486,7 @@
       "Geoff Bottone",
       "Colleen Skadl"
     ],
-    "year_published": 2008
+    "year": 2008
   },
   "66510": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5498,7 +5498,7 @@
       "Geoff Bottone",
       "Jeff Morrow"
     ],
-    "year_published": 2011
+    "year": 2011
   },
   "193668": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5510,7 +5510,7 @@
       "Jeff Morrow",
       "Sam Waller"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "170604": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5520,7 +5520,7 @@
     "developers": [
       "Richard Wilkins"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "135116": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5530,7 +5530,7 @@
     "developers": [
       "Kuro"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "262712": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5540,7 +5540,7 @@
     "developers": [
       "Thomas Lehmann"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "41114": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5550,7 +5550,7 @@
     "developers": [
       "Don Eskridge"
     ],
-    "year_published": 2009
+    "year": 2009
   },
   "128882": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5560,7 +5560,7 @@
     "developers": [
       "Don Eskridge"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "225163": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5571,7 +5571,7 @@
       "Michael Kiesling",
       "Wolfgang Kramer"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "194232": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5581,7 +5581,7 @@
     "developers": [
       "Matt Hyra"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "202583": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5591,7 +5591,7 @@
     "developers": [
       "Brad Brooks"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "185196": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5602,7 +5602,7 @@
       "Gary Kim",
       "Evan Song"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "105134": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5613,7 +5613,7 @@
       "Rob Daviau",
       "Chris Dupuis"
     ],
-    "year_published": 2011
+    "year": 2011
   },
   "66056": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5623,7 +5623,7 @@
     "developers": [
       "Klaus Teuber"
     ],
-    "year_published": 2010
+    "year": 2010
   },
   "257759": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5634,7 +5634,7 @@
       "S\u00e9bastien Pauchon",
       "Isma\u00ebl Perrin"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "280132": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5644,7 +5644,7 @@
     "developers": [
       "Uwe Rosenberg"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "121921": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5654,7 +5654,7 @@
     "developers": [
       "Ignacy Trzewiczek"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "144344": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5666,7 +5666,7 @@
       "Stefan Malz",
       "Louis Malz"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "132531": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5677,7 +5677,7 @@
       "Wei-Hwa Huang",
       "Thomas Lehmann"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "169426": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5687,7 +5687,7 @@
     "developers": [
       "Keith Matejka"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "16496": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5697,7 +5697,7 @@
     "developers": [
       "Stefan Feld"
     ],
-    "year_published": 2005
+    "year": 2005
   },
   "237182": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5707,7 +5707,7 @@
     "developers": [
       "Cole Wehrle"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "205498": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5718,7 +5718,7 @@
       "Eros Lin",
       "Zong-Hua Yang (Bob)"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "165986": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5728,7 +5728,7 @@
     "developers": [
       "Peter Hawes"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "89910": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5738,7 +5738,7 @@
     "developers": [
       "Richard Launius"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "181530": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5748,7 +5748,7 @@
     "developers": [
       "Lukas Litzsinger"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "9217": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5758,7 +5758,7 @@
     "developers": [
       "Bernd Brunnhofer"
     ],
-    "year_published": 2004
+    "year": 2004
   },
   "156943": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5769,7 +5769,7 @@
       "Bernd Brunnhofer",
       "Karl-Heinz Schmiel"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "204493": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5779,7 +5779,7 @@
     "developers": [
       "BakaFire"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "231042": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5789,7 +5789,7 @@
     "developers": [
       "Yu Maruno (\u4e38\u91ce\u512a)"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "3": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5799,7 +5799,7 @@
     "developers": [
       "Reiner Knizia"
     ],
-    "year_published": 1998
+    "year": 1998
   },
   "150533": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5809,7 +5809,7 @@
     "developers": [
       "Hisashi Hayashi"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "158900": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5819,7 +5819,7 @@
     "developers": [
       "Antoine Bauza"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "128667": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5829,7 +5829,7 @@
     "developers": [
       "Emiliano Sciarra"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "166669": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5839,7 +5839,7 @@
     "developers": [
       "Andreas Seyfarth"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "146816": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5849,7 +5849,7 @@
     "developers": [
       "Michael Kiesling"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "194655": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5859,7 +5859,7 @@
     "developers": [
       "Gord!"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "169786": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5869,7 +5869,7 @@
     "developers": [
       "Jamey Stegmaier"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "108745": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5879,7 +5879,7 @@
     "developers": [
       "R\u00e9gis Bonness\u00e9e"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "63759": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5890,7 +5890,7 @@
       "G\u00fcnter Burkhardt",
       "Wolfgang Kramer"
     ],
-    "year_published": 2010
+    "year": 2010
   },
   "216428": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5901,7 +5901,7 @@
       "Matt Loomis",
       "Isaac Shalev"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "159868": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5911,7 +5911,7 @@
     "developers": [
       "Cliff Kamarga"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "223855": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5921,7 +5921,7 @@
     "developers": [
       "J. Alex Kevern"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "102652": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5933,7 +5933,7 @@
       "Paul Bender",
       "Adam Rebottaro"
     ],
-    "year_published": 2011
+    "year": 2011
   },
   "24068": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5943,7 +5943,7 @@
     "developers": [
       "Yasutaka Ikeda"
     ],
-    "year_published": 2005
+    "year": 2005
   },
   "112092": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5953,7 +5953,7 @@
     "developers": [
       "Jeremy Anderson"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "135382": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5969,7 +5969,7 @@
       "Jay Schneider",
       "Rob Watkins"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "229741": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5979,7 +5979,7 @@
     "developers": [
       "Wei-Min Ling"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "154510": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5989,7 +5989,7 @@
     "developers": [
       "Jim Felli"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "121615": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -5999,7 +5999,7 @@
     "developers": [
       "Babis Giannios"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "186767": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6009,7 +6009,7 @@
     "developers": [
       "\u3086\u304a (Yuo)"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "180511": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6019,7 +6019,7 @@
     "developers": [
       "Herv\u00e9 Rigal"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "34320": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6030,7 +6030,7 @@
       "Roman Pelek",
       "Michael Schacht"
     ],
-    "year_published": 2008
+    "year": 2008
   },
   "244115": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6041,7 +6041,7 @@
       "Gary Arant",
       "Justin Gary"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "167298": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6051,7 +6051,7 @@
     "developers": [
       "Yuichi Sakashita"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "225977": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6061,7 +6061,7 @@
     "developers": [
       "Hisashi Hayashi"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "157969": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6072,7 +6072,7 @@
       "S\u00e9rgio Halaban",
       "Andr\u00e9 Zatz"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "2511": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6084,7 +6084,7 @@
       "Suzanne Goldberg",
       "Gary Grady"
     ],
-    "year_published": 1981
+    "year": 1981
   },
   "182215": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6094,7 +6094,7 @@
     "developers": [
       "Seiji Kanai"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "220517": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6104,7 +6104,7 @@
     "developers": [
       "Kevin Bishop"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "20551": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6114,7 +6114,7 @@
     "developers": [
       "Dirk Henn"
     ],
-    "year_published": 2006
+    "year": 2006
   },
   "203715": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6124,7 +6124,7 @@
     "developers": [
       "John Kean"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "187056": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6136,7 +6136,7 @@
       "Jason Little",
       "Kevin Wilson"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "177678": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6147,7 +6147,7 @@
       "Andrea Chiarvesio",
       "Pierluca Zizzi"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "270673": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6157,7 +6157,7 @@
     "developers": [
       "Phil Walker-Harding"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "160559": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6167,7 +6167,7 @@
     "developers": [
       "Pierluca Zizzi"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "232595": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6179,7 +6179,7 @@
       "Seth Johnson",
       "Keith Matejka"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "150145": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6189,7 +6189,7 @@
     "developers": [
       "Brent Beck"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "209664": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6199,7 +6199,7 @@
     "developers": [
       "Brendan Evans"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "122522": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6209,7 +6209,7 @@
     "developers": [
       "Paul Peterson"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "134726": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6219,7 +6219,7 @@
     "developers": [
       "Paul Peterson"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "206061": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6229,7 +6229,7 @@
     "developers": [
       "Mark Tuck"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "170199": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6240,7 +6240,7 @@
       "Michael Keller (II)",
       "Andreas \"ode.\" Odendahl"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "254018": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6250,7 +6250,7 @@
     "developers": [
       "S\u00e9bastien Dujardin"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "235014": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6260,7 +6260,7 @@
     "developers": [
       "Scott Caputo"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "143157": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6271,7 +6271,7 @@
       "Bruno Cathala",
       "Ludovic Maublanc"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "175510": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6281,7 +6281,7 @@
     "developers": [
       "John Clowdus"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "242302": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6291,7 +6291,7 @@
     "developers": [
       "John D. Clair"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "71721": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6301,7 +6301,7 @@
     "developers": [
       "Corey Konieczka"
     ],
-    "year_published": 2010
+    "year": 2010
   },
   "155624": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6311,7 +6311,7 @@
     "developers": [
       "Emerson Matsuuchi"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "256313": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6321,7 +6321,7 @@
     "developers": [
       "Christopher Chung"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "162886": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6331,7 +6331,7 @@
     "developers": [
       "R. Eric Reuss"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "256606": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6341,7 +6341,7 @@
     "developers": [
       "Nick Hayes"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "173291": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6351,7 +6351,7 @@
     "developers": [
       "Martin Nedergaard Andersen"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "148228": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6361,7 +6361,7 @@
     "developers": [
       "Marc Andr\u00e9"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "249106": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6371,7 +6371,7 @@
     "developers": [
       "Grant Rodiek"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "166384": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6381,7 +6381,7 @@
     "developers": [
       "Alexandr Ushan"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "137269": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6391,7 +6391,7 @@
     "developers": [
       "William Attia"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "98242": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6401,7 +6401,7 @@
     "developers": [
       "Alex Bykov"
     ],
-    "year_published": 2011
+    "year": 2011
   },
   "139771": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6412,7 +6412,7 @@
       "Christopher Guild",
       "Andrew Parks"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "234931": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6423,7 +6423,7 @@
       "Corey Konieczka",
       "Lukas Litzsinger"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "164153": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6435,7 +6435,7 @@
       "Corey Konieczka",
       "Jonathan Ying"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "271896": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6446,7 +6446,7 @@
       "Corey Konieczka",
       "Tony Fanchi"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "187645": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6456,7 +6456,7 @@
     "developers": [
       "Corey Konieczka"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "103886": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6466,7 +6466,7 @@
     "developers": [
       "Eric M. Lang"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "121410": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6478,7 +6478,7 @@
       "Lorenzo Silva",
       "Lorenzo Tucci Sorrentino"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "180592": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6488,7 +6488,7 @@
     "developers": [
       "R\u00fcdiger Dorn"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "162007": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6498,7 +6498,7 @@
     "developers": [
       "Orin Bishop"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "161614": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6509,7 +6509,7 @@
       "Brett Sobol",
       "Seth Van Orden"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "34635": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6519,7 +6519,7 @@
     "developers": [
       "Bernd Brunnhofer"
     ],
-    "year_published": 2008
+    "year": 2008
   },
   "215312": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6531,7 +6531,7 @@
       "Robert Doyle",
       "Justin D. Jacobson"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "218421": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6542,7 +6542,7 @@
       "Adam Sadler",
       "Brady Sadler"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "233312": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6552,7 +6552,7 @@
     "developers": [
       "Jerry Hawthorne"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "204470": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6562,7 +6562,7 @@
     "developers": [
       "Kevin Wilson"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "123260": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6572,7 +6572,7 @@
     "developers": [
       "Ted Alspach"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "158889": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6582,7 +6582,7 @@
     "developers": [
       "Colby Dauch"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "93260": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6592,7 +6592,7 @@
     "developers": [
       "Colby Dauch"
     ],
-    "year_published": 2011
+    "year": 2011
   },
   "92190": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6604,7 +6604,7 @@
       "John Cadice",
       "Deke Stella"
     ],
-    "year_published": 2011
+    "year": 2011
   },
   "156548": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6616,7 +6616,7 @@
       "John Cadice",
       "Deke Stella"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "143405": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6626,7 +6626,7 @@
     "developers": [
       "Shadi Torbey"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "198778": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6636,7 +6636,7 @@
     "developers": [
       "John Clowdus"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "146508": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6647,7 +6647,7 @@
       "Peggy Chassenet",
       "Manuel Rozoy"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "264220": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6658,7 +6658,7 @@
       "Krzysztof Piskorski",
       "Marcin \u015awierkot"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "34119": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6671,7 +6671,7 @@
       "Kevin Maroney",
       "Zev Shlasinger"
     ],
-    "year_published": 2009
+    "year": 2009
   },
   "118048": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6681,7 +6681,7 @@
     "developers": [
       "Andreas Steiger"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "146278": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6691,7 +6691,7 @@
     "developers": [
       "Vlaada Chv\u00e1til"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "244169": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6699,7 +6699,7 @@
     "name": "Tears of a Goddess",
     "bgg_game_id": 244169,
     "developers": [],
-    "year_published": 2015
+    "year": 2015
   },
   "46213": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6709,7 +6709,7 @@
     "developers": [
       "(Uncredited)"
     ],
-    "year_published": 2009
+    "year": 2009
   },
   "162263": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6719,7 +6719,7 @@
     "developers": [
       "Donald X. Vaccarino"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "229853": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6729,7 +6729,7 @@
     "developers": [
       "Daniele Tascini"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "167791": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6739,7 +6739,7 @@
     "developers": [
       "Jacob Fryxelius"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "144529": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6749,7 +6749,7 @@
     "developers": [
       "Micha\u0142 Oracz"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "216497": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6759,7 +6759,7 @@
     "developers": [
       "Nao Shimamura"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "182028": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6769,7 +6769,7 @@
     "developers": [
       "Vlaada Chv\u00e1til"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "503": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6779,7 +6779,7 @@
     "developers": [
       "Reiner Knizia"
     ],
-    "year_published": 1998
+    "year": 1998
   },
   "191963": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6789,7 +6789,7 @@
     "developers": [
       "Richard Borg"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "142961": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6805,7 +6805,7 @@
       "Jeff Quick",
       "Mark Wootton"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "116998": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6817,7 +6817,7 @@
       "Mike Elliott",
       "Mark Wootton"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "14996": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6827,7 +6827,7 @@
     "developers": [
       "Alan R. Moon"
     ],
-    "year_published": 2005
+    "year": 2005
   },
   "21348": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6837,7 +6837,7 @@
     "developers": [
       "Alan R. Moon"
     ],
-    "year_published": 2006
+    "year": 2006
   },
   "195544": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6847,7 +6847,7 @@
     "developers": [
       "Kristian \u010curla"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "176229": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6857,7 +6857,7 @@
     "developers": [
       "Kristian \u010curla"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "155708": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6867,7 +6867,7 @@
     "developers": [
       "Scott Almes"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "180852": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6877,7 +6877,7 @@
     "developers": [
       "Scott Almes"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "265736": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6887,7 +6887,7 @@
     "developers": [
       "Peter McPherson"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "155731": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6897,7 +6897,7 @@
     "developers": [
       "Antoine Bauza"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "188314": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6907,7 +6907,7 @@
     "developers": [
       "Perepau Llistosella"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "191877": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6919,7 +6919,7 @@
       "Markus Brand",
       "Michael Rieneck"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "148319": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6929,7 +6929,7 @@
     "developers": [
       "BakaFire"
     ],
-    "year_published": 2011
+    "year": 2011
   },
   "121408": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6939,7 +6939,7 @@
     "developers": [
       "Hisashi Hayashi"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "157001": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6950,7 +6950,7 @@
       "Steve Ellis (II)",
       "Hisashi Hayashi"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "102680": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6960,7 +6960,7 @@
     "developers": [
       "Stefan Feld"
     ],
-    "year_published": 2011
+    "year": 2011
   },
   "175293": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6970,7 +6970,7 @@
     "developers": [
       "Helmut Ohley"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "163805": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6980,7 +6980,7 @@
     "developers": [
       "Mac Gerdts"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "274363": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -6991,7 +6991,7 @@
       "Wei-Min Ling",
       "Michael Mihealsick"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "163068": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7002,7 +7002,7 @@
       "Richard Amann",
       "Viktor Peter"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "148291": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7012,7 +7012,7 @@
     "developers": [
       "Matthew Ma"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "53168": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7022,7 +7022,7 @@
     "developers": [
       "Travis Worthington"
     ],
-    "year_published": 2009
+    "year": 2009
   },
   "73439": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7034,7 +7034,7 @@
       "Xavier Georges",
       "Alain Orban"
     ],
-    "year_published": 2010
+    "year": 2010
   },
   "284584": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7046,7 +7046,7 @@
       "Xavier Georges",
       "Alain Orban"
     ],
-    "year_published": 2020
+    "year": 2020
   },
   "104377": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7056,7 +7056,7 @@
     "developers": [
       "Dominique Ehrhard"
     ],
-    "year_published": 2011
+    "year": 2011
   },
   "16992": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7066,7 +7066,7 @@
     "developers": [
       "Tom McMurchie"
     ],
-    "year_published": 2004
+    "year": 2004
   },
   "279198": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7077,7 +7077,7 @@
       "Louis Malz",
       "Stefan Malz"
     ],
-    "year_published": 2020
+    "year": 2020
   },
   "189932": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7089,7 +7089,7 @@
       "Rodney Thompson",
       "Andrew Veen"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "128063": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7099,7 +7099,7 @@
     "developers": [
       "Carl Chudyk"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "217085": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7110,7 +7110,7 @@
       "Jason Harner",
       "Matthew Ransom"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "179172": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7120,7 +7120,7 @@
     "developers": [
       "Joel Finch"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "204605": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7131,7 +7131,7 @@
       "Seiji Kanai",
       "Kuro"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "216092": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7141,7 +7141,7 @@
     "developers": [
       "Alice Carroll"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "216091": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7151,7 +7151,7 @@
     "developers": [
       "Cyril Demaegd"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "274637": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7163,7 +7163,7 @@
       "JR Honeycutt",
       "Justin D. Jacobson"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "163474": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7173,7 +7173,7 @@
     "developers": [
       "Thibaud de la Touanne"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "150999": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7183,7 +7183,7 @@
     "developers": [
       "Tom Cleaver"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "170416": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7194,7 +7194,7 @@
       "Patrick Leder",
       "David Somerville"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "15364": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7204,7 +7204,7 @@
     "developers": [
       "Henry Stern"
     ],
-    "year_published": 2005
+    "year": 2005
   },
   "34871": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7215,7 +7215,7 @@
       "Alberto Menoncin",
       "Silvio Negri-Clementi"
     ],
-    "year_published": 2011
+    "year": 2011
   },
   "191231": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7225,7 +7225,7 @@
     "developers": [
       "Martin Wallace"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "157526": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7235,7 +7235,7 @@
     "developers": [
       "Yuri Zhuravljov"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "27173": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7245,7 +7245,7 @@
     "developers": [
       "Michael Kiesling"
     ],
-    "year_published": 2007
+    "year": 2007
   },
   "104006": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7256,7 +7256,7 @@
       "Inka Brand",
       "Markus Brand"
     ],
-    "year_published": 2011
+    "year": 2011
   },
   "212281": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7266,7 +7266,7 @@
     "developers": [
       "Adam Smith"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "180040": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7277,7 +7277,7 @@
       "Rick Holzgrafe",
       "Isaias Vallejo"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "183394": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7289,7 +7289,7 @@
       "Jamey Stegmaier",
       "Alan Stone"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "139899": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7299,7 +7299,7 @@
     "developers": [
       "T. C. Petty, III"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "128554": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7309,7 +7309,7 @@
     "developers": [
       "Scott Caputo"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "171623": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7320,7 +7320,7 @@
       "Simone Luciani",
       "Daniele Tascini"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "75165": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7330,7 +7330,7 @@
     "developers": [
       "Mario Papini"
     ],
-    "year_published": 2010
+    "year": 2010
   },
   "158572": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7340,7 +7340,7 @@
     "developers": [
       "Mike Nudd"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "286145": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7350,7 +7350,7 @@
     "developers": [
       "Wei-Min Ling"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "249259": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7361,7 +7361,7 @@
       "Trevor Benjamin",
       "David Thompson (I)"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "156776": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7373,7 +7373,7 @@
       "Nate French",
       "Eric M. Lang"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "181521": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7385,7 +7385,7 @@
       "Adam Sadler",
       "Brady Sadler"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "261594": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7395,7 +7395,7 @@
     "developers": [
       "David Sanders"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "224597": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7405,7 +7405,7 @@
     "developers": [
       "David Sanders"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "146418": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7417,7 +7417,7 @@
       "Lukas Litzsinger",
       "Christian T. Petersen"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "221408": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7427,7 +7427,7 @@
     "developers": [
       "Tony Chen"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "206803": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7437,7 +7437,7 @@
     "developers": [
       "Filip Mi\u0142u\u0144ski"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "31016": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7447,7 +7447,7 @@
     "developers": [
       "Chris Cieslik"
     ],
-    "year_published": 2007
+    "year": 2007
   },
   "150312": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7457,7 +7457,7 @@
     "developers": [
       "Masato Uesugi"
     ],
-    "year_published": 2013
+    "year": 2013
   },
   "245422": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7467,7 +7467,7 @@
     "developers": [
       "Ted Alspach"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "198454": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7477,7 +7477,7 @@
     "developers": [
       "Chris Darsaklis"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "190082": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7488,7 +7488,7 @@
       "Gabriele Mari",
       "Gianluca Santopietro"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "244654": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7498,7 +7498,7 @@
     "developers": [
       "Martin Wallace"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "266192": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7508,7 +7508,7 @@
     "developers": [
       "Elizabeth Hargrave"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "165401": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7519,7 +7519,7 @@
       "Richard Siv\u00e9l",
       "Peer Sylvester"
     ],
-    "year_published": 2014
+    "year": 2014
   },
   "71655": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7529,7 +7529,7 @@
     "developers": [
       "Tim Fowers"
     ],
-    "year_published": 2010
+    "year": 2010
   },
   "205057": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7539,7 +7539,7 @@
     "developers": [
       "Jeff Beck (II)"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "111148": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7549,7 +7549,7 @@
     "developers": [
       "Uwe Rosenberg"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "163602": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7559,7 +7559,7 @@
     "developers": [
       "Eric M. Lang"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "189660": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7569,7 +7569,7 @@
     "developers": [
       "Michael Shinall"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "159109": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7580,7 +7580,7 @@
       "Keren Philosophales",
       "Michael Shinall"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "213893": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7591,7 +7591,7 @@
       "Bruno Cathala",
       "Marc Paquien"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "117915": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7602,7 +7602,7 @@
       "Thomas Vande Ginste",
       "Wolf Plancke"
     ],
-    "year_published": 2012
+    "year": 2012
   },
   "196340": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7612,7 +7612,7 @@
     "developers": [
       "Hisashi Hayashi"
     ],
-    "year_published": 2016
+    "year": 2016
   },
   "176189": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7624,7 +7624,7 @@
       "Jean-Baptiste Lullien",
       "Nicolas Raoult"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "224710": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7636,7 +7636,7 @@
       "Jean-Baptiste Lullien",
       "Nicolas Raoult"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "176642": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7646,7 +7646,7 @@
     "developers": [
       "\u6298\u53e3 \u65e5\u5411 (Hinata Origuchi)"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "295770": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7656,7 +7656,7 @@
     "developers": [
       "Isaac Childres"
     ],
-    "year_published": 2021
+    "year": 2021
   },
   "276025": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7666,7 +7666,7 @@
     "developers": [
       "Alexander Pfister"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "270844": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7677,7 +7677,7 @@
       "Joanna Kijanka",
       "Ignacy Trzewiczek"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "294378": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7689,7 +7689,7 @@
       "Josh Derksen",
       "Thomas M. Gofton"
     ],
-    "year_published": 2020
+    "year": 2020
   },
   "253344": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7700,7 +7700,7 @@
       "Rob Daviau",
       "Eric M. Lang"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "286096": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7710,7 +7710,7 @@
     "developers": [
       "Jamey Stegmaier"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "266810": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7721,7 +7721,7 @@
       "Shem Phillips",
       "S J Macdonald"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "248490": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7732,7 +7732,7 @@
       "Galen Ciscell",
       "Brent Dickman"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "139976": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7743,7 +7743,7 @@
       "Sandy Petersen",
       "Lincoln Petersen"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "244521": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7753,7 +7753,7 @@
     "developers": [
       "Wolfgang Warsch"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "236457": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7764,7 +7764,7 @@
       "Shem Phillips",
       "S J Macdonald"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "296151": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7775,7 +7775,7 @@
       "Shem Phillips",
       "S J Macdonald"
     ],
-    "year_published": 2020
+    "year": 2020
   },
   "271324": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7785,7 +7785,7 @@
     "developers": [
       "Fr\u00e9d\u00e9ric Gu\u00e9rard"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "266524": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7795,7 +7795,7 @@
     "developers": [
       "Henry Audubon"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "233078": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7807,7 +7807,7 @@
       "Corey Konieczka",
       "Christian T. Petersen"
     ],
-    "year_published": 2017
+    "year": 2017
   },
   "283355": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7819,7 +7819,7 @@
       "Jack Kittredge",
       "Peter Olotka"
     ],
-    "year_published": 2019
+    "year": 2019
   },
   "55690": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7829,7 +7829,7 @@
     "developers": [
       "Adam Poots"
     ],
-    "year_published": 2015
+    "year": 2015
   },
   "254640": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7840,7 +7840,7 @@
       "Ludovic Roudy",
       "Bruno Sautter"
     ],
-    "year_published": 2018
+    "year": 2018
   },
   "268864": {
     "fetched": "2019-12-16T14:34:00.687695",
@@ -7851,6 +7851,6 @@
       "Trevor Benjamin",
       "David Thompson (I)"
     ],
-    "year_published": 2019
+    "year": 2019
   }
 }
