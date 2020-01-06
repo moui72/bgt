@@ -13,7 +13,7 @@ import boto3
 from starlette.testclient import TestClient
 
 # local
-from bgt.app import (
+from bgt import (
     __version__,
     Game, 
     Question, 
@@ -61,8 +61,8 @@ def test_get_question(games_data, client):
 
 def test_question_selector(games_data):
     qs = Question_Selector(games=Games(games_data),asked=[])
-    q1 = qs.nextQuestion() 
-    q2 = qs.nextQuestion() 
+    q1 = qs.nextQuestion({str(q) for q in qs.asked}) 
+    q2 = qs.nextQuestion({str(q) for q in qs.asked}) 
     assert q1 != q2
     assert len(q1["asked"]) < len(q2["asked"])
     assert q1["asked"].issubset(q2["asked"])
