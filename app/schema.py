@@ -46,10 +46,7 @@ class Game(BaseWithFetched):
         return hash(self.id)
 
     def __eq__(self, other):
-        for k, v in dict(self).items():
-            if v != getattr(other,k):
-                return False
-        return True
+        return dict(self) == dict(other)
 
     def toAWSDyDBScheme(self):
         return {

@@ -16,7 +16,7 @@ from starlette.testclient import TestClient
 from app._version import __version__
 from app.schema import Game, Question, question_templates
 from app.utils import UniversalEncoder
-from app.questions import QuestionSelector, Games
+from app.questions import Question_Selector, Games
 
 def test_version():
     with open(Path(__file__).parent.parent / "pyproject.toml") as f:
@@ -28,9 +28,11 @@ def test_root(client, games_data):
     "Should return the current version and the number of possible questions"
     response = client.get("/")
     assert response.status_code == 200
-    body = loads(response.content)
-    assert body["version"] == f"v{__version__}"
-    assert body["question_count"] == len(games_data) * len(question_templates)
+    assert loads(response.content) == {
+        "version": f"v{__version__}", 
+        "question_count": len(games_data) * len(question_templates)
+    }
+
 
 def test_get_question(games_data, client):
     ids = set(g.id for g in games_data)
@@ -53,7 +55,7 @@ def test_get_question(games_data, client):
 
 
 def test_question_selector(games_data):
-    qs = QuestionSelector(games=Games(games_data),asked=[])
+    qs = Question_Selector(games=Games(games_data),asked=[])
     q1 = qs.nextQuestion() 
     q2 = qs.nextQuestion() 
     assert q1 != q2

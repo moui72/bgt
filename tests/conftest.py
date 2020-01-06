@@ -12,6 +12,7 @@ import boto3
 from starlette.testclient import TestClient
 
 # local
+from app import create_app
 from app._version import __version__
 from app.schema import Game
 from app.utils import UniversalEncoder
@@ -53,7 +54,7 @@ def client(games_data):
         with table.batch_writer() as batch:
             for game in games_data:
                 batch.put_item(game.dict())
-        from app._main import create_app
+        
         app = create_app()
         client = TestClient(app)
         yield client

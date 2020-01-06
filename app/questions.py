@@ -19,24 +19,17 @@ class Games:
     all_games_by_id: Dict[int,Game]
     all_qids: Set[QID]
 
-    def __init__(self, games = None):
-        self.all_games = games or self.query_games()
-        self.all_game_ids = tuple(g.id for g in self.all_games)
+    def __init__(self, games):
+        self.all_games = games
         self.all_games_by_id = {g.id: g for g in self.all_games}
+        self.all_game_ids = self.all_games_by_id.keys()
         self.all_qids = set(
             QID(template_index=template_index, right_game=game) 
             for template_index in range(len(question_templates)) 
             for game in self.all_game_ids
         )
 
-
-    def query_games(self):
-        dynamodb = boto3.resource('dynamodb', 'us-east-1')
-        table = dynamodb.Table('GamesTest')
-        raw_games = table.scan()
-        return [Game(**g) for g in raw_games["Items"]]
-
-class QuestionSelector:
+class Question_Selector:
     asked: Set[str] = set()
     _games: Games
     _free_qids: Set[QID] = None

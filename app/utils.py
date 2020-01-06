@@ -40,7 +40,7 @@ class UniversalEncoder(json.JSONEncoder):
 def oxford_join(items: List):
     "joins a list with a comma, but uses 'and' before the last item"
     if len(items) < 1:
-        return next(items)
+        raise ValueError("Can't join an empty list")
     if len(items) == 1:
         return items[0]
     oxford_comma = (",","")[len(items) == 2]
