@@ -20,14 +20,14 @@ from .questions import Question_Selector, Games
 
 routes = APIRouter()
 
-def create_app(env = None):
+def create_app(env = None): -> FastAPI
     # other initialization here
     app = FastAPI()
     app.include_router(routes)
     app.state.games = Games(games=query_games())
     return app
 
-def query_games():
+def query_games(): -> List[Game]
     dynamodb = boto3.resource('dynamodb', 'us-east-1')
     table = dynamodb.Table('GamesTest')
     raw_games = table.scan()
@@ -35,7 +35,7 @@ def query_games():
 
 # routes
 @routes.get("/")
-async def root(request: Request):
+async def root(request: Request): -> Dict[str,Union[str,int]]
     state = request.app.state
     return {
         "version": f"v{__version__}", 
@@ -43,8 +43,11 @@ async def root(request: Request):
     }
 
 @routes.get("/questions/")
-async def read_question(request: Request, asked: List[str] = None):
-    "asked is a comma separated list of question ids that have been asked"
+async def read_question(
+    request: Request, asked: List[str] = None
+): -> Dict[str,Union[Question,str]]
+    "asked is a comma separated list of strings representing question ids that "
+    "have been asked"
     state = request.app.state
     asked_memo = set(asked.split(",") if asked is not None else ())
     qs = Question_Selector(asked=asked_memo, games=state.games)
@@ -52,5 +55,5 @@ async def read_question(request: Request, asked: List[str] = None):
 
 
 @routes.post("/score/", response_model=Score)
-async def create_score(score:Score):
+async def create_score(score:Score): -> Score
     return score

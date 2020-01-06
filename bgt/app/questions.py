@@ -34,18 +34,17 @@ class Question_Selector:
     _free_qids: Set[QID] = None
 
     def __init__(self,asked,games):
-        self.asked = set(qid_from_str(a) for a in asked)
         self._games = games
-        self.update_free_qids()
+        self._update_free_qids(self.asked)
 
-    def nextQuestion(self,asked = None):
-        self.update_free_qids(asked)
+    def nextQuestion(self,asked):
+        self._update_free_qids(asked)
         new_qid = random.choice(tuple(self._free_qids))
         right_game = self._games.all_games_by_id[new_qid.right_game]
         template = question_templates[new_qid.template_index]
         text_fill = getattr(right_game, template["answer_type"])
         self.asked.add(new_qid)
-        answers = self.get_answers(new_qid)
+        answers = self._get_answers(new_qid)
         return {
             "question": Question(
                 id=new_qid,
@@ -54,23 +53,25 @@ class Question_Selector:
             ), 
             "asked": self.asked.copy()
         }
-    
-    def update_free_qids(self, asked = None):
-        if asked is not None:
+
+    def _update_free_qids(self, asked):
+        if len(asked) > 0:
             asked = [qid_from_str(a) for a in asked]
+        if (
+            self._free_qids is not None and
+            self.asked.issubset(asked) 
+        ):
+            for qid in asked:
+                self._free_qids.remove(qid)
         else:
-            asked = self.asked
-        if self._free_qids is None:
             self._free_qids = set(
                 qid for qid in self._games.all_qids 
                 if qid not in asked
             )
+        self.asked = asked
 
-        if asked is not None and self.asked.issubset(asked):
-            for qid in asked:
-                self._free_qids.remove(qid)
 
-    def get_answers(self, qid: QID):
+    def _get_answers(self, qid: QID):
         template = qid.template()
         game = self._games.all_games_by_id[qid.right_game]
         right_answer = getattr(game, template["answer_type"])
