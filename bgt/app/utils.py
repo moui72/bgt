@@ -11,7 +11,7 @@ from types import GeneratorType
 # vendor
 
 # local 
-from app.schema import Game
+from .schema import Game
 
 class UniversalEncoder(json.JSONEncoder):
     # I got this from stack overflow, should find again and credit the author

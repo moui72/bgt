@@ -13,10 +13,15 @@ import boto3
 from starlette.testclient import TestClient
 
 # local
-from app._version import __version__
-from app.schema import Game, Question, question_templates
-from app.utils import UniversalEncoder
-from app.questions import Question_Selector, Games
+from bgt.app import (
+    __version__,
+    Game, 
+    Question, 
+    question_templates,
+    UniversalEncoder,
+    Question_Selector, 
+    Games
+)
 
 def test_version():
     with open(Path(__file__).parent.parent / "pyproject.toml") as f:

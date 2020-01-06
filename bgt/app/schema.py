@@ -42,6 +42,11 @@ class Game(BaseWithFetched):
     developers: List[str]
     year: int
 
+    class Config:
+        allow_population_by_field_name = True
+        fields = {"year": "year_published"}
+
+
     def __hash__(self):
         return hash(self.id)
 

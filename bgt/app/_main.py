@@ -13,14 +13,14 @@ from pydantic import BaseModel, conint, PositiveInt
 
 
 # local imports
-from app.schema import Game, question_templates, Score, QID
-from app._version import __version__
-from app.utils import oxford_join
-from app.questions import Question_Selector, Games
+from .schema import Game, question_templates, Score, QID
+from ._version import __version__
+from .utils import oxford_join
+from .questions import Question_Selector, Games
 
 routes = APIRouter()
 
-def create_app():
+def create_app(env = None):
     # other initialization here
     app = FastAPI()
     app.include_router(routes)
@@ -46,7 +46,6 @@ async def root(request: Request):
 async def read_question(request: Request, asked: List[str] = None):
     "asked is a comma separated list of question ids that have been asked"
     state = request.app.state
-    # memo passed between client & server ensures questions aren't repeated    
     asked_memo = set(asked.split(",") if asked is not None else ())
     qs = Question_Selector(asked=asked_memo, games=state.games)
     return qs.nextQuestion()

@@ -5,13 +5,12 @@ from datetime import datetime
 
 # vendor imports
 from pydantic import BaseModel, conint, PositiveInt
-import boto3
 
 # local imports
-from app.schema import (
+from .schema import (
     Game, question_templates, Score, QID, Question, qid_from_str
 )
-from app.utils import oxford_join
+from .utils import oxford_join
 
 class Games:
     all_games: List[Game]
