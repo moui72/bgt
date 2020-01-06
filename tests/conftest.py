@@ -12,10 +12,10 @@ import boto3
 from starlette.testclient import TestClient
 
 # local
-from bgt.app import create_app
-from bgt.app import __version__
-from bgt.app import Game
-from bgt.app import UniversalEncoder
+from bgt import create_app
+from bgt import __version__
+from bgt import Game
+from bgt import UniversalEncoder
 
 @fixture(autouse=True)
 def _aws_credentials(monkeypatch):

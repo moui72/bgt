@@ -3,7 +3,7 @@
 import datetime
 import json
 from itertools import islice
-from typing import Dict, List, Set
+from typing import Dict, List, Set, Union
 from decimal import Decimal
 from enum import Enum
 from types import GeneratorType
@@ -37,7 +37,7 @@ class UniversalEncoder(json.JSONEncoder):
         return encoder(obj)
 
 
-def oxford_join(items: List[Union[str,int]]): -> str
+def oxford_join(items: List[Union[str,int]]) -> str:
     "joins a list with a comma, but uses 'and' before the last item"
     if len(items) < 1:
         return ""

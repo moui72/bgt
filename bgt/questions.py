@@ -56,7 +56,7 @@ class Question_Selector:
 
     def _update_free_qids(self, asked):
         if len(asked) > 0:
-            asked = [qid_from_str(a) for a in asked]
+            asked = {qid_from_str(a) for a in asked}
         if (
             self._free_qids is not None and
             self.asked.issubset(asked) 
