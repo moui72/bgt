@@ -1,8 +1,9 @@
 # std
 import os
-from random import randint
+import toml
+import random
 from pathlib import Path
-from json import load, dump, loads
+from json import loads
 
 # vendor
 from moto import mock_dynamodb2
@@ -12,97 +13,57 @@ import boto3
 from starlette.testclient import TestClient
 
 # local
-from app._version import __version__
-from app.schema import Game
-from app.utils import UniversalEncoder
-
-
-@fixture
-def aws_credentials():
-    """Mocked AWS Credentials for moto."""
-    os.environ['AWS_ACCESS_KEY_ID'] = 'testing'
-    os.environ['AWS_SECRET_ACCESS_KEY'] = 'testing'
-    os.environ['AWS_SECURITY_TOKEN'] = 'testing'
-    os.environ['AWS_SESSION_TOKEN'] = 'testing'
-
-
-@fixture
-def games_data():
-    # load game data
-    with open(Path(__file__).parent/"games_test_data.json", "r") as games_put_json:
-        games_raw = load(games_put_json)
-        # validate/cast game data
-    games = []
-    for game in games_raw:
-        games.append(Game(**game))
-    return games
-
-
-@fixture
-def outside_game_data():
-    with open(Path(__file__).parent/"outside_game.json", "r") as outside_game_json:
-        return Game(**load(outside_game_json))
-
-
-@fixture
-def setup_db(games_data, aws_credentials):
-    with mock_dynamodb2():
-        # load table schema
-        with open(Path(__file__).parent.parent/"games_table_schema.json", "r") as schema_json:
-            schema = load(schema_json)
-
-        # create dynamodb interface (mocked by moto decorator)
-        dynamodb = boto3.resource('dynamodb', 'us-east-1')
-
-        # create table with schema
-        table = dynamodb.create_table(
-            **schema
-        )
-        table.wait_until_exists()
-
-        # put games in table
-        with table.batch_writer() as batch:
-            for game in games_data:
-                batch.put_item(game.dict())
-        from app._main import app
-        client = TestClient(app)
-        yield client
-
+from bgt.app import (
+    __version__,
+    Game, 
+    Question, 
+    question_templates,
+    UniversalEncoder,
+    Question_Selector, 
+    Games
+)
 
 def test_version():
-    assert __version__ == '0.1.0'
+    with open(Path(__file__).parent.parent / "pyproject.toml") as f:
+        pyproject_toml = toml.load(f)
+    assert __version__ == pyproject_toml["tool"]["poetry"]["version"]
 
 
-def test_get_nogame(outside_game_data, setup_db):
-    "Makes sure we're testing against the mocked DB and not the real one"
-    client = setup_db
-    test_game = outside_game_data
-    assert hasattr(test_game, "id")
-    assert outside_game_data.id == 59946
-    response = client.get(f"/games/{test_game.id}")
-    assert response.status_code == 404
-
-
-def test_root(setup_db):
-    "The root should return the current version"
-    client = setup_db
+def test_root(client, games_data):
+    "Should return the current version and the number of possible questions"
     response = client.get("/")
-    print(response)
     assert response.status_code == 200
-    assert 0
+    assert loads(response.content) == {
+        "version": f"v{__version__}", 
+        "question_count": len(games_data) * len(question_templates)
+    }
 
 
-def test_get_game(games_data, setup_db):
-    client = setup_db
-    test_game = games_data[randint(0, 24)]
-    response = client.get(f"/games/{test_game.id}")
-    assert hasattr(test_game, "id")
-    assert response.status_code == 200
+def test_get_question(games_data, client):
+    ids = set(g.id for g in games_data)
+    asked = []
+    for i in range(3):       
+        if len(asked) > 0:
+            query_string = f"?asked={','.join(str(a) for a in asked)}"
+        else:
+            query_string = ''
+        response = client.get(
+            "/questions/" + query_string 
+        )
+        assert response.status_code == 200
+        response_body = loads(response.content)
+        question = Question(**response_body["question"])
+        # make sure no question is served twice 
+        assert question.id not in asked
+        if response_body["asked"] is not None:
+            asked = response_body["asked"]
 
 
-def test_get_games(setup_db):
-    client = setup_db
-    response = client.get(f"/games/")
-    result = loads(response.content)
-    assert response.status_code == 200
-    assert len(result) == 25
+def test_question_selector(games_data):
+    qs = Question_Selector(games=Games(games_data),asked=[])
+    q1 = qs.nextQuestion() 
+    q2 = qs.nextQuestion() 
+    assert q1 != q2
+    assert len(q1["asked"]) < len(q2["asked"])
+    assert q1["asked"].issubset(q2["asked"])
+    assert len(q1["question"].answers) == 4
