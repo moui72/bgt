@@ -19,7 +19,7 @@ from bgt import (
     Question, 
     question_templates,
     UniversalEncoder,
-    Question_Selector, 
+    QuestionSelector, 
     Games
 )
 
@@ -42,13 +42,13 @@ def test_root(client, games_data):
 def test_get_question(games_data, client):
     ids = set(g.id for g in games_data)
     asked = []
-    for i in range(3):       
+    for i in range(3):
         if len(asked) > 0:
             query_string = f"?asked={','.join(str(a) for a in asked)}"
         else:
             query_string = ''
         response = client.get(
-            "/questions/" + query_string 
+            "/questions/" + query_string
         )
         assert response.status_code == 200
         response_body = loads(response.content)
@@ -60,10 +60,16 @@ def test_get_question(games_data, client):
 
 
 def test_question_selector(games_data):
-    qs = Question_Selector(games=Games(games_data),asked=[])
-    q1 = qs.nextQuestion({str(q) for q in qs.asked}) 
-    q2 = qs.nextQuestion({str(q) for q in qs.asked}) 
-    assert q1 != q2
-    assert len(q1["asked"]) < len(q2["asked"])
-    assert q1["asked"].issubset(q2["asked"])
-    assert len(q1["question"].answers) == 4
+    qs = QuestionSelector(games=Games(games_data), asked=[])
+    q1 = qs.next_question() 
+    q2 = qs.next_question()
+    assert q1.question != q2.question
+    assert q1.asked.issubset(q2.asked)
+    assert len(q1.question.answers) == 4
+    qs = QuestionSelector(
+        games=Games(games_data), 
+        asked=qs.asked
+    )
+    q3 = qs.next_question()
+    assert q3.question != q2.question
+    assert q2.asked.issubset(q3.asked)

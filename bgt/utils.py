@@ -11,7 +11,7 @@ from types import GeneratorType
 # vendor
 
 # local 
-from .schema import Game
+from .schema import Game, SelectedQuestion, QID, Question
 
 class UniversalEncoder(json.JSONEncoder):
     # I got this from stack overflow, should find again and credit the author
@@ -25,11 +25,20 @@ class UniversalEncoder(json.JSONEncoder):
         bytes: bytes.decode,
         Decimal: str,
         Game: Game.json,
+        SelectedQuestion: SelectedQuestion.json,
+        Question: Question.json,
+        QID: str,
     }
 
     def default(self, obj):
         if isinstance(obj, Enum):
             return obj.value
+        if hasattr(obj,"json"):
+            try:
+                return obj.json()
+            except TypeError as e:
+                if "not callable" in e:
+                    return obj.json
         try:
             encoder = self.ENCODER_BY_TYPE[type(obj)]
         except KeyError:

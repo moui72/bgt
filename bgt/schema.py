@@ -3,26 +3,26 @@ from datetime import datetime
 
 # vendor
 from pydantic import BaseModel, conint, PositiveInt
-from typing import List, Union, Set, Tuple
+from typing import List, Union, Set, Tuple, Callable, Dict
 
 #local
 
 
-question_templates: List[dict] = [
+question_templates: List[Dict[str,Union[str,Callable[[str],str]]]] = [
     {
-        "text": lambda a: f"Who designed {a}?",
+        "text": lambda a: f'Who was &ldquo;{a}&rdquo; designed by?',
         "answer_type": "developers",
         "question_type": "name"
     },
     {
-        "text": lambda a: f"When was {a} released?",
+        "text": lambda a: f'What year was &ldquo;{a}&rdquo; released?',
         "answer_type": "year",
         "question_type": "name"
     },
     {
         "text": lambda a: f"Which game was designed by {a}?",
         "answer_type": "name",
-        "question_type": "design"
+        "question_type": "developers"
     },
     {
         "text": lambda a: f"Which game came out in {a}?",
@@ -70,16 +70,16 @@ class QID(BaseModel):
     right_game: int
     template_index: conint(ge=0, le=len(question_templates))
 
-    def template(self):
+    def template(self) -> Dict[str,Union[str,Callable[[str],str]]]:
         return question_templates[self.template_index]
 
-    def __str__(self):
+    def __str__(self) -> str:
         return f"{self.template_index}-{self.right_game}"
     
-    def __hash__(self):
+    def __hash__(self) -> int:
         return hash(str(self))
     
-    def __eq__(self, other):
+    def __eq__(self, other) -> bool:
         return str(self) == str(other)
 
 class Question(BaseModel):
@@ -87,6 +87,28 @@ class Question(BaseModel):
     text: str
     answers: List[Union[str,int]]
 
-def qid_from_str(qid_str: str):
+
+class SelectedQuestion(BaseModel):
+    question: Question
+    asked: Set[QID]
+
+
+class Answer(BaseModel):
+    question: Question
+    answer: str
+
+    def template(self) -> Dict[str,Union[str,Callable[[str],str]]]:
+        return question_templates[self.question.template_index]
+    
+    def correct(self) -> bool:
+        pass
+
+class Feedback(BaseModel):
+    answer: Answer
+
+
+# helpers
+def qid_from_str(qid_str: str) -> QID:
     temp = qid_str.split("-")
     return QID(template_index=temp[0], right_game=temp[1])
+

@@ -13,10 +13,12 @@ from pydantic import BaseModel, conint, PositiveInt
 
 
 # local imports
-from .schema import Game, question_templates, Score, QID, Question
+from .schema import (
+    Game, question_templates, Score, QID, Question, Feedback, Answer
+)
 from ._version import __version__
 from .utils import oxford_join
-from .questions import Question_Selector, Games
+from .questions import QuestionSelector, SelectedQuestion, Games
 
 routes = APIRouter()
 
@@ -43,17 +45,24 @@ async def root(request: Request) -> Dict[str,Union[str,int]]:
     }
 
 @routes.get("/questions/")
-async def read_question(
-    request: Request, asked: List[str] = []
-) -> Dict[str,Union[Question,str]]:
+async def read_question(request: Request, asked: List[str] = []) \
+    -> SelectedQuestion:
     "asked is a comma separated list of strings representing question ids that "
     "have been asked"
     state = request.app.state
     asked_memo = set(qid_from_str(a) for a in asked)
-    qs = Question_Selector(asked=asked_memo, games=state.games)
-    return qs.nextQuestion(asked_memo)
+    qs = QuestionSelector(asked=asked_memo, games=state.games)
+    q = qs.next_question()
+    return {
+        "question": q.question.dict(),
+        "asked": q.asked
+    }
 
 
 @routes.post("/score/", response_model=Score)
 async def create_score(score:Score) -> Score:
     return score
+
+@routes.post("/check_answer/", response_model=Feedback)
+async def check_answer(answer: Answer) -> Feedback:
+    return Feedback(answer)

@@ -8,7 +8,7 @@ from pydantic import BaseModel, conint, PositiveInt
 
 # local imports
 from .schema import (
-    Game, question_templates, Score, QID, Question, qid_from_str
+    Game, question_templates, Score, QID, Question, qid_from_str, SelectedQuestion
 )
 from .utils import oxford_join
 
@@ -28,48 +28,36 @@ class Games:
             for game in self.all_game_ids
         )
 
-class Question_Selector:
-    asked: Set[str] = set()
+class QuestionSelector:
+    asked: Set[QID] = set()
     _games: Games
     _free_qids: Set[QID] = None
 
     def __init__(self,asked,games):
         self._games = games
-        self._update_free_qids(self.asked)
+        self.asked = set(asked)
+        self._free_qids = set(
+                qid for qid in self._games.all_qids 
+                if qid not in asked
+            )
 
-    def nextQuestion(self,asked):
-        self._update_free_qids(asked)
+    def next_question(self):
         new_qid = random.choice(tuple(self._free_qids))
         right_game = self._games.all_games_by_id[new_qid.right_game]
         template = question_templates[new_qid.template_index]
-        text_fill = getattr(right_game, template["answer_type"])
+        text_fill = getattr(right_game, template["question_type"])
+        if template["question_type"] =="developers":
+            text_fill = oxford_join(text_fill)
         self.asked.add(new_qid)
         answers = self._get_answers(new_qid)
-        return {
-            "question": Question(
+        return SelectedQuestion(
+            question=Question(
                 id=new_qid,
                 text=template["text"](text_fill),
                 answers=answers
             ), 
-            "asked": self.asked.copy()
-        }
-
-    def _update_free_qids(self, asked):
-        if len(asked) > 0:
-            asked = {qid_from_str(a) for a in asked}
-        if (
-            self._free_qids is not None and
-            self.asked.issubset(asked) 
-        ):
-            for qid in asked:
-                self._free_qids.remove(qid)
-        else:
-            self._free_qids = set(
-                qid for qid in self._games.all_qids 
-                if qid not in asked
-            )
-        self.asked = asked
-
+            asked=self.asked.copy()
+        )
 
     def _get_answers(self, qid: QID):
         template = qid.template()

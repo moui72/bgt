@@ -12,10 +12,7 @@ import boto3
 from starlette.testclient import TestClient
 
 # local
-from bgt import create_app
-from bgt import __version__
-from bgt import Game
-from bgt import UniversalEncoder
+from bgt import create_app, Game, UniversalEncoder
 
 @fixture(autouse=True)
 def _aws_credentials(monkeypatch):
@@ -65,8 +62,4 @@ def games_data():
     # load game data
     with open(Path(__file__).parent.parent/"games.json", "r") as games_put_json:
         games_raw = load(games_put_json)
-        # validate/cast game data
-    games = []
-    for game in games_raw.values():
-        games.append(Game(**game))
-    return games
+    return [Game(**game) for game in games_raw.values()]
