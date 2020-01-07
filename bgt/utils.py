@@ -10,8 +10,9 @@ from types import GeneratorType
 
 # vendor
 
-# local 
-from .schema import Game, SelectedQuestion, QID, Question
+# local
+from .schema import Game, SelectedQuestion, QuestionID, Question
+
 
 class UniversalEncoder(json.JSONEncoder):
     # I got this from stack overflow, should find again and credit the author
@@ -27,13 +28,13 @@ class UniversalEncoder(json.JSONEncoder):
         Game: Game.json,
         SelectedQuestion: SelectedQuestion.json,
         Question: Question.json,
-        QID: str,
+        QuestionID: str,
     }
 
     def default(self, obj):
         if isinstance(obj, Enum):
             return obj.value
-        if hasattr(obj,"json"):
+        if hasattr(obj, "json"):
             try:
                 return obj.json()
             except TypeError as e:
@@ -46,12 +47,11 @@ class UniversalEncoder(json.JSONEncoder):
         return encoder(obj)
 
 
-def oxford_join(items: List[Union[str,int]]) -> str:
+def oxford_join(items: List[Union[str, int]]) -> str:
     "joins a list with a comma, but uses 'and' before the last item"
     if len(items) < 1:
         return ""
     if len(items) == 1:
         return str(items[0])
-    oxford_comma = (",","")[len(items) == 2]
+    oxford_comma = (",", "")[len(items) == 2]
     return ', '.join(items[:-1]) + f'{oxford_comma} and {items[-1]}'
-

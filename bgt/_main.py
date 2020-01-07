@@ -14,20 +14,23 @@ from pydantic import BaseModel, conint, PositiveInt
 
 # local imports
 from .schema import (
-    Game, question_templates, Score, QID, Question, Feedback, Answer
+    Game, question_templates, Score, QuestionID, Question, Answer, Games,
+    SelectedQuestion
 )
 from ._version import __version__
 from .utils import oxford_join
-from .questions import QuestionSelector, SelectedQuestion, Games
+from .question_selector import QuestionSelector, Feedback
 
 routes = APIRouter()
 
-def create_app(env = None) -> FastAPI:
+
+def create_app(env=None) -> FastAPI:
     # other initialization here
     app = FastAPI()
     app.include_router(routes)
-    app.state.games = Games(games=query_games())
+    app.state.games = Games(all_games=query_games())
     return app
+
 
 def query_games() -> List[Game]:
     dynamodb = boto3.resource('dynamodb', 'us-east-1')
@@ -37,21 +40,22 @@ def query_games() -> List[Game]:
 
 # routes
 @routes.get("/")
-async def root(request: Request) -> Dict[str,Union[str,int]]:
-    state = request.app.state
+async def root(request: Request) -> Dict[str, Union[str, int]]:
+    games = request.app.state.games
     return {
-        "version": f"v{__version__}", 
-        "question_count": len(state.games.all_qids)
+        "version": f"v{__version__}",
+        "question_count": len(games.all_qids)
     }
+
 
 @routes.get("/questions/")
 async def read_question(request: Request, asked: List[str] = []) \
-    -> SelectedQuestion:
+        -> SelectedQuestion:
     "asked is a comma separated list of strings representing question ids that "
     "have been asked"
-    state = request.app.state
+    games = request.app.state.games
     asked_memo = set(qid_from_str(a) for a in asked)
-    qs = QuestionSelector(asked=asked_memo, games=state.games)
+    qs = QuestionSelector(asked=asked_memo, games=games)
     q = qs.next_question()
     return {
         "question": q.question.dict(),
@@ -60,9 +64,11 @@ async def read_question(request: Request, asked: List[str] = []) \
 
 
 @routes.post("/score/", response_model=Score)
-async def create_score(score:Score) -> Score:
+async def create_score(score: Score) -> Score:
     return score
 
-@routes.post("/check_answer/", response_model=Feedback)
-async def check_answer(answer: Answer) -> Feedback:
-    return Feedback(answer)
+
+@routes.post("/answers/")
+async def check_answer(request: Request, answer: Answer) -> bool:
+    games = request.app.state.games
+    return Feedback(answer=answer, games=games).response()
