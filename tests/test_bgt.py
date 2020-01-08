@@ -96,7 +96,7 @@ def test_question_selector(games_data, question_selector):
 def test_feedback_question_year_of_game(
     sample_game, sample_question_year_of_game, games_data
 ):
-
+    assert sample_question_year_of_game.text
     correct_answer = extract_attr(
         game=sample_game,
         attr=sample_question_year_of_game.template()["answer_type"]
@@ -116,6 +116,97 @@ def test_feedback_question_year_of_game(
     incorrect_answer = random.choice(tuple(other_answers))
     fake_response = Answer(
         question=sample_question_year_of_game,
+        given_answer=incorrect_answer
+    )
+    incorrect_feedback = Feedback(games=games_data, answer=fake_response)
+    assert not incorrect_feedback.is_correct
+    assert incorrect_feedback.response_text == f"Sorry, the answer was {correct_answer}, not {incorrect_answer}"
+
+
+
+def test_feedback_question_game_by_dev(
+    sample_game, sample_question_game_by_dev, games_data
+):
+
+    correct_answer = extract_attr(
+        game=sample_game,
+        attr=sample_question_game_by_dev.template()["answer_type"]
+    )
+    fake_response = Answer(
+        question=sample_question_game_by_dev,
+        given_answer=correct_answer
+    )
+    correct_feedback = Feedback(
+        games=games_data,
+        answer=fake_response
+    )
+    assert correct_feedback.is_correct
+    assert correct_feedback.response_text == f"Yes, {correct_answer} is right"
+    other_answers = sample_question_game_by_dev.answers
+    other_answers.remove(correct_answer)
+    incorrect_answer = random.choice(tuple(other_answers))
+    fake_response = Answer(
+        question=sample_question_game_by_dev,
+        given_answer=incorrect_answer
+    )
+    incorrect_feedback = Feedback(games=games_data, answer=fake_response)
+    assert not incorrect_feedback.is_correct
+    assert incorrect_feedback.response_text == f"Sorry, the answer was {correct_answer}, not {incorrect_answer}"
+
+
+    
+def test_feedback_question_game_in_year(
+    sample_game, sample_question_game_in_year, games_data
+):
+
+    correct_answer = extract_attr(
+        game=sample_game,
+        attr=sample_question_game_in_year.template()["answer_type"]
+    )
+    fake_response = Answer(
+        question=sample_question_game_in_year,
+        given_answer=correct_answer
+    )
+    correct_feedback = Feedback(
+        games=games_data,
+        answer=fake_response
+    )
+    assert correct_feedback.is_correct
+    assert correct_feedback.response_text == f"Yes, {correct_answer} is right"
+    other_answers = sample_question_game_in_year.answers
+    other_answers.remove(correct_answer)
+    incorrect_answer = random.choice(tuple(other_answers))
+    fake_response = Answer(
+        question=sample_question_game_in_year,
+        given_answer=incorrect_answer
+    )
+    incorrect_feedback = Feedback(games=games_data, answer=fake_response)
+    assert not incorrect_feedback.is_correct
+    assert incorrect_feedback.response_text == f"Sorry, the answer was {correct_answer}, not {incorrect_answer}"
+
+def test_feedback_question_dev_of_game(
+    sample_game, sample_question_dev_of_game, games_data
+):
+
+    correct_answer = extract_attr(
+        game=sample_game,
+        attr=sample_question_dev_of_game.template()["answer_type"]
+    )
+    fake_response = Answer(
+        question=sample_question_dev_of_game,
+        given_answer=correct_answer
+    )
+    correct_feedback = Feedback(
+        games=games_data,
+        answer=fake_response
+    )
+    assert correct_feedback.is_correct
+    assert correct_feedback.response_text == f"Yes, {correct_answer} is right"
+    other_answers = sample_question_dev_of_game.answers
+    other_answers.remove(correct_answer)
+    incorrect_answer = random.choice(tuple(other_answers))
+    fake_response = Answer(
+        question=sample_question_dev_of_game,
         given_answer=incorrect_answer
     )
     incorrect_feedback = Feedback(games=games_data, answer=fake_response)

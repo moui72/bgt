@@ -29,7 +29,7 @@ def _aws_credentials(monkeypatch):
 
 
 @fixture
-def client(games_data):
+def client(games_data) -> TestClient:
     with mock_dynamodb2():
         # create dynamodb interface (mocked by moto decorator)
         dynamodb = boto3.resource('dynamodb', 'us-east-1')
@@ -74,7 +74,7 @@ def question_selector(games_data: Games) -> QuestionSelector:
 
 
 @fixture
-def sample_game(games_data: Games):
+def sample_game(games_data: Games) -> Game:
     return games_data.all_games_by_id[155122]
 
 
@@ -82,7 +82,7 @@ def sample_game(games_data: Games):
 def sample_question_game_by_dev(
     sample_game: Game,
     question_selector: QuestionSelector
-):
+) -> Question:
     return question_selector.make_question(
         QuestionID(template_index=0, right_game=sample_game.id)
     )
@@ -92,7 +92,7 @@ def sample_question_game_by_dev(
 def sample_question_game_in_year(
     sample_game: Game,
     question_selector: QuestionSelector
-):
+) -> Question:
     return question_selector.make_question(
         QuestionID(template_index=1, right_game=sample_game.id)
     )
@@ -102,7 +102,7 @@ def sample_question_game_in_year(
 def sample_question_dev_of_game(
     sample_game: Game,
     question_selector: QuestionSelector
-):
+) -> Question:
     return question_selector.make_question(
         QuestionID(template_index=2, right_game=sample_game.id)
     )
@@ -112,7 +112,7 @@ def sample_question_dev_of_game(
 def sample_question_year_of_game(
     sample_game: Game,
     question_selector: QuestionSelector
-):
+) -> Question:
     return question_selector.make_question(
         QuestionID(template_index=3, right_game=sample_game.id)
     )
