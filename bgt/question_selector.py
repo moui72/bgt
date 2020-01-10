@@ -1,15 +1,15 @@
-# std imports
+# Standard lib
 import random
-from typing import List, Set, Tuple, Dict
 from datetime import datetime
+from typing import Dict, List, Set, Tuple
 
-# vendor imports
-from pydantic import BaseModel, conint, PositiveInt, validator
+# Vendor
+from pydantic import BaseModel, PositiveInt, conint, validator
 
-# local imports
+# Relative local
 from .schema import (
-    qid_from_str, question_templates, Answer, Game, Games, Score,
-    SelectedQuestion,  QuestionID, Question,
+    QUESTION_TEMPLATES, Answer, Game, Games, Question, QuestionID, Score,
+    SelectedQuestion, qid_from_str
 )
 from .utils import oxford_join
 
@@ -28,7 +28,7 @@ class QuestionSelector:
         )
 
     def make_question(self, qid: QuestionID):
-        template = question_templates[qid.template_index]
+        template = QUESTION_TEMPLATES[qid.template_index]
         game = self._games.all_games_by_id[qid.right_game]
         text_fill = extract_attr(game=game, attr=template["question_type"])
         answers = self._get_answers(qid)

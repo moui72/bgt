@@ -1,14 +1,11 @@
-# std
+# Standard lib
 from datetime import datetime
+from typing import Callable, Dict, List, Set, Tuple, Union
 
-# vendor
-from pydantic import BaseModel, conint, PositiveInt, validator
-from typing import List, Union, Set, Tuple, Callable, Dict
+# Vendor
+from pydantic import BaseModel, PositiveInt, conint, validator
 
-# no local imports
-
-
-question_templates: List[Dict[str, Union[str, Callable[[str], str]]]] = [
+QUESTION_TEMPLATES: List[Dict[str, Union[str, Callable[[str], str]]]] = [
     {
         "text": lambda a: f'Who was &ldquo;{a}&rdquo; designed by?',
         "answer_type": "developers",
@@ -68,10 +65,10 @@ class Score(BaseWithFetched):
 
 class QuestionID(BaseModel):
     right_game: int
-    template_index: conint(ge=0, le=len(question_templates))
+    template_index: conint(ge=0, le=len(QUESTION_TEMPLATES))
 
     def template(self) -> Dict[str, Union[str, Callable[[str], str]]]:
-        return question_templates[self.template_index]
+        return QUESTION_TEMPLATES[self.template_index]
 
     def __str__(self) -> str:
         return f"{self.template_index}-{self.right_game}"
@@ -101,7 +98,7 @@ class Games(BaseModel):
     def derive_qids(cls, v, values):
         return set(
             QuestionID(template_index=template_index, right_game=game_id)
-            for template_index in range(len(question_templates))
+            for template_index in range(len(QUESTION_TEMPLATES))
             for game_id in values["all_game_ids"]
         )
 
@@ -112,7 +109,7 @@ class Question(BaseModel):
     answers: List[Union[str, int]]
 
     def template(self) -> Dict[str, Union[str, Callable[[str], str]]]:
-        return question_templates[self.id.template_index]
+        return QUESTION_TEMPLATES[self.id.template_index]
 
 
 class SelectedQuestion(BaseModel):

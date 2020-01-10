@@ -1,29 +1,24 @@
 # std
+# Standard lib
 import os
-import toml
 import random
-from pathlib import Path
 from json import loads
+from pathlib import Path
 
+# Vendor
+import boto3
+import pytest
+import toml
 # vendor
 from moto import mock_dynamodb2
-import pytest
 from pytest import fixture
-import boto3
 from starlette.testclient import TestClient
 
+# Absolute local
 # local
 from bgt import (
-    __version__,
-    extract_attr,
-    question_templates,
-    Answer,
-    Feedback,
-    Game,
-    Games,
-    Question,
-    QuestionSelector,
-    UniversalEncoder,
+    QUESTION_TEMPLATES, Answer, Feedback, Game, Games, Question,
+    QuestionSelector, UniversalEncoder, __version__, extract_attr
 )
 
 
