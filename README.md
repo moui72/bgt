@@ -15,14 +15,14 @@ Users have 10sec and get a point for every right answer. After two wrong answers
 
 The following types of questions will be available to start:
 
-- "QUESTION": Who designed (GAME)?
-  - "ANSWER": [(DESIGNER)]
-- "QUESTION": Which game was designed by (DESIGNER)?
-  - "ANSWER": [(GAME)]
-- "QUESTION": When was (GAME) released?
-  - "ANSWER": [(YEAR)]
-- "QUESTION": Which game came out in (YEAR)?
-  - "ANSWER": [(GAME)]
+- QUESTION: Who designed (GAME)?
+  - ANSWER: [(DESIGNER)]
+- QUESTION: Which game was designed by (DESIGNER)?
+  - ANSWER: [(GAME)]
+- QUESTION: When was (GAME) released?
+  - ANSWER: [(YEAR)]
+- QUESTION: Which game came out in (YEAR)?
+  - ANSWER: [(GAME)]
 
 To start, a database of ~700 games, their years published, and their designers, will be built. Database will be in AWS Dynamo DB.
 
@@ -36,20 +36,20 @@ FastAPI. Endpoints "for":
 
 GET Respond with complete game
 
-`{ "id": INT, "name": STRING, "yearPublished": INT, "designers": STRING}`
+`{ "id": int, "name": str, "yearPublished": int, "designers": str}`
 
 #### DESIGNER
 
 GET Respond with complete designer
 
-`{ "id": INT, "name": STRING}`
+`{ "id": int, "name": str}`
 
 #### QUESTION
 
 GET (requires logic)
 
 Pick a random question template (in source, e.g., \
-`{"q": "Who designed __GAME__?” "a": “__GAME__.DESIGNER"}`)
+`{"q": "Who designed __GAME__?", "a": "__GAME__.DESIGNER"}`)
 
 Pick a random "correct" game and fill in slots
 
@@ -59,7 +59,7 @@ Check for false negatives among alternative answers, replace until clean
 
 Respond with complete question
 
-`{ "id": INT, "template": STRING, "answers": [STRING], "correct_answer": INT}`
+`{ "id": int, "template": str, "answers": [str], "correct_answer": int}`
 
 #### SCORE
 
@@ -67,7 +67,7 @@ POST Add a score
 
 GET Get a score
 
-`{ "id": INT, "playerName": STRING, "score": INT }`
+`{ "id": int, "playerName": str, "score": int }`
 
 ### Frontend
 

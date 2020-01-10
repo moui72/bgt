@@ -12,7 +12,7 @@ from moto import mock_dynamodb2
 from pytest import fixture
 from starlette.testclient import TestClient
 
-# Absolute local
+# Absolute localpo
 from bgt import (
     QUESTION_TEMPLATES, Game, Games, Question, QuestionID, QuestionSelector,
     UniversalEncoder, create_app
