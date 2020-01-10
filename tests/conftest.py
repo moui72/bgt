@@ -12,10 +12,11 @@ import boto3
 from starlette.testclient import TestClient
 
 # local
-from bgt import create_app
-from bgt import __version__
-from bgt import Game
-from bgt import UniversalEncoder
+from bgt import (
+    create_app, question_templates, Game, Games, Question, QuestionID, QuestionSelector,
+    UniversalEncoder
+)
+
 
 @fixture(autouse=True)
 def _aws_credentials(monkeypatch):
@@ -27,10 +28,9 @@ def _aws_credentials(monkeypatch):
     yield
 
 
-
 @fixture
-def client(games_data):
-    with mock_dynamodb2(): 
+def client(games_data) -> TestClient:
+    with mock_dynamodb2():
         # create dynamodb interface (mocked by moto decorator)
         dynamodb = boto3.resource('dynamodb', 'us-east-1')
         table_name = "GamesTest"
@@ -52,21 +52,67 @@ def client(games_data):
             if "ResourceInUseException" not in str(e):
                 raise e
         with table.batch_writer() as batch:
-            for game in games_data:
+            for game in games_data.all_games:
                 batch.put_item(game.dict())
-        
+
         app = create_app()
         client = TestClient(app)
         yield client
 
 
 @fixture
-def games_data():
+def games_data() -> Games:
     # load game data
     with open(Path(__file__).parent.parent/"games.json", "r") as games_put_json:
         games_raw = load(games_put_json)
-        # validate/cast game data
-    games = []
-    for game in games_raw.values():
-        games.append(Game(**game))
-    return games
+    return Games(all_games=[Game(**game) for game in games_raw.values()])
+
+
+@fixture
+def question_selector(games_data: Games) -> QuestionSelector:
+    return QuestionSelector(games=games_data, asked=[])
+
+
+@fixture
+def sample_game(games_data: Games) -> Game:
+    return games_data.all_games_by_id[155122]
+
+
+@fixture
+def sample_question_game_by_dev(
+    sample_game: Game,
+    question_selector: QuestionSelector
+) -> Question:
+    return question_selector.make_question(
+        QuestionID(template_index=0, right_game=sample_game.id)
+    )
+
+
+@fixture
+def sample_question_game_in_year(
+    sample_game: Game,
+    question_selector: QuestionSelector
+) -> Question:
+    return question_selector.make_question(
+        QuestionID(template_index=1, right_game=sample_game.id)
+    )
+
+
+@fixture
+def sample_question_dev_of_game(
+    sample_game: Game,
+    question_selector: QuestionSelector
+) -> Question:
+    return question_selector.make_question(
+        QuestionID(template_index=2, right_game=sample_game.id)
+    )
+
+
+@fixture
+def sample_question_year_of_game(
+    sample_game: Game,
+    question_selector: QuestionSelector
+) -> Question:
+    return question_selector.make_question(
+        QuestionID(template_index=3, right_game=sample_game.id)
+    )

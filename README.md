@@ -15,14 +15,14 @@ Users have 10sec and get a point for every right answer. After two wrong answers
 
 The following types of questions will be available to start:
 
-* QUESTION: Who designed (GAME)?
-  * ANSWER: [(DESIGNER)]
-* QUESTION: Which game was designed by (DESIGNER)?
-  * ANSWER: [(GAME)]
-* QUESTION: When was (GAME) released?
-  * ANSWER: [(YEAR)]
-* QUESTION: Which game came out in (YEAR)?
-  * ANSWER: [(GAME)]
+- "QUESTION": Who designed (GAME)?
+  - "ANSWER": [(DESIGNER)]
+- "QUESTION": Which game was designed by (DESIGNER)?
+  - "ANSWER": [(GAME)]
+- "QUESTION": When was (GAME) released?
+  - "ANSWER": [(YEAR)]
+- "QUESTION": Which game came out in (YEAR)?
+  - "ANSWER": [(GAME)]
 
 To start, a database of ~700 games, their years published, and their designers, will be built. Database will be in AWS Dynamo DB.
 
@@ -30,26 +30,26 @@ To start, a database of ~700 games, their years published, and their designers, 
 
 ### Backend
 
-FastAPI. Endpoints for:
+FastAPI. Endpoints "for":
 
 #### GAME
 
 GET Respond with complete game
 
-`{ id: INT, name: STRING, yearPublished: INT, designers: STRING}`
+`{ "id": INT, "name": STRING, "yearPublished": INT, "designers": STRING}`
 
 #### DESIGNER
 
 GET Respond with complete designer
 
-`{ id: INT, name: STRING}`
+`{ "id": INT, "name": STRING}`
 
 #### QUESTION
 
-GET   (requires logic)
+GET (requires logic)
 
-Pick a random question template (in source, e.g.,  \
-`{q: "Who designed __GAME__?” a: “__GAME__.DESIGNER"}`)
+Pick a random question template (in source, e.g., \
+`{"q": "Who designed __GAME__?” "a": “__GAME__.DESIGNER"}`)
 
 Pick a random "correct" game and fill in slots
 
@@ -59,15 +59,15 @@ Check for false negatives among alternative answers, replace until clean
 
 Respond with complete question
 
-`{ id: INT, template: STRING, answers: [STRING], correct_answer: INT}`
+`{ "id": INT, "template": STRING, "answers": [STRING], "correct_answer": INT}`
 
 #### SCORE
 
-POST  Add a score
+POST Add a score
 
-GET  Get a score
+GET Get a score
 
-`{ id: INT, playerName: STRING, score: INT }`
+`{ "id": INT, "playerName": STRING, "score": INT }`
 
 ### Frontend
 
@@ -75,7 +75,7 @@ ReactJS SPA. No routing, initially. MobX for state management?
 
 #### Components
 
-Pages: Play game, Leaderboard, Help/info/about
+"Pages": Play game, Leaderboard, Help/info/about
 
 ##### Play game
 
@@ -89,7 +89,7 @@ number of correct answers so far
 
 ###### Lives remaining
 
-Display (2 - number of incorrect answers so far).  End game when 0.
+Display (2 - number of incorrect answers so far). End game when 0.
 
 ###### Question
 
@@ -126,22 +126,21 @@ Container for row of 10 top scores, sorted DESC
 
 Display "PLAYER NAME -- SCORE"
 
-#### CLient State
+#### Client State
 
 Front end state
 
-```json
+```jsonc
 {
-  view: "leaderboard” | “game", // which page we’re on
-  question: {}, // the current question -- empty when game has not started
-  asked: [], // list of last (max 100) question ids -- empty when game has not started
-  nextQuestions: [], // upcoming questions -- empty when game has not started
-  score: 0, // number of correct answers so far
-  wrongAnswers: 0, // number of wrong answers so far; 2 = game over
-  playerName: "", // for leadboard; prompt after each highscore game (but remember last)
-  scores: [
-    { playerName: "", score: 0 }, // for leaderboard, top 10 scores
+  "view": "leaderboard" or "game", // which page we’re on
+  "question": Question, // the current question -- empty when game has not started
+  "asked": List[QuestionID], // list of last (max 100) question ids -- empty when game has not started
+  "nextQuestions": [Question], // upcoming questions -- empty when game has not started
+  "score": 0, // number of correct answers so far
+  "wrongAnswers": 0, // number of wrong answers so far; 2 = game over
+  "playerName": str, // for leadboard; prompt after each highscore game but remember last
+  "scores": [
+    { "playerName": str, "score": int } // for leaderboard, top 10 scores
   ]
-
 }
 ```
