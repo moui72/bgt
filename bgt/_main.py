@@ -14,35 +14,14 @@ from starlette.requests import Request
 
 # Relative local
 from ._version import __version__
-from .game_mechanics import Feedback, QuestionSelector
 from .datatypes import (
-    Answer, Game, Games, Question, QuestionID, Score,
+    Answer, CSRFException, Game, Games, Question, QuestionID, Score,
     SelectedQuestion
 )
+from .game_mechanics import Feedback, QuestionSelector
 from .utils import oxford_join
 
 routes = APIRouter()
-
-
-def create_app(env=None) -> FastAPI:
-    # other initialization here
-    app = FastAPI()
-    app.include_router(routes)
-    app.state.games = Games(all_games=query_games())
-    origins = ["http://localhost:8080"]
-    app.add_middleware(
-        CORSMiddleware,
-        allow_origins=origins,
-        allow_methods=["GET", "POST"]
-    )
-    return app
-
-
-def query_games() -> List[Game]:
-    dynamodb = boto3.resource('dynamodb', 'us-east-1')
-    table = dynamodb.Table('GamesTest')
-    raw_games = table.scan()
-    return [Game(**g) for g in raw_games["Items"]]
 
 # routes
 @routes.get("/")
@@ -73,6 +52,8 @@ async def read_question(request: Request, asked: List[str] = []) \
 async def create_score(request: Request, score: Score) -> Score:
     try:
         check_requested_with_header(request)
+        put_score(
+            dict(**score, id=f"{datetime.now().timestamp()}-{score.name}"))
     except CSRFException as e:
         return HTTPException(403, detail=e)
     return score
@@ -91,6 +72,29 @@ def check_requested_with_header(r: Request):
         return request.headers["x-requested-with"]
 
 
-class CSRFException(Exception):
-    def __init__(self, args):
-        self.args = args
+def put_score(score):
+    dynamodb = boto3.resource('dynamodb', 'us-east-1')
+    table = dynamodb.Table('ScoresTest')
+    table.put_item(score.dict())
+    return score
+
+
+def query_games() -> List[Game]:
+    dynamodb = boto3.resource('dynamodb', 'us-east-1')
+    table = dynamodb.Table('GamesTest')
+    raw_games = table.scan()
+    return [Game(**g) for g in raw_games["Items"]]
+
+
+def create_app(env=None) -> FastAPI:
+    # other initialization here
+    app = FastAPI()
+    app.include_router(routes)
+    app.state.games = Games(all_games=query_games())
+    origins = ["http://localhost:8080"]
+    app.add_middleware(
+        CORSMiddleware,
+        allow_origins=origins,
+        allow_methods=["GET", "POST"]
+    )
+    return app

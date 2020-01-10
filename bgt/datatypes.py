@@ -58,9 +58,11 @@ class Game(BaseWithFetched):
         }
 
 
-class Score(BaseWithFetched):
-    player_name: str
+class Score(BaseModel):
+    name: str
     score: PositiveInt
+    id: str
+    fetched: str = datetime.now().isoformat()
 
 
 class QuestionID(BaseModel):
@@ -126,3 +128,8 @@ class Answer(BaseModel):
 def qid_from_str(qid_str: str) -> QuestionID:
     temp = qid_str.split("-")
     return QuestionID(template_index=temp[0], right_game=temp[1])
+
+
+class CSRFException(Exception):
+    def __init__(self, args):
+        self.args = args
