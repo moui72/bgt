@@ -1,31 +1,36 @@
-# std imports
+
+# Standard lib
 import random
-from pathlib import Path
 from datetime import datetime
-from typing import List, Union, Set, Tuple, Dict
 from functools import wraps
+from pathlib import Path
+from typing import Dict, List, Set, Tuple, Union
 
-# vendor imports
+# Vendor
 import boto3
-from fastapi import FastAPI, HTTPException, APIRouter
+from fastapi import APIRouter, FastAPI, HTTPException
+from pydantic import BaseModel, PositiveInt, conint
 from starlette.requests import Request
-from pydantic import BaseModel, conint, PositiveInt
 
-
-# local imports
-from .schema import Game, question_templates, Score, QID, Question
+# Relative local
 from ._version import __version__
+from .question_selector import Feedback, QuestionSelector
+from .schema import (
+    QUESTION_TEMPLATES, Answer, Game, Games, Question, QuestionID, Score,
+    SelectedQuestion
+)
 from .utils import oxford_join
-from .questions import Question_Selector, Games
 
 routes = APIRouter()
 
-def create_app(env = None) -> FastAPI:
+
+def create_app(env=None) -> FastAPI:
     # other initialization here
     app = FastAPI()
     app.include_router(routes)
-    app.state.games = Games(games=query_games())
+    app.state.games = Games(all_games=query_games())
     return app
+
 
 def query_games() -> List[Game]:
     dynamodb = boto3.resource('dynamodb', 'us-east-1')
@@ -35,25 +40,35 @@ def query_games() -> List[Game]:
 
 # routes
 @routes.get("/")
-async def root(request: Request) -> Dict[str,Union[str,int]]:
-    state = request.app.state
+async def root(request: Request) -> Dict[str, Union[str, int]]:
+    games = request.app.state.games
     return {
-        "version": f"v{__version__}", 
-        "question_count": len(state.games.all_qids)
+        "version": f"v{__version__}",
+        "question_count": len(games.all_qids)
     }
 
+
 @routes.get("/questions/")
-async def read_question(
-    request: Request, asked: List[str] = []
-) -> Dict[str,Union[Question,str]]:
+async def read_question(request: Request, asked: List[str] = []) \
+        -> SelectedQuestion:
     "asked is a comma separated list of strings representing question ids that "
     "have been asked"
-    state = request.app.state
+    games = request.app.state.games
     asked_memo = set(qid_from_str(a) for a in asked)
-    qs = Question_Selector(asked=asked_memo, games=state.games)
-    return qs.nextQuestion(asked_memo)
+    qs = QuestionSelector(asked=asked_memo, games=games)
+    q = qs.next_question()
+    return {
+        "question": q.question.dict(),
+        "asked": q.asked
+    }
 
 
 @routes.post("/score/", response_model=Score)
-async def create_score(score:Score) -> Score:
+async def create_score(score: Score) -> Score:
     return score
+
+
+@routes.post("/answers/")
+async def check_answer(request: Request, answer: Answer) -> bool:
+    games = request.app.state.games
+    return Feedback(answer=answer, games=games).response()

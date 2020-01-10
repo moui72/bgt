@@ -1,28 +1,25 @@
-#std
+# Standard lib
 from datetime import datetime
+from typing import Callable, Dict, List, Set, Tuple, Union
 
-# vendor
-from pydantic import BaseModel, conint, PositiveInt
-from typing import List, Union, Set, Tuple
+# Vendor
+from pydantic import BaseModel, PositiveInt, conint, validator
 
-#local
-
-
-question_templates: List[dict] = [
+QUESTION_TEMPLATES: List[Dict[str, Union[str, Callable[[str], str]]]] = [
     {
-        "text": lambda a: f"Who designed {a}?",
+        "text": lambda a: f'Who was &ldquo;{a}&rdquo; designed by?',
         "answer_type": "developers",
         "question_type": "name"
     },
     {
-        "text": lambda a: f"When was {a} released?",
+        "text": lambda a: f'What year was &ldquo;{a}&rdquo; released?',
         "answer_type": "year",
         "question_type": "name"
     },
     {
         "text": lambda a: f"Which game was designed by {a}?",
         "answer_type": "name",
-        "question_type": "design"
+        "question_type": "developers"
     },
     {
         "text": lambda a: f"Which game came out in {a}?",
@@ -46,7 +43,6 @@ class Game(BaseWithFetched):
         allow_population_by_field_name = True
         fields = {"year": "year_published"}
 
-
     def __hash__(self):
         return hash(self.id)
 
@@ -66,27 +62,67 @@ class Score(BaseWithFetched):
     player_name: str
     score: PositiveInt
 
-class QID(BaseModel):
+
+class QuestionID(BaseModel):
     right_game: int
-    template_index: conint(ge=0, le=len(question_templates))
+    template_index: conint(ge=0, le=len(QUESTION_TEMPLATES))
 
-    def template(self):
-        return question_templates[self.template_index]
+    def template(self) -> Dict[str, Union[str, Callable[[str], str]]]:
+        return QUESTION_TEMPLATES[self.template_index]
 
-    def __str__(self):
+    def __str__(self) -> str:
         return f"{self.template_index}-{self.right_game}"
-    
-    def __hash__(self):
+
+    def __hash__(self) -> int:
         return hash(str(self))
-    
-    def __eq__(self, other):
+
+    def __eq__(self, other) -> bool:
         return str(self) == str(other)
 
-class Question(BaseModel):
-    id: QID
-    text: str
-    answers: List[Union[str,int]]
 
-def qid_from_str(qid_str: str):
+class Games(BaseModel):
+    all_games: List[Game]
+    all_games_by_id: Dict[int, Game] = None
+    all_game_ids: Tuple[PositiveInt] = None
+    all_qids: Set[QuestionID] = None
+
+    @validator('all_games_by_id', always=True)
+    def derive_games_by_id(cls, v, values):
+        return {g.id: g for g in values['all_games']}
+
+    @validator('all_game_ids', always=True)
+    def derive_game_ids(cls, v, values):
+        return values["all_games_by_id"].keys()
+
+    @validator('all_qids', always=True)
+    def derive_qids(cls, v, values):
+        return set(
+            QuestionID(template_index=template_index, right_game=game_id)
+            for template_index in range(len(QUESTION_TEMPLATES))
+            for game_id in values["all_game_ids"]
+        )
+
+
+class Question(BaseModel):
+    id: QuestionID
+    text: str
+    answers: List[Union[str, int]]
+
+    def template(self) -> Dict[str, Union[str, Callable[[str], str]]]:
+        return QUESTION_TEMPLATES[self.id.template_index]
+
+
+class SelectedQuestion(BaseModel):
+    question: Question
+    asked: Set[QuestionID]
+
+
+class Answer(BaseModel):
+    question: Question
+    given_answer: str
+
+
+# helpers
+def qid_from_str(qid_str: str) -> QuestionID:
     temp = qid_str.split("-")
-    return QID(template_index=temp[0], right_game=temp[1])
+    return QuestionID(template_index=temp[0], right_game=temp[1])
