@@ -1,17 +1,15 @@
 
-# std
+# Standard lib
 import datetime
 import json
-from itertools import islice
-from typing import Dict, List, Set, Union
 from decimal import Decimal
 from enum import Enum
+from itertools import islice
 from types import GeneratorType
+from typing import Dict, List, Set, Union
 
-# vendor
-
-# local
-from .schema import Game, SelectedQuestion, QuestionID, Question
+# Relative local
+from .schema import Game, Question, QuestionID, SelectedQuestion
 
 
 class UniversalEncoder(json.JSONEncoder):

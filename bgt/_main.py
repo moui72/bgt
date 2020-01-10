@@ -1,25 +1,25 @@
-# std imports
+
+# Standard lib
 import random
-from pathlib import Path
 from datetime import datetime
-from typing import List, Union, Set, Tuple, Dict
 from functools import wraps
+from pathlib import Path
+from typing import Dict, List, Set, Tuple, Union
 
-# vendor imports
+# Vendor
 import boto3
-from fastapi import FastAPI, HTTPException, APIRouter
+from fastapi import APIRouter, FastAPI, HTTPException
+from pydantic import BaseModel, PositiveInt, conint
 from starlette.requests import Request
-from pydantic import BaseModel, conint, PositiveInt
 
-
-# local imports
+# Relative local
+from ._version import __version__
+from .question_selector import Feedback, QuestionSelector
 from .schema import (
-    Game, question_templates, Score, QuestionID, Question, Answer, Games,
+    QUESTION_TEMPLATES, Answer, Game, Games, Question, QuestionID, Score,
     SelectedQuestion
 )
-from ._version import __version__
 from .utils import oxford_join
-from .question_selector import QuestionSelector, Feedback
 
 routes = APIRouter()
 

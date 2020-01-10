@@ -1,20 +1,21 @@
-# std
-import os
-from random import randint
-from pathlib import Path
-from json import load, dump, loads
 
-# vendor
-from moto import mock_dynamodb2
-import pytest
-from pytest import fixture
+# Standard lib
+import os
+from json import dump, load, loads
+from pathlib import Path
+from random import randint
+
+# Vendor
 import boto3
+import pytest
+from moto import mock_dynamodb2
+from pytest import fixture
 from starlette.testclient import TestClient
 
-# local
+# Absolute local
 from bgt import (
-    create_app, question_templates, Game, Games, Question, QuestionID, QuestionSelector,
-    UniversalEncoder
+    QUESTION_TEMPLATES, Game, Games, Question, QuestionID, QuestionSelector,
+    UniversalEncoder, create_app
 )
 
 
