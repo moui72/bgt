@@ -7,7 +7,7 @@ from typing import Dict, List, Set, Tuple
 from pydantic import BaseModel, PositiveInt, conint, validator
 
 # Relative local
-from .schema import (
+from .datatypes import (
     QUESTION_TEMPLATES, Answer, Game, Games, Question, QuestionID, Score,
     SelectedQuestion, qid_from_str
 )

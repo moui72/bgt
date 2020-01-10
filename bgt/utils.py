@@ -9,7 +9,7 @@ from types import GeneratorType
 from typing import Dict, List, Set, Union
 
 # Relative local
-from .schema import Game, Question, QuestionID, SelectedQuestion
+from .datatypes import Game, Question, QuestionID, SelectedQuestion
 
 
 class UniversalEncoder(json.JSONEncoder):

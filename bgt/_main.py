@@ -9,14 +9,14 @@ from typing import Dict, List, Set, Tuple, Union
 # Vendor
 import boto3
 from fastapi import APIRouter, FastAPI, HTTPException
-from pydantic import BaseModel, PositiveInt, conint
+from starlette.middleware.cors import CORSMiddleware
 from starlette.requests import Request
 
 # Relative local
 from ._version import __version__
-from .question_selector import Feedback, QuestionSelector
-from .schema import (
-    QUESTION_TEMPLATES, Answer, Game, Games, Question, QuestionID, Score,
+from .game_mechanics import Feedback, QuestionSelector
+from .datatypes import (
+    Answer, Game, Games, Question, QuestionID, Score,
     SelectedQuestion
 )
 from .utils import oxford_join
@@ -29,6 +29,12 @@ def create_app(env=None) -> FastAPI:
     app = FastAPI()
     app.include_router(routes)
     app.state.games = Games(all_games=query_games())
+    origins = ["http://localhost:8080"]
+    app.add_middleware(
+        CORSMiddleware,
+        allow_origins=origins,
+        allow_methods=["GET", "POST"]
+    )
     return app
 
 
@@ -64,7 +70,11 @@ async def read_question(request: Request, asked: List[str] = []) \
 
 
 @routes.post("/score/", response_model=Score)
-async def create_score(score: Score) -> Score:
+async def create_score(request: Request, score: Score) -> Score:
+    try:
+        check_requested_with_header(request)
+    except CSRFException as e:
+        return HTTPException(403, detail=e)
     return score
 
 
@@ -72,3 +82,15 @@ async def create_score(score: Score) -> Score:
 async def check_answer(request: Request, answer: Answer) -> bool:
     games = request.app.state.games
     return Feedback(answer=answer, games=games).response()
+
+
+def check_requested_with_header(r: Request):
+    if "x-requested-with" not in r.headers.keys():
+        raise Exception("Rejected, potential fraudulent request")
+    else:
+        return request.headers["x-requested-with"]
+
+
+class CSRFException(Exception):
+    def __init__(self, args):
+        self.args = args

@@ -1,25 +1,18 @@
-# std
-# Standard lib
+
 import os
 import random
 from json import loads
 from pathlib import Path
 
-# Vendor
 import boto3
 import pytest
 import toml
-# vendor
 from moto import mock_dynamodb2
 from pytest import fixture
 from starlette.testclient import TestClient
 
-# Absolute local
-# local
-from bgt import (
-    QUESTION_TEMPLATES, Answer, Feedback, Game, Games, Question,
-    QuestionSelector, UniversalEncoder, __version__, extract_attr
-)
+from bgt import (QUESTION_TEMPLATES, Answer, Feedback, Game, Games, Question,
+                 QuestionSelector, UniversalEncoder, __version__, extract_attr)
 
 
 def test_version():
@@ -118,7 +111,6 @@ def test_feedback_question_year_of_game(
     assert incorrect_feedback.response_text == f"Sorry, the answer was {correct_answer}, not {incorrect_answer}"
 
 
-
 def test_feedback_question_game_by_dev(
     sample_game, sample_question_game_by_dev, games_data
 ):
@@ -149,7 +141,6 @@ def test_feedback_question_game_by_dev(
     assert incorrect_feedback.response_text == f"Sorry, the answer was {correct_answer}, not {incorrect_answer}"
 
 
-    
 def test_feedback_question_game_in_year(
     sample_game, sample_question_game_in_year, games_data
 ):
@@ -178,6 +169,7 @@ def test_feedback_question_game_in_year(
     incorrect_feedback = Feedback(games=games_data, answer=fake_response)
     assert not incorrect_feedback.is_correct
     assert incorrect_feedback.response_text == f"Sorry, the answer was {correct_answer}, not {incorrect_answer}"
+
 
 def test_feedback_question_dev_of_game(
     sample_game, sample_question_dev_of_game, games_data
