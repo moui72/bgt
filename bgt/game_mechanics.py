@@ -95,7 +95,6 @@ class Feedback(BaseModel):
 
     @validator("correct_answer", always=True)
     def derive_correct_answer(cls, v, values):
-        print(values.keys)
         return extract_attr(values["correct_game"], values["answer_type"])
 
     @validator("is_correct", always=True)

@@ -20,7 +20,7 @@ from bgt import (QUESTION_TEMPLATES, Answer, Feedback, Game, Games, Question,
 
 def test_root(games_data: Games, client):
     "Should return the current version and the number of possible questions"
-    response = client.get("/")
+    response = spoof_get(uri="/", client=client)
     assert response.status_code == 200
     assert loads(response.content) == {
         "version": f"v{__version__}",
@@ -35,9 +35,8 @@ def test_get_question(client):
             query_string = f"?asked={','.join(str(a) for a in asked)}"
         else:
             query_string = ''
-        response = client.get(
-            "/questions/" + query_string
-        )
+        response = spoof_get(client=client,
+            uri="/questions/" + query_string)
         assert response.status_code == 200
         response_body = loads(response.content)
         question = Question(**response_body["question"])
@@ -54,10 +53,7 @@ question_selector: QuestionSelector):
         question=test_question,
         given_answer=random.choice(test_question.answers)
     )
-    response = client.post(
-        "/answers/",
-        data=a.json()
-    )
+    response = spoof_post(uri="/answers/", data=a.json(), client=client)
     assert response.status_code == 200
     feedback = Feedback(games=games_data, **loads(response.content))
     assert feedback.given_answer in feedback.answer.question.answers
@@ -67,29 +63,29 @@ def test_reject_csrf_put_scores(client, fake_score):
     headers = {
       "Origin": "http://suspicio.us"
     }
-    response = client.post(
-      "/scores/", data=fake_score.json(), headers=headers)
+    response = spoof_post(client=client,uri="/scores/", data=fake_score.json(), 
+        headers=headers)
     assert response.status_code == 403
     e = loads(response.content)
-    assert e['detail'][0] == ("Rejected, potential fraudulent request (missing "
-    "'x-requested-with' header)")
+    assert "missing 'x-requested-with' header" in e['detail'][0]
+    headers["x-requested-with"]="bgt"
+    response = spoof_post(client=client,uri="/scores/", data=fake_score.json(), 
+        headers=headers)
+    assert response.status_code == 403
+    e = loads(response.content)
+    assert "illegal origin" in e['detail'][0]
+
 
 def test_put_scores(client,fake_score):
-    headers = {
-      "Origin": "http://localhost:8080",
-      "x-requested-with": "test"
-    }
-    response = client.post(
-      "/scores/", data=fake_score.json(), headers=headers)
+    response = spoof_post(client=client,uri="/scores/", data=fake_score.json())
     assert response.status_code == 200
     final_score = Score(**loads(response.content))
     assert final_score.dict() == fake_score.dict()
     assert final_score.score == 100
 
 def test_get_scores(client):
-    response = client.get(
-        "/scores/"
-    )
+    response = spoof_get(client=client, uri="/scores/")
+    assert response.status_code == 200
     raw_scores = loads(response.content)
     scores = [Score(**s) for s in raw_scores]
     assert len(scores) == 10
@@ -97,11 +93,22 @@ def test_get_scores(client):
         assert score.score > scores[i+1].score
 
 def test_get_5_scores(client):
-    response = client.get(
-        "/scores/?n=5"
-    )
+    response = spoof_get(uri="/scores/?n=5",client=client)
     raw_scores = loads(response.content)
     scores = [Score(**s) for s in raw_scores]
     assert len(scores) == 5
     for i, score in enumerate(scores[:-1]):
         assert score.score > scores[i+1].score
+
+def spoof_post(client, uri, data, headers = None):
+    headers = headers or {
+      "Origin": "http://localhost:8080",
+      "x-requested-with": "test"
+    }
+    return client.post(uri,data=data,headers=headers)
+
+def spoof_get(client, uri, headers = None):
+    headers = headers or {
+      "Origin": "http://localhost:8080"
+    }
+    return client.get(uri,headers=headers)
