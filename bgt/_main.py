@@ -82,9 +82,6 @@ def check_csrf(r: Request):
         o = r.headers['origin']
         raise CSRFException(args=[f"Rejected, potential fraudulent request "
             f"(illegal origin {o})"])
-
-
-
     return r
 
 # routes
