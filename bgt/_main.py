@@ -3,11 +3,13 @@
 import random
 from datetime import datetime
 from functools import wraps
+from operator import attrgetter
 from pathlib import Path
-from typing import Dict, List, Set, Tuple, Union
+from typing import Dict, List, Optional, Set, Tuple, Union
 
 # Vendor
 import boto3
+from boto3.resources.base import ServiceResource
 from fastapi import APIRouter, FastAPI, HTTPException
 from starlette.middleware.cors import CORSMiddleware
 from starlette.requests import Request
@@ -16,20 +18,51 @@ from starlette.requests import Request
 from ._version import __version__
 from .datatypes import (
     Answer, CSRFException, Game, Games, Question, QuestionID, Score,
-    SelectedQuestion
+    SelectedQuestion, qid_from_str
 )
 from .game_mechanics import Feedback, QuestionSelector
 from .utils import oxford_join
 
+
+class DatabaseConnection:
+    connection: ServiceResource = None
+    games_table_name: str = "GamesTest"
+    scores_table_name: str = "ScoresTest"
+
+    def __init__(self):
+        self.connection = boto3.resource('dynamodb', 'us-east-1')
+
+    def _get_table(self, table_name):
+        return self.connection.Table(table_name)
+
+    def get_games(self) -> List[Game]:
+        table = self._get_table(self.games_table_name)
+        raw_games = table.scan()
+        return [Game(**g) for g in raw_games["Items"]]
+
+    def put_score(self, score: Score):
+        table = self._get_table(self.scores_table_name)
+        table.put_item(Item=score.dict())
+        return score
+
+    def get_scores(self, n: Optional[int] = None):
+        table = self._get_table(self.scores_table_name)
+        raw_scores = table.scan()
+        scores = [Score(**s) for s in raw_scores["Items"]]
+        sorted_scores = sorted(scores, key=attrgetter('score'), reverse=True)
+        return sorted_scores[:n]
+
+
+
 routes = APIRouter()
 
-def create_app(db=None) -> FastAPI:
-    db = db if db else DatabaseConnection()
+def create_app(db: DatabaseConnection = None) -> FastAPI:
+    # app setup
     app = FastAPI()
     app.include_router(routes)
-    app.state.games = Games(all_games=db.get_games())
+    db = db or DatabaseConnection()
     app.state.db = db
-
+    app.state.games = Games(all_games=db.get_games())
     # CORS config
     origins = ["http://localhost:8080"]
     app.add_middleware(
@@ -37,42 +70,14 @@ def create_app(db=None) -> FastAPI:
         allow_origins=origins,
         allow_methods=["GET", "POST"]
     )
-
+    # app is ready!
     return app
-
 
 def check_requested_with_header(r: Request):
     if "x-requested-with" not in r.headers.keys():
         raise Exception("Rejected, potential fraudulent request")
     else:
         return r
-
-
-class DatabaseConnection:
-    connection = None
-    games_table_name: str = "GamesTest"
-    scores_table_name: str = "ScoresTest"
-
-    def __init__(self):
-        self.connection = boto3.resource('dynamodb', 'us-east-1')
-
-    def get_games(self) -> List[Game]:
-        table_name = self.games_table_name
-        table = self.connection.Table(table_name)
-        raw_games = table.scan()
-        return [Game(**g) for g in raw_games["Items"]]
-
-    def put_score(self, score: Score):
-        table_name = self.scores_table_name
-        table = self.connection.Table(table_name)
-        table.put_item(Item=score.dict())
-        return score
-
-    def get_scores(self, n: int):
-        pass
-
-
-
 
 # routes
 @routes.get("/")
@@ -83,12 +88,10 @@ async def root(request: Request) -> Dict[str, Union[str, int]]:
         "question_count": len(games.all_qids)
     }
 
-
 @routes.get("/questions/")
 async def read_question(request: Request, asked: List[str] = []) \
         -> SelectedQuestion:
-    "asked is a comma separated list of strings representing question ids that "
-    "have been asked"
+    "asked represents question ids that have been asked in the current game"
     games = request.app.state.games
     asked_memo = set(qid_from_str(a) for a in asked)
     qs = QuestionSelector(asked=asked_memo, games=games)
@@ -98,9 +101,9 @@ async def read_question(request: Request, asked: List[str] = []) \
         "asked": q.asked
     }
 
-
 @routes.post("/scores/")
 async def create_score(request: Request, score: Score) -> Score:
+    print("foo")
     db = request.app.state.db
     try:
         check_requested_with_header(request)
@@ -108,6 +111,7 @@ async def create_score(request: Request, score: Score) -> Score:
     except CSRFException as e:
         return HTTPException(403, detail=e)
     except Exception as e:
+        print(e)
         raise(e)
     return score.dict()
 
@@ -121,4 +125,3 @@ async def get_scores(request: Request, n: int = 10) -> List[Score]:
 async def check_answer(request: Request, answer: Answer) -> bool:
     games = request.app.state.games
     return Feedback(answer=answer, games=games).response()
-

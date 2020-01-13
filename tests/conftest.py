@@ -2,7 +2,8 @@
 import os
 from json import dump, load, loads
 from pathlib import Path
-from random import randint
+from random import randint, shuffle
+from typing import List
 
 # Vendor
 import boto3
@@ -28,7 +29,7 @@ def _aws_credentials(monkeypatch):
 
 
 @fixture
-def client(games_data):
+def client(games_data, fake_scores):
     with mock_dynamodb2():
         db = DatabaseConnection()
         dynamodb = db.connection
@@ -67,6 +68,9 @@ def client(games_data):
         except Exception as e:
             if "ResourceInUseException" not in str(e):
                 raise e
+        with table.batch_writer() as batch:
+            for score in fake_scores:
+                batch.put_item(score.dict())
         app = create_app(db=db)
         yield TestClient(app)
 
@@ -133,3 +137,12 @@ def sample_question_year_of_game(
 @fixture
 def fake_score(): 
     return Score(name="TJP", score=100)
+
+@fixture
+def fake_scores(fake_score: Score) -> List[Score]:
+    scores = []
+    for n in range(20):
+        score = fake_score.copy(update={"score": fake_score.score - n})
+        scores.append(score)
+    shuffle(scores)
+    return scores

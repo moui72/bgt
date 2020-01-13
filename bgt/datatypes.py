@@ -52,14 +52,14 @@ class Game(BaseWithFetched):
 
 class Score(BaseModel):
     name: str
-    score: PositiveInt
+    score: int
     id: str = None
     fetched: str = datetime.now().isoformat()
 
     @validator('id', always=True)
     def derive_id(cls, v, values):
         name = values["name"]
-        if "id" in values.keys():
+        if "id" in values.keys() and values["id"] is not None:
             return values["id"]
         else:
             f"{name}-{datetime.now().timestamp()}"

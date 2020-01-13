@@ -64,7 +64,7 @@ question_selector: QuestionSelector):
     assert feedback.is_correct or not feedback.is_correct
 
 
-def test_put_score(client,fake_score):
+def test_put_scores(client,fake_score):
     headers = {
       "Origin": "http://localhost:8080",
       "x-requested-with": "test"
@@ -74,3 +74,24 @@ def test_put_score(client,fake_score):
     assert response.status_code == 200
     final_score = Score(**loads(response.content))
     assert final_score.dict() == fake_score.dict()
+    assert final_score.score == 100
+
+def test_get_scores(client):
+    response = client.get(
+        "/scores/"
+    )
+    raw_scores = loads(response.content)
+    scores = [Score(**s) for s in raw_scores]
+    assert len(scores) == 10
+    for i, score in enumerate(scores[:-1]):
+        assert score.score > scores[i+1].score
+
+def test_get_5_scores(client):
+    response = client.get(
+        "/scores/?n=5"
+    )
+    raw_scores = loads(response.content)
+    scores = [Score(**s) for s in raw_scores]
+    assert len(scores) == 5
+    for i, score in enumerate(scores[:-1]):
+        assert score.score > scores[i+1].score
