@@ -11,7 +11,7 @@ from .datatypes import (
     QUESTION_TEMPLATES, Answer, Game, Games, Question, QuestionID, Score,
     SelectedQuestion, qid_from_str
 )
-from .utils import oxford_join
+from .utils import oxford_join, extract_attr
 
 
 class QuestionSelector:
@@ -115,9 +115,3 @@ class Feedback(BaseModel):
         exclude = {k for k in self.__fields_set__ if "_" == k[0]}
         return self.dict(exclude={*exclude, "games"})
 
-
-def extract_attr(game: Game, attr: str) -> str:
-    a = getattr(game, attr)
-    if attr == "developers":
-        return oxford_join(a)
-    return str(a)

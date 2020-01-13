@@ -53,3 +53,10 @@ def oxford_join(items: List[Union[str, int]]) -> str:
         return str(items[0])
     oxford_comma = (",", "")[len(items) == 2]
     return ', '.join(items[:-1]) + f'{oxford_comma} and {items[-1]}'
+
+
+def extract_attr(game: Game, attr: str) -> str:
+    a = getattr(game, attr)
+    if attr == "developers":
+        return oxford_join(a)
+    return str(a)

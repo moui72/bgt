@@ -12,7 +12,8 @@ from pytest import fixture
 from starlette.testclient import TestClient
 
 from bgt import (QUESTION_TEMPLATES, Answer, Feedback, Game, Games, Question,
-                 QuestionSelector, UniversalEncoder, __version__, extract_attr)
+                 QuestionSelector, Score, UniversalEncoder, __version__,
+                 extract_attr)
 
 
 def test_version():
@@ -152,3 +153,6 @@ def test_feedback_question_dev_of_game(
     assert not incorrect_feedback.is_correct
     assert incorrect_feedback.response_text == (f"Sorry, the answer was "
     f"{correct_answer}, not {incorrect_answer}")
+
+def test_score(fake_score):
+    pass

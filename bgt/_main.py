@@ -23,6 +23,57 @@ from .utils import oxford_join
 
 routes = APIRouter()
 
+def create_app(db=None) -> FastAPI:
+    db = db if db else DatabaseConnection()
+    app = FastAPI()
+    app.include_router(routes)
+    app.state.games = Games(all_games=db.get_games())
+    app.state.db = db
+
+    # CORS config
+    origins = ["http://localhost:8080"]
+    app.add_middleware(
+        CORSMiddleware,
+        allow_origins=origins,
+        allow_methods=["GET", "POST"]
+    )
+
+    return app
+
+
+def check_requested_with_header(r: Request):
+    if "x-requested-with" not in r.headers.keys():
+        raise Exception("Rejected, potential fraudulent request")
+    else:
+        return r
+
+
+class DatabaseConnection:
+    connection = None
+    games_table_name: str = "GamesTest"
+    scores_table_name: str = "ScoresTest"
+
+    def __init__(self):
+        self.connection = boto3.resource('dynamodb', 'us-east-1')
+
+    def get_games(self) -> List[Game]:
+        table_name = self.games_table_name
+        table = self.connection.Table(table_name)
+        raw_games = table.scan()
+        return [Game(**g) for g in raw_games["Items"]]
+
+    def put_score(self, score: Score):
+        table_name = self.scores_table_name
+        table = self.connection.Table(table_name)
+        table.put_item(Item=score.dict())
+        return score
+
+    def get_scores(self, n: int):
+        pass
+
+
+
+
 # routes
 @routes.get("/")
 async def root(request: Request) -> Dict[str, Union[str, int]]:
@@ -50,59 +101,24 @@ async def read_question(request: Request, asked: List[str] = []) \
 
 @routes.post("/scores/")
 async def create_score(request: Request, score: Score) -> Score:
+    db = request.app.state.db
     try:
         check_requested_with_header(request)
-        put_score(score)
+        db.put_score(score)
     except CSRFException as e:
         return HTTPException(403, detail=e)
     except Exception as e:
         raise(e)
     return score.dict()
 
+@routes.get("/scores/")
+async def get_scores(request: Request, n: int = 10) -> List[Score]:
+    db = request.app.state.db
+    scores = db.get_scores(n)
+    return scores
 
 @routes.post("/answers/")
 async def check_answer(request: Request, answer: Answer) -> bool:
     games = request.app.state.games
     return Feedback(answer=answer, games=games).response()
 
-
-def check_requested_with_header(r: Request):
-    if "x-requested-with" not in r.headers.keys():
-        raise Exception("Rejected, potential fraudulent request")
-    else:
-        return r
-
-def put_score(score):
-    table_name = "ScoresTest"
-    dynamodb = boto3.resource('dynamodb', 'us-east-1')
-    table = dynamodb.Table(table_name)
-    table.put_item(Item=score.dict())
-    return score
-
-
-class DatabaseConnection:
-    connection = None
-
-    def __init__(self):
-        self.connection = boto3.resource('dynamodb', 'us-east-1')
-
-    def query_games(self) -> List[Game]:
-        table = self.connection.Table('GamesTest')
-        raw_games = table.scan()
-        return [Game(**g) for g in raw_games["Items"]]
-
-
-def create_app(env=None, db=None) -> FastAPI:
-    db = db if db else DatabaseConnection()
-    app = FastAPI()
-    app.include_router(routes)
-    app.state.games = Games(
-        all_games=db.query_games()
-    )
-    origins = ["http://localhost:8080"]
-    app.add_middleware(
-        CORSMiddleware,
-        allow_origins=origins,
-        allow_methods=["GET", "POST"]
-    )
-    return app
