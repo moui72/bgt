@@ -75,7 +75,7 @@ def create_app(db: DatabaseConnection = None) -> FastAPI:
 
 def check_requested_with_header(r: Request):
     if "x-requested-with" not in r.headers.keys():
-        raise Exception("Rejected, potential fraudulent request")
+        raise CSRFException(args=["Rejected, potential fraudulent request (missing 'x-requested-with' header)"])
     else:
         return r
 
@@ -102,17 +102,15 @@ async def read_question(request: Request, asked: List[str] = []) \
     }
 
 @routes.post("/scores/")
-async def create_score(request: Request, score: Score) -> Score:
-    print("foo")
+async def create_score(request: Request, score: Score) -> Dict:
     db = request.app.state.db
     try:
         check_requested_with_header(request)
         db.put_score(score)
     except CSRFException as e:
-        return HTTPException(403, detail=e)
+        raise HTTPException(403, detail=e.args)
     except Exception as e:
-        print(e)
-        raise(e)
+        raise e
     return score.dict()
 
 @routes.get("/scores/")

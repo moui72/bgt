@@ -63,6 +63,16 @@ question_selector: QuestionSelector):
     assert feedback.given_answer in feedback.answer.question.answers
     assert feedback.is_correct or not feedback.is_correct
 
+def test_reject_csrf_put_scores(client, fake_score):
+    headers = {
+      "Origin": "http://suspicio.us"
+    }
+    response = client.post(
+      "/scores/", data=fake_score.json(), headers=headers)
+    assert response.status_code == 403
+    e = loads(response.content)
+    assert e['detail'][0] == ("Rejected, potential fraudulent request (missing "
+    "'x-requested-with' header)")
 
 def test_put_scores(client,fake_score):
     headers = {
