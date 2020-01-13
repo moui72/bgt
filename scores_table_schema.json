@@ -1,0 +1,49 @@
+{
+  "AttributeDefinitions": [
+      {
+          "AttributeName": "fetched",
+          "AttributeType": "S"
+      },
+      {
+          "AttributeName": "name",
+          "AttributeType": "S"
+      },
+      {
+          "AttributeName": "score",
+          "AttributeType": "N"
+      }
+  ],
+  "TableName": "ScoresTest",
+  "KeySchema": [
+      {
+          "AttributeName": "name",
+          "KeyType": "HASH"
+      },
+      {
+          "AttributeName": "score",
+          "KeyType": "RANGE"
+      }
+  ],
+  "ProvisionedThroughput": {
+      "ReadCapacityUnits": 5,
+      "WriteCapacityUnits": 5
+  },
+  "GlobalSecondaryIndexes": [
+      {
+          "IndexName": "fetched-index",
+          "KeySchema": [
+              {
+                  "AttributeName": "fetched",
+                  "KeyType": "HASH"
+              }
+          ],
+          "Projection": {
+              "ProjectionType": "ALL"
+          },
+          "ProvisionedThroughput": {
+              "ReadCapacityUnits": 5,
+              "WriteCapacityUnits": 5
+          }
+      }
+  ]
+}

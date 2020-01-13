@@ -48,15 +48,16 @@ async def read_question(request: Request, asked: List[str] = []) \
     }
 
 
-@routes.post("/score/", response_model=Score)
+@routes.post("/scores/")
 async def create_score(request: Request, score: Score) -> Score:
     try:
         check_requested_with_header(request)
-        put_score(
-            dict(**score, id=f"{datetime.now().timestamp()}-{score.name}"))
+        put_score(score)
     except CSRFException as e:
         return HTTPException(403, detail=e)
-    return score
+    except Exception as e:
+        raise(e)
+    return score.dict()
 
 
 @routes.post("/answers/")
@@ -69,28 +70,35 @@ def check_requested_with_header(r: Request):
     if "x-requested-with" not in r.headers.keys():
         raise Exception("Rejected, potential fraudulent request")
     else:
-        return request.headers["x-requested-with"]
-
+        return r
 
 def put_score(score):
+    table_name = "ScoresTest"
     dynamodb = boto3.resource('dynamodb', 'us-east-1')
-    table = dynamodb.Table('ScoresTest')
-    table.put_item(score.dict())
+    table = dynamodb.Table(table_name)
+    table.put_item(Item=score.dict())
     return score
 
 
-def query_games() -> List[Game]:
-    dynamodb = boto3.resource('dynamodb', 'us-east-1')
-    table = dynamodb.Table('GamesTest')
-    raw_games = table.scan()
-    return [Game(**g) for g in raw_games["Items"]]
+class DatabaseConnection:
+    connection = None
+
+    def __init__(self):
+        self.connection = boto3.resource('dynamodb', 'us-east-1')
+
+    def query_games(self) -> List[Game]:
+        table = self.connection.Table('GamesTest')
+        raw_games = table.scan()
+        return [Game(**g) for g in raw_games["Items"]]
 
 
-def create_app(env=None) -> FastAPI:
-    # other initialization here
+def create_app(env=None, db=None) -> FastAPI:
+    db = db if db else DatabaseConnection()
     app = FastAPI()
     app.include_router(routes)
-    app.state.games = Games(all_games=query_games())
+    app.state.games = Games(
+        all_games=db.query_games()
+    )
     origins = ["http://localhost:8080"]
     app.add_middleware(
         CORSMiddleware,

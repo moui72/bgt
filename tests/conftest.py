@@ -1,4 +1,3 @@
-
 # Standard lib
 import os
 from json import dump, load, loads
@@ -12,11 +11,10 @@ from moto import mock_dynamodb2
 from pytest import fixture
 from starlette.testclient import TestClient
 
-# Absolute localpo
-from bgt import (
-    QUESTION_TEMPLATES, Game, Games, Question, QuestionID, QuestionSelector,
-    UniversalEncoder, create_app
-)
+# Absolute local
+from bgt import (QUESTION_TEMPLATES, DatabaseConnection, Game, Games, Question,
+                 QuestionID, QuestionSelector, Score, UniversalEncoder,
+                 create_app)
 
 
 @fixture(autouse=True)
@@ -30,18 +28,16 @@ def _aws_credentials(monkeypatch):
 
 
 @fixture
-def client(games_data) -> TestClient:
+def client(games_data):
     with mock_dynamodb2():
-        # create dynamodb interface (mocked by moto decorator)
-        dynamodb = boto3.resource('dynamodb', 'us-east-1')
+        db = DatabaseConnection()
+        dynamodb = db.connection
         table_name = "GamesTest"
         table = dynamodb.Table(table_name)
-        # load schema from file
         with open(
             Path(__file__).parent.parent / "games_table_schema.json", "r"
         ) as schema_json:
             schema = load(schema_json)
-        # create table with schema
         try:
             table = dynamodb.create_table(
                 **schema
@@ -55,10 +51,24 @@ def client(games_data) -> TestClient:
         with table.batch_writer() as batch:
             for game in games_data.all_games:
                 batch.put_item(game.dict())
-
-        app = create_app()
-        client = TestClient(app)
-        yield client
+        table_name = "ScoresTest"
+        table = dynamodb.Table(table_name)
+        with open(
+                Path(__file__).parent.parent / "scores_table_schema.json", "r"
+            ) as schema_json:
+                schema = load(schema_json)
+        try:
+            table = dynamodb.create_table(
+                **schema
+            )
+            table.meta.client.get_waiter(
+                'table_exists'
+            ).wait(TableName=table_name)
+        except Exception as e:
+            if "ResourceInUseException" not in str(e):
+                raise e
+        app = create_app(db=db)
+        yield TestClient(app)
 
 
 @fixture
@@ -117,3 +127,9 @@ def sample_question_year_of_game(
     return question_selector.make_question(
         QuestionID(template_index=3, right_game=sample_game.id)
     )
+
+
+
+@fixture
+def fake_score(): 
+    return Score(name="TJP", score=100)

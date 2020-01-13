@@ -49,20 +49,20 @@ class Game(BaseWithFetched):
     def __eq__(self, other):
         return dict(self) == dict(other)
 
-    def toAWSDyDBScheme(self):
-        return {
-            "id": {"N": str(self.id)},
-            "name": {"S": str(self.name)},
-            "year": {"N": str(self.year)},
-            "developers": {"S": ','.join(self.developers)}
-        }
-
 
 class Score(BaseModel):
     name: str
     score: PositiveInt
-    id: str
+    id: str = None
     fetched: str = datetime.now().isoformat()
+
+    @validator('id', always=True)
+    def derive_id(cls, v, values):
+        name = values["name"]
+        if "id" in values.keys():
+            return values["id"]
+        else:
+            f"{name}-{datetime.now().timestamp()}"
 
 
 class QuestionID(BaseModel):
