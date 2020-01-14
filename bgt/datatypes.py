@@ -81,6 +81,11 @@ class QuestionID(BaseModel):
     def __eq__(self, other) -> bool:
         return str(self) == str(other)
 
+    @classmethod
+    def from_str(cls, qid_str: str) -> QuestionID:
+        temp = qid_str.split("-")
+        return QuestionID(template_index=temp[0], right_game=temp[1])
+
 
 class Games(BaseModel):
     all_games: List[Game]
