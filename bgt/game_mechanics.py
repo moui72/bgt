@@ -7,11 +7,11 @@ from typing import Dict, List, Set, Tuple
 from pydantic import BaseModel, PositiveInt, conint, validator
 
 # Relative local
-from .schema import (
+from .datatypes import (
     QUESTION_TEMPLATES, Answer, Game, Games, Question, QuestionID, Score,
-    SelectedQuestion, qid_from_str
+    SelectedQuestion
 )
-from .utils import oxford_join
+from .utils import oxford_join, extract_attr
 
 
 class QuestionSelector:
@@ -79,6 +79,10 @@ class Feedback(BaseModel):
     is_correct: bool = None
     response_text: str = None
 
+    # currently these "calculated fields" are @validators, but I am watching
+    # https://github.com/samuelcolvin/pydantic/issues/935 in case pydantic adds
+    # additonal @property support
+
     @validator("correct_game", always=True)
     def derive_correct_game(cls, v, values):
         return values["games"].all_games_by_id[
@@ -95,7 +99,6 @@ class Feedback(BaseModel):
 
     @validator("correct_answer", always=True)
     def derive_correct_answer(cls, v, values):
-        print(values.keys)
         return extract_attr(values["correct_game"], values["answer_type"])
 
     @validator("is_correct", always=True)
@@ -112,12 +115,5 @@ class Feedback(BaseModel):
             return f"Sorry, the answer was {correct}, not {given}"
 
     def response(self):
-        exclude = {k for k in self.__fields_set__ if "_" == k[0]}
+        exclude = {k for k in self.__fields_set__ if k.startswith("_")}
         return self.dict(exclude={*exclude, "games"})
-
-
-def extract_attr(game: Game, attr: str) -> str:
-    a = getattr(game, attr)
-    if attr == "developers":
-        return oxford_join(a)
-    return str(a)

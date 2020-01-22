@@ -1,76 +1,25 @@
-# std
-# Standard lib
+
 import os
 import random
 from json import loads
 from pathlib import Path
 
-# Vendor
 import boto3
 import pytest
 import toml
-# vendor
 from moto import mock_dynamodb2
 from pytest import fixture
 from starlette.testclient import TestClient
 
-# Absolute local
-# local
-from bgt import (
-    QUESTION_TEMPLATES, Answer, Feedback, Game, Games, Question,
-    QuestionSelector, UniversalEncoder, __version__, extract_attr
-)
+from bgt import (QUESTION_TEMPLATES, Answer, Feedback, Game, Games, Question,
+                 QuestionSelector, Score, UniversalEncoder, __version__,
+                 extract_attr)
 
 
 def test_version():
     with open(Path(__file__).parent.parent / "pyproject.toml") as f:
         pyproject_toml = toml.load(f)
     assert __version__ == pyproject_toml["tool"]["poetry"]["version"]
-
-
-def test_root(games_data: Games, client):
-    "Should return the current version and the number of possible questions"
-    response = client.get("/")
-    assert response.status_code == 200
-    assert loads(response.content) == {
-        "version": f"v{__version__}",
-        "question_count": len(games_data.all_qids)
-    }
-
-
-def test_get_question(games_data: Games, client):
-    asked = []
-    for i in range(3):
-        if len(asked) > 0:
-            query_string = f"?asked={','.join(str(a) for a in asked)}"
-        else:
-            query_string = ''
-        response = client.get(
-            "/questions/" + query_string
-        )
-        assert response.status_code == 200
-        response_body = loads(response.content)
-        question = Question(**response_body["question"])
-        # make sure no question is served twice
-        assert question.id not in asked
-        if response_body["asked"] is not None:
-            asked = response_body["asked"]
-
-
-def test_get_answer(games_data: Games, client, question_selector):
-    test_question: Question = question_selector.next_question().question
-    a = Answer(
-        question=test_question,
-        given_answer=random.choice(test_question.answers)
-    )
-    response = client.post(
-        "/answers/",
-        data=a.json()
-    )
-    assert response.status_code == 200
-    feedback = Feedback(games=games_data, **loads(response.content))
-    assert feedback.given_answer in feedback.answer.question.answers
-    assert feedback.is_correct or not feedback.is_correct
 
 
 def test_question_selector(games_data, question_selector):
@@ -118,11 +67,9 @@ def test_feedback_question_year_of_game(
     assert incorrect_feedback.response_text == f"Sorry, the answer was {correct_answer}, not {incorrect_answer}"
 
 
-
 def test_feedback_question_game_by_dev(
     sample_game, sample_question_game_by_dev, games_data
 ):
-
     correct_answer = extract_attr(
         game=sample_game,
         attr=sample_question_game_by_dev.template()["answer_type"]
@@ -149,11 +96,9 @@ def test_feedback_question_game_by_dev(
     assert incorrect_feedback.response_text == f"Sorry, the answer was {correct_answer}, not {incorrect_answer}"
 
 
-    
 def test_feedback_question_game_in_year(
     sample_game, sample_question_game_in_year, games_data
 ):
-
     correct_answer = extract_attr(
         game=sample_game,
         attr=sample_question_game_in_year.template()["answer_type"]
@@ -179,10 +124,10 @@ def test_feedback_question_game_in_year(
     assert not incorrect_feedback.is_correct
     assert incorrect_feedback.response_text == f"Sorry, the answer was {correct_answer}, not {incorrect_answer}"
 
+
 def test_feedback_question_dev_of_game(
     sample_game, sample_question_dev_of_game, games_data
 ):
-
     correct_answer = extract_attr(
         game=sample_game,
         attr=sample_question_dev_of_game.template()["answer_type"]
@@ -206,4 +151,8 @@ def test_feedback_question_dev_of_game(
     )
     incorrect_feedback = Feedback(games=games_data, answer=fake_response)
     assert not incorrect_feedback.is_correct
-    assert incorrect_feedback.response_text == f"Sorry, the answer was {correct_answer}, not {incorrect_answer}"
+    assert incorrect_feedback.response_text == (f"Sorry, the answer was "
+    f"{correct_answer}, not {incorrect_answer}")
+
+def test_score(fake_score):
+    pass

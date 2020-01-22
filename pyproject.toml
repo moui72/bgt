@@ -23,9 +23,6 @@ xmltodict = "^0.12.0"
 moto = "^1.3.14"
 rope = "^0.14.0"
 
-[tool.poetry.scripts]
-start = "uvicorn app._main:app --reload"
-
 [build-system]
 requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"

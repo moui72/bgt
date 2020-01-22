@@ -49,18 +49,20 @@ class Game(BaseWithFetched):
     def __eq__(self, other):
         return dict(self) == dict(other)
 
-    def toAWSDyDBScheme(self):
-        return {
-            "id": {"N": str(self.id)},
-            "name": {"S": str(self.name)},
-            "year": {"N": str(self.year)},
-            "developers": {"S": ','.join(self.developers)}
-        }
 
+class Score(BaseModel):
+    name: str
+    score: int
+    id: str = None
+    fetched: str = datetime.now().isoformat()
 
-class Score(BaseWithFetched):
-    player_name: str
-    score: PositiveInt
+    @validator('id', always=True)
+    def derive_id(cls, v, values):
+        name = values["name"]
+        if "id" in values.keys() and values["id"] is not None:
+            return values["id"]
+        else:
+            f"{name}-{datetime.now().timestamp()}"
 
 
 class QuestionID(BaseModel):
@@ -78,6 +80,11 @@ class QuestionID(BaseModel):
 
     def __eq__(self, other) -> bool:
         return str(self) == str(other)
+
+    @classmethod
+    def from_str(cls, qid_str: str):
+        index, game = qid_str.split("-")
+        return QuestionID(template_index=index, right_game=game)
 
 
 class Games(BaseModel):
@@ -122,7 +129,6 @@ class Answer(BaseModel):
     given_answer: str
 
 
-# helpers
-def qid_from_str(qid_str: str) -> QuestionID:
-    temp = qid_str.split("-")
-    return QuestionID(template_index=temp[0], right_game=temp[1])
+class CSRFException(Exception):
+    def __init__(self, args):
+        self.args = args
