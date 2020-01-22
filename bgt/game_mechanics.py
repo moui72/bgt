@@ -9,7 +9,7 @@ from pydantic import BaseModel, PositiveInt, conint, validator
 # Relative local
 from .datatypes import (
     QUESTION_TEMPLATES, Answer, Game, Games, Question, QuestionID, Score,
-    SelectedQuestion, qid_from_str
+    SelectedQuestion
 )
 from .utils import oxford_join, extract_attr
 
@@ -79,8 +79,10 @@ class Feedback(BaseModel):
     is_correct: bool = None
     response_text: str = None
 
-    # question: does it make sense for the following to be @validators?
-    # maybe they should be @properties
+    # currently these "calculated fields" are @validators, but I am watching
+    # https://github.com/samuelcolvin/pydantic/issues/935 in case pydantic adds
+    # additonal @property support
+
     @validator("correct_game", always=True)
     def derive_correct_game(cls, v, values):
         return values["games"].all_games_by_id[
@@ -113,5 +115,5 @@ class Feedback(BaseModel):
             return f"Sorry, the answer was {correct}, not {given}"
 
     def response(self):
-        exclude = {k for k in self.__fields_set__ if "_" == k[0]}
+        exclude = {k for k in self.__fields_set__ if k.startswith("_")}
         return self.dict(exclude={*exclude, "games"})

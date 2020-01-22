@@ -82,9 +82,9 @@ class QuestionID(BaseModel):
         return str(self) == str(other)
 
     @classmethod
-    def from_str(cls, qid_str: str) -> QuestionID:
-        temp = qid_str.split("-")
-        return QuestionID(template_index=temp[0], right_game=temp[1])
+    def from_str(cls, qid_str: str):
+        index, game = qid_str.split("-")
+        return QuestionID(template_index=index, right_game=game)
 
 
 class Games(BaseModel):
@@ -127,12 +127,6 @@ class SelectedQuestion(BaseModel):
 class Answer(BaseModel):
     question: Question
     given_answer: str
-
-
-# helpers
-def qid_from_str(qid_str: str) -> QuestionID:
-    temp = qid_str.split("-")
-    return QuestionID(template_index=temp[0], right_game=temp[1])
 
 
 class CSRFException(Exception):
