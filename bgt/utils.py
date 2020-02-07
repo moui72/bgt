@@ -4,12 +4,11 @@ import datetime
 import json
 from decimal import Decimal
 from enum import Enum
-from itertools import islice
 from types import GeneratorType
-from typing import Dict, List, Set, Union
+from typing import List, Union
 
 # Relative local
-from .datatypes import Game, Question, QuestionID, SelectedQuestion
+from .datatypes import Game, Question, QuestionID, GameState
 
 
 class UniversalEncoder(json.JSONEncoder):
@@ -24,7 +23,7 @@ class UniversalEncoder(json.JSONEncoder):
         bytes: bytes.decode,
         Decimal: str,
         Game: Game.json,
-        SelectedQuestion: SelectedQuestion.json,
+        GameState: GameState.json,
         Question: Question.json,
         QuestionID: str,
     }

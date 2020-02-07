@@ -1,17 +1,16 @@
 # Standard lib
 import random
 from datetime import datetime
-from typing import Dict, List, Set, Tuple
+from typing import Set
 
 # Vendor
-from pydantic import BaseModel, PositiveInt, conint, validator
+from pydantic import BaseModel, validator
 
 # Relative local
 from .datatypes import (
-    QUESTION_TEMPLATES, Answer, Game, Games, Question, QuestionID, Score,
-    SelectedQuestion
+    QUESTION_TEMPLATES, Answer, Game, Games, Question, QuestionID, GameState
 )
-from .utils import oxford_join, extract_attr
+from .utils import extract_attr
 
 
 class QuestionSelector:
@@ -38,10 +37,14 @@ class QuestionSelector:
             answers=answers
         )
 
-    def next_question(self):
+    def _next_qid(self):
         new_qid = random.choice(tuple(self._free_qids))
-        return SelectedQuestion(
-            question=self.make_question(qid=new_qid),
+        self._free_qids.remove(new_qid)
+        return new_qid
+
+    def next_game_state(self):
+        return GameState(
+            current_question=self.make_question(qid=self._next_qid()),
             asked=self.asked.copy()
         )
 
@@ -64,7 +67,7 @@ class QuestionSelector:
                     attr=template["answer_type"]
                 )
             answers.add(alt_answer)
-        answers = list(answers)
+        answers = set(answers)
         random.shuffle(answers)
         return answers
 
@@ -81,7 +84,7 @@ class Feedback(BaseModel):
 
     # currently these "calculated fields" are @validators, but I am watching
     # https://github.com/samuelcolvin/pydantic/issues/935 in case pydantic adds
-    # additonal @property support
+    # additional @property support
 
     @validator("correct_game", always=True)
     def derive_correct_game(cls, v, values):

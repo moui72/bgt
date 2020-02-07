@@ -119,8 +119,8 @@ class Question(BaseModel):
         return QUESTION_TEMPLATES[self.id.template_index]
 
 
-class SelectedQuestion(BaseModel):
-    question: Question
+class GameState(BaseModel):
+    current_question: Question
     asked: Set[QuestionID]
 
 

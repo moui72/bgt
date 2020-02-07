@@ -1,11 +1,7 @@
 
 # Standard lib
-import random
-from datetime import datetime
-from functools import wraps
 from operator import attrgetter
-from pathlib import Path
-from typing import Dict, List, Optional, Set, Tuple, Union
+from typing import Dict, List, Optional, Union
 
 # Vendor
 import boto3
@@ -17,11 +13,10 @@ from starlette.requests import Request
 # Relative local
 from ._version import __version__
 from .datatypes import (
-    Answer, CSRFException, Game, Games, Question, QuestionID, Score,
-    SelectedQuestion, QuestionID
+    Answer, CSRFException, Game, Games, Score,
+    GameState, QuestionID
 )
 from .game_mechanics import Feedback, QuestionSelector
-from .utils import oxford_join
 
 
 class DatabaseConnection:
@@ -30,7 +25,7 @@ class DatabaseConnection:
     scores_table_name: str = "ScoresTest"
 
     def __init__(self):
-        self.connection = boto3.resource('dynamodb', 'us-east-1')
+        self.connection = boto3.resource("dynamodb", 'us-east-1')
 
     def _get_table(self, table_name):
         return self.connection.Table(table_name)
@@ -76,13 +71,15 @@ def create_app(db: DatabaseConnection = None) -> FastAPI:
 
 def check_csrf(r: Request):
     if "x-requested-with" not in r.headers.keys():
-        raise CSRFException(args=["Rejected, potential fraudulent request "
-                                  "(missing 'x-requested-with' header)"])
+        raise CSRFException(
+            args=tuple("Rejected, potential fraudulent request "
+                       "(missing 'x-requested-with' header)"))
     if ("origin" not in r.headers.keys() or
             r.headers['origin'] not in ["http://localhost:8080"]):
         o = r.headers['origin']
-        raise CSRFException(args=[f"Rejected, potential fraudulent request "
-                                  f"(illegal origin {o})"])
+        raise CSRFException(
+            args=tuple("Rejected, potential fraudulent request "
+                       f"(illegal origin {o})"))
     return r
 
 # routes
@@ -96,17 +93,15 @@ async def root(request: Request) -> Dict[str, Union[str, int]]:
 
 
 @routes.get("/questions/")
-async def read_question(request: Request, asked: List[str] = []) \
-        -> SelectedQuestion:
-    "asked represents question ids that have been asked in the current game"
+async def read_question(request: Request, asked: List[str] = None) \
+        -> GameState:
+    """ asked represents question ids that have been asked in the current game
+    """
     games = request.app.state.games
     asked_memo = set(QuestionID.from_str(a) for a in asked)
     qs = QuestionSelector(asked=asked_memo, games=games)
-    q = qs.next_question()
-    return {
-        "question": q.question.dict(),
-        "asked": q.asked
-    }
+    q = qs.next_game_state()
+    return q.dict()
 
 
 @routes.post("/scores/")

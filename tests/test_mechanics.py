@@ -1,18 +1,9 @@
-
-import os
 import random
-from json import loads
 from pathlib import Path
 
-import boto3
-import pytest
 import toml
-from moto import mock_dynamodb2
-from pytest import fixture
-from starlette.testclient import TestClient
 
-from bgt import (QUESTION_TEMPLATES, Answer, Feedback, Game, Games, Question,
-                 QuestionSelector, Score, UniversalEncoder, __version__,
+from bgt import (Answer, Feedback, QuestionSelector, __version__,
                  extract_attr)
 
 
@@ -23,17 +14,17 @@ def test_version():
 
 
 def test_question_selector(games_data, question_selector):
-    q1 = question_selector.next_question()
-    q2 = question_selector.next_question()
-    assert q1.question != q2.question
+    q1 = question_selector.next_game_state()
+    q2 = question_selector.next_game_state()
+    assert q1.current_question != q2.current_question
     assert q1.asked.issubset(q2.asked)
-    assert len(q1.question.answers) == 4
+    assert len(q1.current_question.answers) == 4
     question_selector = QuestionSelector(
         games=games_data,
         asked=question_selector.asked
     )
-    q3 = question_selector.next_question()
-    assert q3.question != q2.question
+    q3 = question_selector.next_game_state()
+    assert q3.current_question != q2.current_question
     assert q2.asked.issubset(q3.asked)
 
 
@@ -64,7 +55,8 @@ def test_feedback_question_year_of_game(
     )
     incorrect_feedback = Feedback(games=games_data, answer=fake_response)
     assert not incorrect_feedback.is_correct
-    assert incorrect_feedback.response_text == f"Sorry, the answer was {correct_answer}, not {incorrect_answer}"
+    assert incorrect_feedback.response_text \
+           == f"Sorry, the answer was {correct_answer}, not {incorrect_answer}"
 
 
 def test_feedback_question_game_by_dev(
